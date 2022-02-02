@@ -3,51 +3,69 @@
 #include <string.h>
 // #include <unistd.h>
 
-typedef struct fru_data
-{
-    char* fru_assy_pn;
-    char* fru_fab_pn;
-    char* fru_mac_address;
-    char* fru_mfg_check_point;
-    char* fru_mfg_info_ver;
-    char* fru_mfg_location;
-    char* fru_mfg_week;
-    char* fru_mfg_year;
-    char* fru_misc;
-    char* fru_serial_number;
-    char* fru_status;
-    char* fru_type_code;
-    char* fru_type_str;
-    char* fru_vendor_serial
-}fru_data;
+// typedef struct fru_data_struct fru_data;
+// struct fru_data_struct
+// {
+//     char* name;
+//     char* data;
+//     fru_data* next;
+// }fru_data_default = {NULL, NULL, NULL};
 
-typedef struct fru_data_PSU
+size_t fru_data_name_count = 14;
+enum fru_data_name
 {
-    char* fru_status;
-    char* pmbus_mfr_date;
-    char* pmbus_mfr_id;
-    char* pmbus_mfr_iout_max_A;
-    char* pmbus_mfr_location;
-    char* pmbus_mfr_max_temp_1_C;
-    char* pmbus_mfr_max_temp_2_C;
-    char* pmbus_mfr_model;
-    char* pmbus_mfr_pin_max_W;
-    char* pmbus_mfr_pout_max_W;
-    char* pmbus_mfr_revision;
-    char* pmbus_mfr_serial;
-    char* pmbus_mfr_tambient_max_C;
-    char* pmbus_mfr_tambient_min_C;
-    char* pmbus_mfr_vin_max_V;
-    char* pmbus_mfr_vin_min_V;
-}fru_data_PSU;
+    fru_assy_pn,
+    fru_fab_pn,
+    fru_mac_address,
+    fru_mfg_check_point,
+    fru_mfg_info_ver,
+    fru_mfg_location,
+    fru_mfg_week,
+    fru_mfg_year,
+    fru_misc,
+    fru_serial_number,
+    fru_status,
+    fru_type_code,
+    fru_type_str,
+    fru_vendor_serial
+};
 
-struct component
+size_t fru_data_name_PSU_count = 16;
+enum fru_data_name_PSU
+{
+    fru_status,
+    pmbus_mfr_date,
+    pmbus_mfr_id,
+    pmbus_mfr_iout_max_A,
+    pmbus_mfr_location,
+    pmbus_mfr_max_temp_1_C,
+    pmbus_mfr_max_temp_2_C,
+    pmbus_mfr_model,
+    pmbus_mfr_pin_max_W,
+    pmbus_mfr_pout_max_W,
+    pmbus_mfr_revision,
+    pmbus_mfr_serial,
+    pmbus_mfr_tambient_max_C,
+    pmbus_mfr_tambient_min_C,
+    pmbus_mfr_vin_max_V,
+    pmbus_mfr_vin_min_V
+};
+
+enum shopfloor_name
+{
+    BLADE_SN,   //fru_serial_number (dm*)
+    KSB_SN_1,   //fru_vendor_serial(ksb*/1)
+    KSB_SN_2,   //fru_vendor_serial(ksb*/2)
+};
+
+typedef struct component_struct component;
+struct component_struct
 {
     char* FRU_type;
     char* component_name;
-    fru_data data;
-    struct component* next;
-};
+    char** fru_data;
+    component* next;
+}/*component_struct_default={NULL, NULL, NULL, NULL}*/;
 
 int main()
 {
@@ -66,8 +84,8 @@ int main()
 
     char buffer[100];
     char fru_type_buffer[20];
-    struct component comp_dummy_head;
-    struct component* comp_current = &comp_dummy_head;
+    component comp_dummy_head;
+    component* comp_current = &comp_dummy_head;
     while (fgets(buffer, sizeof(buffer), fru_log))
     {
         if (strstr(buffer, "========== FRU data of " ))
@@ -76,22 +94,47 @@ int main()
             memcpy(fru_type_buffer, buffer+23, fru_type_length);
             fru_type_buffer[fru_type_length] = '\0';
             // printf(fru_type_buffer);
-            comp_current->next = malloc(sizeof(struct component));
-            comp_current = comp_current->next;
         }
-        if (strstr(buffer, "component:"))
+        if (strstr(buffer, "component: "))
         {
-            // printf("scanned!\n");
-            comp_current->FRU_type = malloc(strlen(fru_type_buffer)*sizeof(char)+1);
-            memcpy(comp_current->FRU_type, fru_type_buffer, strlen(buffer)*sizeof(char)+1);
-            fgets(buffer, sizeof(buffer), fru_log);
-            // printf(buffer);
-            comp_current->data.fru_assy_pn = malloc(strlen(buffer)*sizeof(char)+1);
-            memcpy(comp_current->data.fru_assy_pn, buffer, strlen(buffer)*sizeof(char)+1);
-            printf(comp_current->data.fru_assy_pn);
+            comp_current->next = malloc(sizeof(component));
+            comp_current = comp_current->next;
+            comp_current->next = NULL;
 
+            comp_current->FRU_type = malloc(strlen(fru_type_buffer)+1);
+            memcpy(comp_current->FRU_type, fru_type_buffer, sizeof(comp_current->FRU_type));
+
+            // printf("scanned!\n");
+            size_t component_name_length = strlen(buffer+11);                   // '\n'
+            comp_current->component_name = malloc(component_name_length);
+            strcpy(comp_current->component_name, buffer+11);
+            comp_current->component_name[component_name_length-1] = '\0';
+
+            comp_current->fru_data = malloc(sizeof(char*) * fru_data_name_count);
+            for (int i = 0; i < fru_data_name_count; ++i)
+            {
+                fgets(buffer, sizeof(buffer), fru_log);
+                size_t data_start_index = strcspn(buffer, ":") + 2;
+                size_t data_length = strlen(buffer) - data_start_index - 1;     // '\n'
+                comp_current->fru_data[i] = malloc(data_length);
+                strcpy(comp_current->fru_data[i], buffer + data_start_index);
+                (comp_current->fru_data[i])[data_length] = '\0';
+                //printf(comp_current->fru_data[i]);
+            }
         }
     }
+
+    // component* curr = comp_dummy_head.next;
+    // while(curr)
+    // {
+    //     for (int i = 0; i < fru_data_name_count; ++i)
+    //         printf("%s\n", curr->fru_data[i]);
+    //     curr = curr->next;
+    // }
+
+    fclose(fru_log);
+
+    FILE* Shopfloor_log = fopen("..\\data\\516-21060100600136.txt", "r");
 
     system("pause");
     return 0;

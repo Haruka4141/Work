@@ -15,7 +15,7 @@ compare ksb1/2
 	
 	
 search dm2
-search fru_vendor_serial: 516-21060100600136
+search fru_vendor_serial: 516-21060100700028
 open 516-21060100600136.txt
 compare dm1
 	ATHENA MBPN		7C-0022-02-02 ("-02" = " R02")	
