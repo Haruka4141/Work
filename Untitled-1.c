@@ -30,26 +30,26 @@ enum fru_data_name
     fru_vendor_serial
 };
 
-size_t fru_data_name_PSU_count = 16;
-enum fru_data_name_PSU
-{
-    fru_status,
-    pmbus_mfr_date,
-    pmbus_mfr_id,
-    pmbus_mfr_iout_max_A,
-    pmbus_mfr_location,
-    pmbus_mfr_max_temp_1_C,
-    pmbus_mfr_max_temp_2_C,
-    pmbus_mfr_model,
-    pmbus_mfr_pin_max_W,
-    pmbus_mfr_pout_max_W,
-    pmbus_mfr_revision,
-    pmbus_mfr_serial,
-    pmbus_mfr_tambient_max_C,
-    pmbus_mfr_tambient_min_C,
-    pmbus_mfr_vin_max_V,
-    pmbus_mfr_vin_min_V
-};
+// size_t fru_data_name_PSU_count = 16;
+// enum fru_data_name_PSU
+// {
+//     fru_status,
+//     pmbus_mfr_date,
+//     pmbus_mfr_id,
+//     pmbus_mfr_iout_max_A,
+//     pmbus_mfr_location,
+//     pmbus_mfr_max_temp_1_C,
+//     pmbus_mfr_max_temp_2_C,
+//     pmbus_mfr_model,
+//     pmbus_mfr_pin_max_W,
+//     pmbus_mfr_pout_max_W,
+//     pmbus_mfr_revision,
+//     pmbus_mfr_serial,
+//     pmbus_mfr_tambient_max_C,
+//     pmbus_mfr_tambient_min_C,
+//     pmbus_mfr_vin_max_V,
+//     pmbus_mfr_vin_min_V
+// };
 
 enum shopfloor_name
 {
@@ -66,6 +66,13 @@ struct component_struct
     char** fru_data;
     component* next;
 }/*component_struct_default={NULL, NULL, NULL, NULL}*/;
+
+struct dm
+{
+    component* dm;
+    component* ksb1;
+    component* ksb2;
+}dm[10];
 
 int main()
 {
@@ -132,9 +139,14 @@ int main()
     //     curr = curr->next;
     // }
 
-    fclose(fru_log);
 
-    FILE* Shopfloor_log = fopen("..\\data\\516-21060100600136.txt", "r");
+    fclose(fru_log);
+    component* curr = comp_dummy_head.next;
+
+
+
+    //FILE* Shopfloor_log = fopen("..\\data\\516-21060100600136.txt", "r");
+
 
     system("pause");
     return 0;
