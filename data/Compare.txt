@@ -1,0 +1,30 @@
+
+Compare_Shot_Flow.exe 516-21060100400041_FRU.LOG
+
+search dm1
+search fru_vendor_serial: 516-21060100600136
+open 516-21060100600136.txt
+compare dm1
+	ATHENA MBPN		7C-0022-02-02 ("-02" = " R02")	
+compare ksb1/1
+	KSB SN1			504-21012200110210
+	YB BLADE SN		C0-0019-13-01TBA2126AC22A6C
+	YB KSB PN		7C-0031-00-01 ("-01" = " R01")	
+compare ksb1/2
+	KSB SN2			504-20040700210318
+	
+	
+search dm2
+search fru_vendor_serial: 516-21060100600136
+open 516-21060100600136.txt
+compare dm1
+	ATHENA MBPN		7C-0022-02-02 ("-02" = " R02")	
+compare ksb1/1
+	KSB SN2			504-21012200110218
+	YB BLADE SN		C0-0019-13-01TBA2126AC22A6C
+	YB KSB PN		7C-0031-00-01 ("-01" = " R01")	
+compare ksb1/2
+	KSB SN			504-20040700210310
+	
+.... dm10
+

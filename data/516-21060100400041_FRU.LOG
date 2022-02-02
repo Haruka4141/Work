@@ -1,0 +1,735 @@
+========== FRU data of CMP ==========
+oil version 3.0.25-20210108195422
+command: mfginfo
+component: cmp1
+  fru_assy_pn: C4-0026-00 R01
+  fru_fab_pn: 7C-0023-02 R01
+  fru_mac_address: 38:B8:EB:D3:00:AE
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBB2126AC300AE
+  fru_status: installed
+  fru_type_code: TBB
+  fru_type_str: SBB
+  fru_vendor_serial: 504-20060500410046
+component: cmp2
+  fru_assy_pn: C4-0026-00 R01
+  fru_fab_pn: 7C-0023-02 R01
+  fru_mac_address: 38:B8:EB:D3:00:B6
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBB2126AC300B6
+  fru_status: installed
+  fru_type_code: TBB
+  fru_type_str: SBB
+  fru_vendor_serial: 504-20060500410054
+========== FRU data of ABB ==========
+oil version 3.0.25-20210108195422
+command: mfginfo
+component: dm1
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0022-02 R02
+  fru_mac_address: 38:B8:EB:D2:2A:6C
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBA2126AC22A6C
+  fru_status: installed
+  fru_type_code: TBA
+  fru_type_str: ABB
+  fru_vendor_serial: 516-21060100600136
+component: dm2
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0022-02 R02
+  fru_mac_address: 38:B8:EB:D2:26:F4
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBA2126AC226F4
+  fru_status: installed
+  fru_type_code: TBA
+  fru_type_str: ABB
+  fru_vendor_serial: 516-21060100700028
+component: dm3
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0022-02 R02
+  fru_mac_address: 38:B8:EB:D2:2F:04
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBA2126AC22F04
+  fru_status: installed
+  fru_type_code: TBA
+  fru_type_str: ABB
+  fru_vendor_serial: 516-21060100700076
+component: dm4
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0022-02 R02
+  fru_mac_address: 38:B8:EB:D2:2B:38
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBA2126AC22B38
+  fru_status: installed
+  fru_type_code: TBA
+  fru_type_str: ABB
+  fru_vendor_serial: 516-21060100700195
+component: dm5
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0022-02 R02
+  fru_mac_address: 38:B8:EB:D2:2A:C0
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBA2126AC22AC0
+  fru_status: installed
+  fru_type_code: TBA
+  fru_type_str: ABB
+  fru_vendor_serial: 516-21060100600187
+component: dm6
+  fru_assy_pn: C0-0019-14 R01
+  fru_fab_pn: 7C-0022-02 R02
+  fru_mac_address: 38:B8:EB:D2:26:34
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBA2126AC22634
+  fru_status: installed
+  fru_type_code: TBA
+  fru_type_str: ABB
+  fru_vendor_serial: 516-21060100700200
+component: dm7
+  fru_assy_pn: C0-0019-14 R01
+  fru_fab_pn: 7C-0022-02 R02
+  fru_mac_address: 38:B8:EB:D2:35:F4
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBA2126AC235F4
+  fru_status: installed
+  fru_type_code: TBA
+  fru_type_str: ABB
+  fru_vendor_serial: 516-21060100700110
+component: dm8
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0022-02 R02
+  fru_mac_address: 38:B8:EB:D2:33:90
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBA2126AC23390
+  fru_status: installed
+  fru_type_code: TBA
+  fru_type_str: ABB
+  fru_vendor_serial: 516-21060100600134
+component: dm9
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0022-02 R02
+  fru_mac_address: 38:B8:EB:D2:37:98
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBA2126AC23798
+  fru_status: installed
+  fru_type_code: TBA
+  fru_type_str: ABB
+  fru_vendor_serial: 516-21060100600131
+component: dm10
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0022-02 R02
+  fru_mac_address: 38:B8:EB:D2:2B:80
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBA2126AC22B80
+  fru_status: installed
+  fru_type_code: TBA
+  fru_type_str: ABB
+  fru_vendor_serial: 516-21060100600153
+========== FRU data of FAN ==========
+oil version 3.0.25-20210108195422
+command: mfginfo
+component: fan1
+  fru_assy_pn: C4-0027-01 R01
+  fru_fab_pn: 7C-0028-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBF2126AC00737
+  fru_status: installed
+  fru_type_code: TBF
+  fru_type_str: FCM
+  fru_vendor_serial: 504-20060400210071
+component: fan2
+  fru_assy_pn: C4-0027-01 R01
+  fru_fab_pn: 7C-0028-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBF2126AC00745
+  fru_status: installed
+  fru_type_code: TBF
+  fru_type_str: FCM
+  fru_vendor_serial: 504-20060400210033
+component: fan3
+  fru_assy_pn: C4-0027-01 R01
+  fru_fab_pn: 7C-0028-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBF2126AC00739
+  fru_status: installed
+  fru_type_code: TBF
+  fru_type_str: FCM
+  fru_vendor_serial: 504-20060400210022
+component: fan4
+  fru_assy_pn: C4-0027-01 R01
+  fru_fab_pn: 7C-0028-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBF2126AC00740
+  fru_status: installed
+  fru_type_code: TBF
+  fru_type_str: FCM
+  fru_vendor_serial: 504-20060400210027
+component: fan5
+  fru_assy_pn: C4-0027-01 R01
+  fru_fab_pn: 7C-0028-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBF2126AC00741
+  fru_status: installed
+  fru_type_code: TBF
+  fru_type_str: FCM
+  fru_vendor_serial: 504-20060400210235
+component: fan6
+  fru_assy_pn: C4-0027-01 R01
+  fru_fab_pn: 7C-0028-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBF2126AC00742
+  fru_status: installed
+  fru_type_code: TBF
+  fru_type_str: FCM
+  fru_vendor_serial: 504-20060400210259
+component: fan7
+  fru_assy_pn: C4-0027-01 R01
+  fru_fab_pn: 7C-0028-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBF2126AC00743
+  fru_status: installed
+  fru_type_code: TBF
+  fru_type_str: FCM
+  fru_vendor_serial: 504-20060400210251
+component: fan8
+  fru_assy_pn: C4-0027-01 R01
+  fru_fab_pn: 7C-0028-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBF2126AC00744
+  fru_status: installed
+  fru_type_code: TBF
+  fru_type_str: FCM
+  fru_vendor_serial: 504-20060400210196
+========== FRU data of FLB ==========
+oil version 3.0.25-20210108195422
+command: mfginfo
+component: panel1
+  fru_assy_pn: C2-0007-01 R01
+  fru_fab_pn: 7C-0029-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 26
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBC2126AC00102
+  fru_status: installed
+  fru_type_code: TBC
+  fru_type_str: FLB
+  fru_vendor_serial: 516-21060100400041
+========== FRU data of PSU ==========
+oil version 3.0.25-20210108195422
+command: mfginfo
+component: pwr1
+  fru_status: installed
+  pmbus_mfr_date: 201008
+  pmbus_mfr_id: Artesyn
+  pmbus_mfr_iout_max_A: 196.75
+  pmbus_mfr_location: Zhongshan
+  pmbus_mfr_max_temp_1_C: 55
+  pmbus_mfr_max_temp_2_C: 118
+  pmbus_mfr_model: CSU2400AP-3-100
+  pmbus_mfr_pin_max_W: 2900
+  pmbus_mfr_pout_max_W: 2400
+  pmbus_mfr_revision: Release -0021
+  pmbus_mfr_serial: N2890Y003WKMZ
+  pmbus_mfr_tambient_max_C: 55
+  pmbus_mfr_tambient_min_C: 10
+  pmbus_mfr_vin_max_V: 264
+  pmbus_mfr_vin_min_V: 180
+component: pwr2
+  fru_status: installed
+  pmbus_mfr_date: 200709
+  pmbus_mfr_id: Artesyn
+  pmbus_mfr_iout_max_A: 196.75
+  pmbus_mfr_location: Zhongshan
+  pmbus_mfr_max_temp_1_C: 55
+  pmbus_mfr_max_temp_2_C: 118
+  pmbus_mfr_model: CSU2400AP-3-100
+  pmbus_mfr_pin_max_W: 2900
+  pmbus_mfr_pout_max_W: 2400
+  pmbus_mfr_revision: Release -0021
+  pmbus_mfr_serial: N28912000FKMZ
+  pmbus_mfr_tambient_max_C: 55
+  pmbus_mfr_tambient_min_C: 10
+  pmbus_mfr_vin_max_V: 264
+  pmbus_mfr_vin_min_V: 180
+component: pwr3
+  fru_status: installed
+  pmbus_mfr_date: 200808
+  pmbus_mfr_id: Artesyn
+  pmbus_mfr_iout_max_A: 196.75
+  pmbus_mfr_location: Zhongshan
+  pmbus_mfr_max_temp_1_C: 55
+  pmbus_mfr_max_temp_2_C: 118
+  pmbus_mfr_model: CSU2400AP-3-100
+  pmbus_mfr_pin_max_W: 2900
+  pmbus_mfr_pout_max_W: 2400
+  pmbus_mfr_revision: Release -0021
+  pmbus_mfr_serial: N2890Y0059KMZ
+  pmbus_mfr_tambient_max_C: 55
+  pmbus_mfr_tambient_min_C: 10
+  pmbus_mfr_vin_max_V: 264
+  pmbus_mfr_vin_min_V: 180
+component: pwr4
+  fru_status: installed
+  pmbus_mfr_date: 200808
+  pmbus_mfr_id: Artesyn
+  pmbus_mfr_iout_max_A: 196.75
+  pmbus_mfr_location: Zhongshan
+  pmbus_mfr_max_temp_1_C: 55
+  pmbus_mfr_max_temp_2_C: 118
+  pmbus_mfr_model: CSU2400AP-3-100
+  pmbus_mfr_pin_max_W: 2900
+  pmbus_mfr_pout_max_W: 2400
+  pmbus_mfr_revision: Release -0021
+  pmbus_mfr_serial: N2890Y005PKMZ
+  pmbus_mfr_tambient_max_C: 55
+  pmbus_mfr_tambient_min_C: 10
+  pmbus_mfr_vin_max_V: 264
+  pmbus_mfr_vin_min_V: 180
+component: pwr5
+  fru_status: installed
+  pmbus_mfr_date: 200709
+  pmbus_mfr_id: Artesyn
+  pmbus_mfr_iout_max_A: 196.75
+  pmbus_mfr_location: Zhongshan
+  pmbus_mfr_max_temp_1_C: 55
+  pmbus_mfr_max_temp_2_C: 118
+  pmbus_mfr_model: CSU2400AP-3-100
+  pmbus_mfr_pin_max_W: 2900
+  pmbus_mfr_pout_max_W: 2400
+  pmbus_mfr_revision: Release -0021
+  pmbus_mfr_serial: N28912001SKMZ
+  pmbus_mfr_tambient_max_C: 55
+  pmbus_mfr_tambient_min_C: 10
+  pmbus_mfr_vin_max_V: 264
+  pmbus_mfr_vin_min_V: 180
+component: pwr6
+  fru_status: installed
+  pmbus_mfr_date: 201008
+  pmbus_mfr_id: Artesyn
+  pmbus_mfr_iout_max_A: 196.75
+  pmbus_mfr_location: Zhongshan
+  pmbus_mfr_max_temp_1_C: 55
+  pmbus_mfr_max_temp_2_C: 118
+  pmbus_mfr_model: CSU2400AP-3-100
+  pmbus_mfr_pin_max_W: 2900
+  pmbus_mfr_pout_max_W: 2400
+  pmbus_mfr_revision: Release -0021
+  pmbus_mfr_serial: N2890Y003XKMZ
+  pmbus_mfr_tambient_max_C: 55
+  pmbus_mfr_tambient_min_C: 10
+  pmbus_mfr_vin_max_V: 264
+  pmbus_mfr_vin_min_V: 180
+========== FRU data of KSB ==========
+oil version 3.0.25-20210108195422
+command: mfginfo
+component: ksb1/1
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 39
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2139AC075B7
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-20040700210310
+component: ksb1/2
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 39
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2139AC075B8
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-21012200110218
+component: ksb2/1
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 39
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2139AC075B9
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-21012200110450
+component: ksb2/2
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 39
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2139AC075BA
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-21012200110071
+component: ksb3/1
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 39
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2139AC075BB
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-21012200110520
+component: ksb3/2
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 39
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2139AC075BC
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-21012200110286
+component: ksb4/1
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 39
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2139AC075BD
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-21012200110191
+component: ksb4/2
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 39
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2139AC075BE
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-21012200110245
+component: ksb5/1
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 39
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2139AC075BF
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-20040700210451
+component: ksb5/2
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 39
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2139AC075C0
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-21012200110229
+component: ksb6/1
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 38
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2138AC0781F
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-21012200110626
+component: ksb6/2
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 38
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2138AC07820
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-21012200110655
+component: ksb7/1
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 38
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2138AC07821
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-21012200110523
+component: ksb7/2
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 38
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2138AC07822
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-21012200110484
+component: ksb8/1
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 38
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2138AC07819
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-20040700210361
+component: ksb8/2
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 38
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2138AC0781A
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-21012200110228
+component: ksb9/1
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 38
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2138AC07813
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-20040700210510
+component: ksb9/2
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 38
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2138AC07814
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-21012200110217
+component: ksb10/1
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 38
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2138AC07811
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-20040700210068
+component: ksb10/2
+  fru_assy_pn: C0-0019-13 R01
+  fru_fab_pn: 7C-0031-00 R01
+  fru_mac_address: n/a
+  fru_mfg_check_point: SS
+  fru_mfg_info_ver: YBD2
+  fru_mfg_location: AC
+  fru_mfg_week: 38
+  fru_mfg_year: 2021
+  fru_misc: 
+  fru_serial_number: TBK2138AC07812
+  fru_status: installed
+  fru_type_code: TBK
+  fru_type_str: KSB
+  fru_vendor_serial: 504-21012200110065
