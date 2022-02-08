@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-            "args": [],
+            "args": ["D:\\C\\Work\\data\\516-21060100400041_FRU.LOG", "D:\\C\\Work\\data\\LOG"],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],

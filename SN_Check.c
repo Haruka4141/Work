@@ -9,12 +9,12 @@
 typedef struct shopfloor shopfloor;
 struct shopfloor
 {
-    char BLADE_SN[50];   //fru_serial_number (dm*)
-    char ATHENA_MBPN[50];//fru_fab_pn (dm*)
-    char KSB_SN_1[50];   //fru_vendor_serial (ksb*/1)
-    char KSB_SN_2[50];   //fru_vendor_serial (ksb*/2)
-    char YB_KSB_PN[50];  //fru_fab_pn (ksb*/1)
-    char YB_KSB_PN2[50]; //fru_fab_pn (ksb*/2)
+    char BLADE_SN[50];      //fru_serial_number (dm*)
+    char ATHENA_MBPN[50];   //fru_fab_pn (dm*)
+    char KSB_SN_1[50];      //fru_vendor_serial (ksb*/1)
+    char KSB_SN_2[50];      //fru_vendor_serial (ksb*/2)
+    char YB_KSB_PN[50];     //fru_fab_pn (ksb*/1)
+    char YB_KSB_PN2[50];    //fru_fab_pn (ksb*/2)
 }shopfloor_array[10];
 
 typedef struct dm dm;
@@ -30,9 +30,9 @@ struct dm
 }dm_array[10];
 //-------------------------------
 
-int main()
+int main(int argc, char* argv[])
 {
-    FILE* fru_log = fopen(".\\data\\516-21060100400041_FRU.LOG", "r");
+    FILE* fru_log = fopen(argv[1], "r");
 
     // char cwd[PATH_MAX];
     // if (getcwd(cwd, sizeof(cwd)))
@@ -40,7 +40,7 @@ int main()
 
     if (!fru_log)
     {
-        printf("File not exist!\n");
+        printf("File does not exist!\n");
         system("pause");
         return 1;
     }
@@ -134,16 +134,17 @@ int main()
     char shopfloor_path[100];
     for (index = 0; index < 10; ++index)
     {
-        strcpy(shopfloor_path, ".\\data\\LOG\\");
+        strcpy(shopfloor_path, argv[2]);
+        strcat(shopfloor_path, "\\");
         strcat(shopfloor_path, dm_array[index].fru_vendor_serial);
         strcat(shopfloor_path, ".txt");
-        // printf(shopfloor_path);
+        //printf(shopfloor_path);
 
         FILE* shopfloor_log = fopen(shopfloor_path, "r");
         
         if (!shopfloor_log)
         {
-            printf("File not exist!\n");
+            printf("File does not exist!\n");
             system("pause");
             return 1;
         }
@@ -168,7 +169,7 @@ int main()
                 strcpy(shopfloor_array[index].KSB_SN_1, buffer + 7);
                 shopfloor_array[index].KSB_SN_1[str_length] = '\0';
             }
-            else if (strstr(buffer, "ATHENA MBPN"))
+            else if (strstr(buffer, "ATHENA MBPN"))     //-01/-02 <-> R01/R02 transform
             {
                 str_length = strlen(buffer + 12) - 1;
                 memcpy(shopfloor_array[index].ATHENA_MBPN, buffer + 12, str_length - 3);
@@ -176,7 +177,7 @@ int main()
                 strcat(shopfloor_array[index].ATHENA_MBPN, buffer + 23);
                 shopfloor_array[index].ATHENA_MBPN[str_length + 1] = '\0';
             }
-            else if (strstr(buffer, "YB KSB PN2"))
+            else if (strstr(buffer, "YB KSB PN2"))      //-01/-02 <-> R01/R02 transform
             {
                 str_length = strlen(buffer + 11) - 1;
                 memcpy(shopfloor_array[index].YB_KSB_PN2, buffer + 11, str_length - 3);
@@ -184,7 +185,7 @@ int main()
                 strcat(shopfloor_array[index].YB_KSB_PN2, buffer + 22);
                 shopfloor_array[index].YB_KSB_PN2[str_length + 1] = '\0';
             }
-            else if (strstr(buffer, "YB KSB PN"))
+            else if (strstr(buffer, "YB KSB PN"))       //-01/-02 <-> R01/R02 transform
             {
                 str_length = strlen(buffer + 10) - 1;
                 memcpy(shopfloor_array[index].YB_KSB_PN, buffer + 10, str_length - 3);
@@ -204,46 +205,98 @@ int main()
     //     printf("ksb2_fru_vendor_serial: %s\n", shopfloor_array[i].KSB_SN_2);
     // }
 
-    for (index = 0; index < 10; ++index)
+    char log_buffer[500];
+    char fru_log_path[100];
+
+    strcpy(fru_log_path, argv[1]);
+    strstr(fru_log_path, ".LOG")[0] = '\0';
+    strcat(fru_log_path, "_compare.txt");
+    // printf(fru_log_path);
+    
+    FILE* output_log = fopen(fru_log_path, "w");
+    // perror("");                                  // "w+" -> invalid arguments
+
+    if (!output_log)
     {
+        printf("Cannot create log file!\n");
+    }
+
+    // fru_log & shopfloor comparison:
+    for (index = 0; index < 10; ++index)
+    {        
         if (strcmp(dm_array[index].fru_serial_number, shopfloor_array[index].BLADE_SN))
         {
-            printf("----------Difference!----------\n");
-            printf("dm%-2d      fru_serial_number = %s\n", index+1, dm_array[index].fru_serial_number);
-            printf("shopfloor YB BLADE SN       = %s\n\n", shopfloor_array[index].BLADE_SN);            
+            sprintf(log_buffer, "----------Difference!----------\n"
+                                "dm%-2d      fru_serial_number = %s\n"
+                                 "shopfloor YB BLADE SN       = %s\n\n", 
+                                 index+1, dm_array[index].fru_serial_number, shopfloor_array[index].BLADE_SN);
+            fwrite(log_buffer, strlen(log_buffer), 1, output_log);
+            printf(log_buffer);
+
         }
         if (strcmp(dm_array[index].dm_fru_fab_pn, shopfloor_array[index].ATHENA_MBPN))
         {
-            printf("----------Difference!----------\n");
-            printf("dm%-2d      fru_fab_pn        = %s\n", index+1, dm_array[index].dm_fru_fab_pn);
-            printf("shopfloor ATHENA MBPN       = %s\n\n", shopfloor_array[index].ATHENA_MBPN);
+            sprintf(log_buffer, "----------Difference!----------\n"
+                                "dm%-2d      fru_fab_pn        = %s\n"
+                                "shopfloor ATHENA MBPN       = %s\n\n", 
+                                index+1, dm_array[index].dm_fru_fab_pn, shopfloor_array[index].ATHENA_MBPN);
+            fwrite(log_buffer, strlen(log_buffer), 1, output_log);
+            printf(log_buffer);
         }
         if (strcmp(dm_array[index].ksb1_fru_vendor_serial, shopfloor_array[index].KSB_SN_1))
         {
-            printf("----------Difference!----------\n");
-            printf("ksb%-2d/1   fru_vendor_serial = %s\n", index+1, dm_array[index].ksb1_fru_vendor_serial);
-            printf("shopfloor KSB SN            = %s\n\n", shopfloor_array[index].KSB_SN_1);
+            sprintf(log_buffer, "----------Difference!----------\n"
+                                "ksb%-2d/1   fru_vendor_serial = %s\n"
+                                "shopfloor KSB SN            = %s\n\n", 
+                                index+1, dm_array[index].ksb1_fru_vendor_serial, shopfloor_array[index].KSB_SN_1);
+            fwrite(log_buffer, strlen(log_buffer), 1, output_log);
+            printf(log_buffer);
         }
         if (strcmp(dm_array[index].ksb2_fru_vendor_serial, shopfloor_array[index].KSB_SN_2))
         {
-            printf("----------Difference!----------\n");
-            printf("ksb%-2d/2   fru_vendor_serial = %s\n", index+1, dm_array[index].ksb2_fru_vendor_serial);
-            printf("shopfloor KSB SN2           = %s\n\n", shopfloor_array[index].KSB_SN_2);
+            sprintf(log_buffer, "----------Difference!----------\n"
+                                "ksb%-2d/2   fru_vendor_serial = %s\n"
+                                "shopfloor KSB SN2           = %s\n\n", 
+                                index+1, dm_array[index].ksb2_fru_vendor_serial, shopfloor_array[index].KSB_SN_2);
+            fwrite(log_buffer, strlen(log_buffer), 1, output_log);
+            printf(log_buffer);
         }
         if (strcmp(dm_array[index].ksb1_fru_fab_pn, shopfloor_array[index].YB_KSB_PN))
         {
-            printf("----------Difference!----------\n");
-            printf("ksb%-2d/1   fru_fab_pn        = %s\n", index+1, dm_array[index].ksb1_fru_fab_pn);
-            printf("shopfloor YB KSB PN         = %s\n\n", shopfloor_array[index].YB_KSB_PN);
+            sprintf(log_buffer, "----------Difference!----------\n"
+                                "ksb%-2d/1   fru_fab_pn        = %s\n"
+                                "shopfloor YB KSB PN         = %s\n\n", 
+                                index+1, dm_array[index].ksb1_fru_fab_pn, shopfloor_array[index].YB_KSB_PN);
+            fwrite(log_buffer, strlen(log_buffer), 1, output_log);
+            printf(log_buffer);
         }
         if (strcmp(dm_array[index].ksb2_fru_fab_pn, shopfloor_array[index].YB_KSB_PN2))
         {
-            printf("----------Difference!----------\n");
-            printf("ksb%-2d/2   fru_fab_pn        = %s\n", index+1, dm_array[index].ksb2_fru_fab_pn);
-            printf("shopfloor YB KSB PN2        = %s\n\n", shopfloor_array[index].YB_KSB_PN2);
+            sprintf(log_buffer, "----------Difference!----------\n"
+                                "ksb%-2d/2   fru_fab_pn        = %s\n"
+                                "shopfloor YB KSB PN2        = %s\n\n", 
+                                index+1, dm_array[index].ksb2_fru_fab_pn, shopfloor_array[index].YB_KSB_PN2);
+            fwrite(log_buffer, strlen(log_buffer), 1, output_log);
+            printf(log_buffer);
         }
     }
     
+    if (output_log)
+    {
+        fseek(output_log, 0, SEEK_END);
+        if (ftell(output_log) == 0)
+        {
+            fclose(output_log);
+            remove(fru_log_path);       // remove output if no error
+            // perror("error: ");
+        }
+        else
+        {
+            fclose(output_log);
+            printf("log is recorded to %s\n", fru_log_path);
+        }
+    }
+
     system("pause");
     return 0;
 }

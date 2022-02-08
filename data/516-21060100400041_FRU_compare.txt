@@ -1,0 +1,40 @@
+----------Difference!----------
+dm2       fru_serial_number = TBA2126AC226F4
+shopfloor YB BLADE SN       = TBA2126AC2354C
+
+----------Difference!----------
+dm4       fru_serial_number = TBA2126AC22B38
+shopfloor YB BLADE SN       = TBA2126AC22310
+
+----------Difference!----------
+dm5       fru_serial_number = TBA2126AC22AC0
+shopfloor YB BLADE SN       = TBA2126AC2384C
+
+----------Difference!----------
+ksb6 /1   fru_vendor_serial = 504-21012200110626
+shopfloor KSB SN            = 504-20040700210466
+
+----------Difference!----------
+ksb6 /2   fru_vendor_serial = 504-21012200110655
+shopfloor KSB SN2           = 504-20040700210359
+
+----------Difference!----------
+ksb7 /1   fru_fab_pn        = 7C-0031-00 R01
+shopfloor YB KSB PN         = 7C-0032-01 R01
+
+----------Difference!----------
+dm8       fru_serial_number = TBA2126AC23390
+shopfloor YB BLADE SN       = TBA2126AC23534
+
+----------Difference!----------
+ksb8 /1   fru_vendor_serial = 504-20040700210361
+shopfloor KSB SN            = 504-20040700210510
+
+----------Difference!----------
+ksb8 /2   fru_vendor_serial = 504-21012200110228
+shopfloor KSB SN2           = 504-21012200110217
+
+----------Difference!----------
+dm9       fru_serial_number = TBA2126AC23798
+shopfloor YB BLADE SN       = TBA2126AC23534
+
