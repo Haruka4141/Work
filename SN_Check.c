@@ -40,7 +40,7 @@ int main(int argc, char* argv[])
 
     if (!fru_log)
     {
-        printf("File does not exist!\n");
+        printf("%s\nFru data file does not exist!\n", argv[1]);
         system("pause");
         return 1;
     }
@@ -144,7 +144,7 @@ int main(int argc, char* argv[])
         
         if (!shopfloor_log)
         {
-            printf("File does not exist!\n");
+            printf("%s\nShopfloor data file does not exist!\n", shopfloor_path);
             system("pause");
             return 1;
         }
@@ -286,14 +286,15 @@ int main(int argc, char* argv[])
         fseek(output_log, 0, SEEK_END);
         if (ftell(output_log) == 0)
         {
-            fclose(output_log);
+            printf("SN Check Pass!\n");
+            fclose(output_log);            
             remove(fru_log_path);       // remove output if no error
             // perror("error: ");
         }
         else
         {
             fclose(output_log);
-            printf("log is recorded to %s\n", fru_log_path);
+            printf("Log is recorded to %s\n", fru_log_path);
         }
     }
 
