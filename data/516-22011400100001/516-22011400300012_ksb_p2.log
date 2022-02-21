@@ -1,0 +1,844 @@
+======================================
+=     KSB Manufacture Test Phase2    =
+======================================
+Chassis Serial Number: 516-22011400300012
+========== Step.1 fpga test before KSB mfg test ==========
+
+=======================================================
+Running fpga-test on 02:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC800CA06345
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          1
+Slice number               :          0
+Temperature Master  Sysmon :    39.840C
+Temperature Slave 0 Sysmon :    40.196C
+Temperature Slave 1 Sysmon :    39.406C
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               :      3.0.6  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+SSD0 Power Enabled         :        0x1  PASSED
+RP0 Config Req. Ready      :        0x1  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...
+SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+SSD1 Power Enabled         :        0x1  PASSED
+RP1 Config Req. Ready      :        0x1  PASSED 
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...
+SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on 41:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC800CA06345
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          1
+Slice number               :          1
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               :      3.0.6  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+SSD0 Power Enabled         :        0x1  PASSED
+RP0 Config Req. Ready      :        0x1  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...
+SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+SSD1 Power Enabled         :        0x1  PASSED
+RP1 Config Req. Ready      :        0x1  PASSED 
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...
+SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on 84:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC81051063C5
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          0
+Slice number               :          1
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               :      3.0.6  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+SSD0 Power Enabled         :        0x1  PASSED
+RP0 Config Req. Ready      :        0x1  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...
+SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+SSD1 Power Enabled         :        0x1  PASSED
+RP1 Config Req. Ready      :        0x1  PASSED 
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...
+SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on c1:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC81051063C5
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          0
+Slice number               :          0
+Temperature Master  Sysmon :    40.220C
+Temperature Slave 0 Sysmon :    40.769C
+Temperature Slave 1 Sysmon :    39.081C
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               :      3.0.6  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+SSD0 Power Enabled         :        0x1  PASSED
+RP0 Config Req. Ready      :        0x1  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...
+SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+SSD1 Power Enabled         :        0x1  PASSED
+RP1 Config Req. Ready      :        0x1  PASSED 
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...
+SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+========== Step.2 KSB Mfg test Phase2 ==========
+MANUFACTURING TEST ...
+KSB MANUFACTUIRING TEST START
+KSB FPGA/0 PRE-IO TEST ... 
+2020-01-01 08:23:16.221       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:23:17.388       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:23:18.548       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:23:19.708       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:23:22.497    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 PRE-IO Test 
+2020-01-01 08:23:22.497    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 HOST PCIe Interface : PASS 
+2020-01-01 08:23:22.507    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 SSD PCIe Interface : PASS 
+2020-01-01 08:23:22.507    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 DRAM Calibration : PASS 
+2020-01-01 08:23:22.507    1234 Critical  kernel.drivers.KalidahDriver: SYSMON Registers : 
+2020-01-01 08:23:22.507    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_JUNC_TEMP_DIE_0	=	39C
+2020-01-01 08:23:22.507    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_JUNC_TEMP_DIE_1	=	39C
+2020-01-01 08:23:22.507    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_JUNC_TEMP_DIE_2	=	38C
+2020-01-01 08:23:22.507    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCINT_DIE_0	=	852mV
+2020-01-01 08:23:22.507    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCINT_DIE_1	=	858mV
+2020-01-01 08:23:22.507    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCINT_DIE_2	=	861mV
+2020-01-01 08:23:22.507    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCBRAM_DIE_0	=	846mV
+2020-01-01 08:23:22.507    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCBRAM_DIE_1	=	849mV
+2020-01-01 08:23:22.507    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCBRAM_DIE_2	=	849mV
+2020-01-01 08:23:22.507    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCAUX_DIE_0	=	1825mV
+2020-01-01 08:23:22.507    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCAUX_DIE_1	=	1831mV
+2020-01-01 08:23:22.507    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCAUX_DIE_2	=	1831mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_12VSUPPLY_DIE_0	=	12500mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_12VSUPPLY_DIE_1	=	12558mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_12VSUPPLY_DIE_2	=	12539mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VREFP	=	1248mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VREFN	=	0mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_5VSUPPLY	=	4804mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_3.3VSUPPLY	=	3310mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_SLICE_0_600MV_VTT	=	610mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_SLICE_1_600MV_VTT	=	606mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCINT_IMON	=	107mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER0_SLR0	=	840mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER1_SLR0	=	840mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER2_SLR0	=	1831mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER3_SLR0	=	1831mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER0_SLR1	=	1215mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER1_SLR1	=	840mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER2_SLR1	=	1215mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER3_SLR1	=	840mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER0_SLR2	=	1215mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER1_SLR2	=	837mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER2_SLR2	=	1212mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER3_SLR2	=	840mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON Max Recored Values : 
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_JUNC_TEMP_DIE_0	=	40C
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_JUNC_TEMP_DIE_1	=	39C
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_JUNC_TEMP_DIE_2	=	39C
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VCCINT	=	855mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VCCBRAM	=	849mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VCCAUX	=	1831mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER0_DIE_0	=	843mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER0_DIE_1	=	1215mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER0_DIE_2	=	1215mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER1_DIE_0	=	843mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER1_DIE_1	=	843mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER1_DIE_2	=	840mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER2_DIE_0	=	1836mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER2_DIE_1	=	1215mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER2_DIE_2	=	1215mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER3_DIE_0	=	1833mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER3_DIE_1	=	843mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER3_DIE_2	=	843mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON Min Recored Values : 
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_JUNC_TEMP_DIE_0	=	38C
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_JUNC_TEMP_DIE_1	=	38C
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_JUNC_TEMP_DIE_2	=	38C
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VCCINT	=	852mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VCCBRAM	=	846mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VCCAUX	=	1825mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER0_DIE_0	=	840mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER0_DIE_1	=	1209mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER0_DIE_2	=	1209mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER1_DIE_0	=	840mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER1_DIE_1	=	837mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER1_DIE_2	=	834mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER2_DIE_0	=	1831mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER2_DIE_1	=	1212mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER2_DIE_2	=	1209mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER3_DIE_0	=	1831mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER3_DIE_1	=	837mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER3_DIE_2	=	837mV
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON Alarm Flags : 
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG0_DIE_0	=	0000
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG0_DIE_1	=	0000
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG0_DIE_2	=	0000
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG1_DIE_0	=	0000
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG1_DIE_1	=	0000
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG1_DIE_2	=	0000
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 SYSMON : PASS 
+2020-01-01 08:23:22.508    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 SSD Power TEST : Disable drive 0 power (power_ctl : 00000001)
+2020-01-01 08:23:22.519    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 SSD Power TEST : Enable drive 0 power (power_ctl : 00000000)
+2020-01-01 08:23:22.918    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 SSD Power TEST : Disable drive 1 power (power_ctl : 00000001)
+2020-01-01 08:23:22.929    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 SSD Power TEST : Enable drive 1 power (power_ctl : 00000000)
+2020-01-01 08:23:23.339    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 SSD Power TEST : Disable drive 0 power (power_ctl_por : 00000001)
+2020-01-01 08:23:23.350    1234 Critical  kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:23:24.469    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 SSD Power TEST : Enable drive 0 power (power_ctl_por : 00000000)
+2020-01-01 08:23:24.688    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 SSD Power TEST : Disable drive 1 power (power_ctl_por : 00000001)
+2020-01-01 08:23:24.699    1234 Critical  kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:23:25.819    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 SSD Power TEST : Enable drive 1 power (power_ctl_por : 00000000)
+2020-01-01 08:23:26.037    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 SSD POWER CONTROL : PASS 
+2020-01-01 08:23:26.037    1234 Critical  kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:23:27.149    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 PRE-IO TESTS : PASS
+KSB FPGA/0 PRE-IO TEST PASS
+KSB FPGA/0 MEMORY TEST, IO TEST & POST IO TEST...
+2020-01-01 08:23:27.371       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:23:28.538       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:23:29.709       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:23:30.879       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:23:38.650    1234 Debug     kernel.drivers.FpgaTest: Kalidah Memory Address Test : PASS
+2020-01-01 08:23:43.091    1234 Debug     kernel.drivers.FpgaTest: Kalidah Memory Inversion Test : PASS
+2020-01-01 08:23:50.723    1234 Debug     kernel.drivers.FpgaTest: Kalidah Memory March Test : PASS
+2020-01-01 08:25:50.844    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 POST-IO Test
+2020-01-01 08:25:50.844    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 HOST PCIe Interface : PASS 
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 SSD PCIe Interface : PASS 
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 DRAM Calibration : PASS 
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON Registers : 
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_JUNC_TEMP_DIE_0	=	39C
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_JUNC_TEMP_DIE_1	=	39C
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_JUNC_TEMP_DIE_2	=	38C
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCINT_DIE_0	=	852mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCINT_DIE_1	=	858mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCINT_DIE_2	=	861mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCBRAM_DIE_0	=	846mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCBRAM_DIE_1	=	849mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCBRAM_DIE_2	=	849mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCAUX_DIE_0	=	1828mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCAUX_DIE_1	=	1831mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCAUX_DIE_2	=	1831mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_12VSUPPLY_DIE_0	=	12500mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_12VSUPPLY_DIE_1	=	12558mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_12VSUPPLY_DIE_2	=	12539mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VREFP	=	1248mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VREFN	=	0mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_5VSUPPLY	=	4804mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_3.3VSUPPLY	=	3315mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_SLICE_0_600MV_VTT	=	610mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_SLICE_1_600MV_VTT	=	606mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCINT_IMON	=	107mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER0_SLR0	=	840mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER1_SLR0	=	843mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER2_SLR0	=	1833mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER3_SLR0	=	1833mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER0_SLR1	=	1215mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER1_SLR1	=	840mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER2_SLR1	=	1212mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER3_SLR1	=	840mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER0_SLR2	=	1212mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER1_SLR2	=	840mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER2_SLR2	=	1209mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER3_SLR2	=	840mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON Max Recored Values : 
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_JUNC_TEMP_DIE_0	=	40C
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_JUNC_TEMP_DIE_1	=	39C
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_JUNC_TEMP_DIE_2	=	39C
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VCCINT	=	855mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VCCBRAM	=	849mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VCCAUX	=	1831mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER0_DIE_0	=	843mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER0_DIE_1	=	1218mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER0_DIE_2	=	1215mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER1_DIE_0	=	843mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER1_DIE_1	=	843mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER1_DIE_2	=	840mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER2_DIE_0	=	1836mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER2_DIE_1	=	1215mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER2_DIE_2	=	1215mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER3_DIE_0	=	1836mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER3_DIE_1	=	843mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER3_DIE_2	=	843mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON Min Recored Values : 
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_JUNC_TEMP_DIE_0	=	38C
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_JUNC_TEMP_DIE_1	=	37C
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_JUNC_TEMP_DIE_2	=	37C
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VCCINT	=	849mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VCCBRAM	=	843mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VCCAUX	=	1822mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER0_DIE_0	=	834mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER0_DIE_1	=	1209mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER0_DIE_2	=	1204mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER1_DIE_0	=	834mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER1_DIE_1	=	834mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER1_DIE_2	=	829mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER2_DIE_0	=	1828mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER2_DIE_1	=	1207mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER2_DIE_2	=	1204mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER3_DIE_0	=	1828mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER3_DIE_1	=	832mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER3_DIE_2	=	832mV
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON Alarm Flags : 
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG0_DIE_0	=	0000
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG0_DIE_1	=	0000
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG0_DIE_2	=	0000
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG1_DIE_0	=	0000
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG1_DIE_1	=	0000
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG1_DIE_2	=	0000
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 SYSMON : PASS 
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: FPGA/0 POST-IO TESTS : PASS
+2020-01-01 08:25:50.859    1234 Critical  kernel.drivers.KalidahDriver: KSB FPGA/0 MANUFACTURING TESTS : PASS
+KSB FPGA/0 MEMORY TEST PASS
+KSB FPGA/0 IO TEST PASS
+KSB FPGA/0 POST-IO TEST PASS
+KSB FPGA/0 MANUFACTURING TEST PASS (Check details in run_fpga.log)
+KSB FPGA/1 PRE-IO TEST ... 
+2020-01-01 08:25:51.097       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:25:52.268       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:25:53.428       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:25:54.588       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:25:57.368    1234 Critical  kernel.drivers.KalidahDriver: FPGA/1 PRE-IO Test 
+2020-01-01 08:25:57.368    1234 Critical  kernel.drivers.KalidahDriver: FPGA/1 HOST PCIe Interface : PASS 
+2020-01-01 08:25:57.379    1234 Critical  kernel.drivers.KalidahDriver: FPGA/1 SSD PCIe Interface : PASS 
+2020-01-01 08:25:57.379    1234 Critical  kernel.drivers.KalidahDriver: FPGA/1 DRAM Calibration : PASS 
+2020-01-01 08:25:57.379    1234 Critical  kernel.drivers.KalidahDriver: FPGA/1 SSD Power TEST : Disable drive 0 power (power_ctl : 00000001)
+2020-01-01 08:25:57.390    1234 Critical  kernel.drivers.KalidahDriver: FPGA/1 SSD Power TEST : Enable drive 0 power (power_ctl : 00000000)
+2020-01-01 08:25:57.795    1234 Critical  kernel.drivers.KalidahDriver: FPGA/1 SSD Power TEST : Disable drive 1 power (power_ctl : 00000001)
+2020-01-01 08:25:57.806    1234 Critical  kernel.drivers.KalidahDriver: FPGA/1 SSD Power TEST : Enable drive 1 power (power_ctl : 00000000)
+2020-01-01 08:25:58.202    1234 Critical  kernel.drivers.KalidahDriver: FPGA/1 SSD Power TEST : Disable drive 0 power (power_ctl_por : 00000001)
+2020-01-01 08:25:58.213    1234 Critical  kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:25:59.329    1234 Critical  kernel.drivers.KalidahDriver: FPGA/1 SSD Power TEST : Enable drive 0 power (power_ctl_por : 00000000)
+2020-01-01 08:25:59.563    1234 Critical  kernel.drivers.KalidahDriver: FPGA/1 SSD Power TEST : Disable drive 1 power (power_ctl_por : 00000001)
+2020-01-01 08:25:59.574    1234 Critical  kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:26:00.689    1234 Critical  kernel.drivers.KalidahDriver: FPGA/1 SSD Power TEST : Enable drive 1 power (power_ctl_por : 00000000)
+2020-01-01 08:26:00.909    1234 Critical  kernel.drivers.KalidahDriver: FPGA/1 SSD POWER CONTROL : PASS 
+2020-01-01 08:26:00.909    1234 Critical  kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:26:02.029    1234 Critical  kernel.drivers.KalidahDriver: FPGA/1 PRE-IO TESTS : PASS
+KSB FPGA/1 PRE-IO TEST PASS
+KSB FPGA/1 MEMORY TEST, IO TEST & POST IO TEST...
+2020-01-01 08:26:02.283       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:26:03.448       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:26:04.618       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:26:05.778       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:26:13.252    1234 Debug     kernel.drivers.FpgaTest: Kalidah Memory Address Test : PASS
+2020-01-01 08:26:17.547    1234 Debug     kernel.drivers.FpgaTest: Kalidah Memory Inversion Test : PASS
+2020-01-01 08:26:25.031    1234 Debug     kernel.drivers.FpgaTest: Kalidah Memory March Test : PASS
+2020-01-01 08:28:25.224    1234 Critical  kernel.drivers.KalidahDriver: FPGA/1 POST-IO Test
+2020-01-01 08:28:25.224    1234 Critical  kernel.drivers.KalidahDriver: FPGA/1 HOST PCIe Interface : PASS 
+2020-01-01 08:28:25.238    1234 Critical  kernel.drivers.KalidahDriver: FPGA/1 SSD PCIe Interface : PASS 
+2020-01-01 08:28:25.238    1234 Critical  kernel.drivers.KalidahDriver: FPGA/1 DRAM Calibration : PASS 
+2020-01-01 08:28:25.238    1234 Critical  kernel.drivers.KalidahDriver: FPGA/1 POST-IO TESTS : PASS
+2020-01-01 08:28:25.238    1234 Critical  kernel.drivers.KalidahDriver: KSB FPGA/1 MANUFACTURING TESTS : PASS
+KSB FPGA/1 MEMORY TEST PASS
+KSB FPGA/1 IO TEST PASS
+KSB FPGA/1 POST-IO TEST PASS
+KSB FPGA/1 MANUFACTURING TEST PASS (Check details in run_fpga.log)
+KSB FPGA/2 PRE-IO TEST ... 
+2020-01-01 08:28:25.494       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:28:26.668       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:28:27.828       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:28:28.998       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:28:31.790    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 PRE-IO Test 
+2020-01-01 08:28:31.790    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 HOST PCIe Interface : PASS 
+2020-01-01 08:28:31.800    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 SSD PCIe Interface : PASS 
+2020-01-01 08:28:31.800    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 DRAM Calibration : PASS 
+2020-01-01 08:28:31.800    1234 Critical  kernel.drivers.KalidahDriver: SYSMON Registers : 
+2020-01-01 08:28:31.800    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_JUNC_TEMP_DIE_0	=	38C
+2020-01-01 08:28:31.800    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_JUNC_TEMP_DIE_1	=	38C
+2020-01-01 08:28:31.800    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_JUNC_TEMP_DIE_2	=	37C
+2020-01-01 08:28:31.800    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCINT_DIE_0	=	849mV
+2020-01-01 08:28:31.800    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCINT_DIE_1	=	855mV
+2020-01-01 08:28:31.800    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCINT_DIE_2	=	858mV
+2020-01-01 08:28:31.800    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCBRAM_DIE_0	=	849mV
+2020-01-01 08:28:31.800    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCBRAM_DIE_1	=	852mV
+2020-01-01 08:28:31.800    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCBRAM_DIE_2	=	852mV
+2020-01-01 08:28:31.800    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCAUX_DIE_0	=	1825mV
+2020-01-01 08:28:31.800    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCAUX_DIE_1	=	1825mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCAUX_DIE_2	=	1828mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_12VSUPPLY_DIE_0	=	12558mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_12VSUPPLY_DIE_1	=	12578mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_12VSUPPLY_DIE_2	=	12597mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VREFP	=	1248mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VREFN	=	0mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_5VSUPPLY	=	4785mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_3.3VSUPPLY	=	3295mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_SLICE_0_600MV_VTT	=	608mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_SLICE_1_600MV_VTT	=	609mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCINT_IMON	=	117mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER0_SLR0	=	843mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER1_SLR0	=	846mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER2_SLR0	=	1828mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER3_SLR0	=	1828mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER0_SLR1	=	1209mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER1_SLR1	=	843mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER2_SLR1	=	1209mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER3_SLR1	=	843mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER0_SLR2	=	1209mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER1_SLR2	=	840mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER2_SLR2	=	1207mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER3_SLR2	=	840mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON Max Recored Values : 
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_JUNC_TEMP_DIE_0	=	39C
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_JUNC_TEMP_DIE_1	=	39C
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_JUNC_TEMP_DIE_2	=	37C
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VCCINT	=	852mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VCCBRAM	=	852mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VCCAUX	=	1828mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER0_DIE_0	=	846mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER0_DIE_1	=	1212mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER0_DIE_2	=	1212mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER1_DIE_0	=	846mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER1_DIE_1	=	846mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER1_DIE_2	=	843mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER2_DIE_0	=	1831mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER2_DIE_1	=	1212mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER2_DIE_2	=	1209mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER3_DIE_0	=	1831mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER3_DIE_1	=	846mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER3_DIE_2	=	846mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON Min Recored Values : 
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_JUNC_TEMP_DIE_0	=	37C
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_JUNC_TEMP_DIE_1	=	38C
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_JUNC_TEMP_DIE_2	=	36C
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VCCINT	=	846mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VCCBRAM	=	849mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VCCAUX	=	1819mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER0_DIE_0	=	840mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER0_DIE_1	=	1207mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER0_DIE_2	=	1207mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER1_DIE_0	=	840mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER1_DIE_1	=	840mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER1_DIE_2	=	837mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER2_DIE_0	=	1825mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER2_DIE_1	=	1207mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER2_DIE_2	=	1207mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER3_DIE_0	=	1825mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER3_DIE_1	=	840mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER3_DIE_2	=	837mV
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON Alarm Flags : 
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG0_DIE_0	=	0000
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG0_DIE_1	=	0000
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG0_DIE_2	=	0000
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG1_DIE_0	=	0000
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG1_DIE_1	=	0000
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG1_DIE_2	=	0000
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 SYSMON : PASS 
+2020-01-01 08:28:31.801    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 SSD Power TEST : Disable drive 0 power (power_ctl : 00000001)
+2020-01-01 08:28:31.812    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 SSD Power TEST : Enable drive 0 power (power_ctl : 00000000)
+2020-01-01 08:28:32.217    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 SSD Power TEST : Disable drive 1 power (power_ctl : 00000001)
+2020-01-01 08:28:32.228    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 SSD Power TEST : Enable drive 1 power (power_ctl : 00000000)
+2020-01-01 08:28:32.641    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 SSD Power TEST : Disable drive 0 power (power_ctl_por : 00000001)
+2020-01-01 08:28:32.652    1234 Critical  kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:28:33.769    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 SSD Power TEST : Enable drive 0 power (power_ctl_por : 00000000)
+2020-01-01 08:28:33.988    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 SSD Power TEST : Disable drive 1 power (power_ctl_por : 00000001)
+2020-01-01 08:28:33.999    1234 Critical  kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:28:35.119    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 SSD Power TEST : Enable drive 1 power (power_ctl_por : 00000000)
+2020-01-01 08:28:35.339    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 SSD POWER CONTROL : PASS 
+2020-01-01 08:28:35.339    1234 Critical  kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:28:36.459    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 PRE-IO TESTS : PASS
+KSB FPGA/2 PRE-IO TEST PASS
+KSB FPGA/2 MEMORY TEST, IO TEST & POST IO TEST...
+2020-01-01 08:28:36.748       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:28:37.908       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:28:39.068       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:28:40.228       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:28:47.131    1234 Debug     kernel.drivers.FpgaTest: Kalidah Memory Address Test : PASS
+2020-01-01 08:28:51.323    1234 Debug     kernel.drivers.FpgaTest: Kalidah Memory Inversion Test : PASS
+2020-01-01 08:28:58.903    1234 Debug     kernel.drivers.FpgaTest: Kalidah Memory March Test : PASS
+2020-01-01 08:30:58.940    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 POST-IO Test
+2020-01-01 08:30:58.940    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 HOST PCIe Interface : PASS 
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 SSD PCIe Interface : PASS 
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 DRAM Calibration : PASS 
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON Registers : 
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_JUNC_TEMP_DIE_0	=	39C
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_JUNC_TEMP_DIE_1	=	39C
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_JUNC_TEMP_DIE_2	=	37C
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCINT_DIE_0	=	849mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCINT_DIE_1	=	855mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCINT_DIE_2	=	858mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCBRAM_DIE_0	=	849mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCBRAM_DIE_1	=	852mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCBRAM_DIE_2	=	852mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCAUX_DIE_0	=	1822mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCAUX_DIE_1	=	1825mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCAUX_DIE_2	=	1828mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_12VSUPPLY_DIE_0	=	12558mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_12VSUPPLY_DIE_1	=	12578mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_12VSUPPLY_DIE_2	=	12597mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VREFP	=	1248mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VREFN	=	0mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_5VSUPPLY	=	4794mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_3.3VSUPPLY	=	3300mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_SLICE_0_600MV_VTT	=	608mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_SLICE_1_600MV_VTT	=	608mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VCCINT_IMON	=	117mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER0_SLR0	=	843mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER1_SLR0	=	843mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER2_SLR0	=	1828mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER3_SLR0	=	1831mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER0_SLR1	=	1209mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER1_SLR1	=	843mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER2_SLR1	=	1209mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER3_SLR1	=	843mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER0_SLR2	=	1207mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER1_SLR2	=	843mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER2_SLR2	=	1207mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_VUSER3_SLR2	=	843mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON Max Recored Values : 
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_JUNC_TEMP_DIE_0	=	39C
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_JUNC_TEMP_DIE_1	=	39C
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_JUNC_TEMP_DIE_2	=	38C
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VCCINT	=	852mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VCCBRAM	=	852mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VCCAUX	=	1828mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER0_DIE_0	=	846mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER0_DIE_1	=	1212mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER0_DIE_2	=	1212mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER1_DIE_0	=	846mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER1_DIE_1	=	846mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER1_DIE_2	=	843mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER2_DIE_0	=	1833mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER2_DIE_1	=	1212mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER2_DIE_2	=	1209mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER3_DIE_0	=	1833mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER3_DIE_1	=	846mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MAX_VUSER3_DIE_2	=	846mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON Min Recored Values : 
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_JUNC_TEMP_DIE_0	=	36C
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_JUNC_TEMP_DIE_1	=	37C
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_JUNC_TEMP_DIE_2	=	35C
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VCCINT	=	846mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VCCBRAM	=	846mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VCCAUX	=	1819mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER0_DIE_0	=	837mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER0_DIE_1	=	1204mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER0_DIE_2	=	1201mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER1_DIE_0	=	837mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER1_DIE_1	=	837mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER1_DIE_2	=	834mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER2_DIE_0	=	1825mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER2_DIE_1	=	1207mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER2_DIE_2	=	1198mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER3_DIE_0	=	1825mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER3_DIE_1	=	834mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_MIN_VUSER3_DIE_2	=	834mV
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON Alarm Flags : 
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG0_DIE_0	=	0000
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG0_DIE_1	=	0000
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG0_DIE_2	=	0000
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG1_DIE_0	=	0000
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG1_DIE_1	=	0000
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: SYSMON_ALARM_FLAG1_DIE_2	=	0000
+2020-01-01 08:30:58.951    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 SYSMON : PASS 
+2020-01-01 08:30:58.952    1234 Critical  kernel.drivers.KalidahDriver: FPGA/2 POST-IO TESTS : PASS
+2020-01-01 08:30:58.952    1234 Critical  kernel.drivers.KalidahDriver: KSB FPGA/2 MANUFACTURING TESTS : PASS
+KSB FPGA/2 MEMORY TEST PASS
+KSB FPGA/2 IO TEST PASS
+KSB FPGA/2 POST-IO TEST PASS
+KSB FPGA/2 MANUFACTURING TEST PASS (Check details in run_fpga.log)
+KSB FPGA/3 PRE-IO TEST ... 
+2020-01-01 08:30:59.230       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:31:00.398       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:31:01.558       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:31:02.718       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:31:05.498    1234 Critical  kernel.drivers.KalidahDriver: FPGA/3 PRE-IO Test 
+2020-01-01 08:31:05.498    1234 Critical  kernel.drivers.KalidahDriver: FPGA/3 HOST PCIe Interface : PASS 
+2020-01-01 08:31:05.509    1234 Critical  kernel.drivers.KalidahDriver: FPGA/3 SSD PCIe Interface : PASS 
+2020-01-01 08:31:05.509    1234 Critical  kernel.drivers.KalidahDriver: FPGA/3 DRAM Calibration : PASS 
+2020-01-01 08:31:05.509    1234 Critical  kernel.drivers.KalidahDriver: FPGA/3 SSD Power TEST : Disable drive 0 power (power_ctl : 00000001)
+2020-01-01 08:31:05.520    1234 Critical  kernel.drivers.KalidahDriver: FPGA/3 SSD Power TEST : Enable drive 0 power (power_ctl : 00000000)
+2020-01-01 08:31:05.924    1234 Critical  kernel.drivers.KalidahDriver: FPGA/3 SSD Power TEST : Disable drive 1 power (power_ctl : 00000001)
+2020-01-01 08:31:05.935    1234 Critical  kernel.drivers.KalidahDriver: FPGA/3 SSD Power TEST : Enable drive 1 power (power_ctl : 00000000)
+2020-01-01 08:31:06.345    1234 Critical  kernel.drivers.KalidahDriver: FPGA/3 SSD Power TEST : Disable drive 0 power (power_ctl_por : 00000001)
+2020-01-01 08:31:06.357    1234 Critical  kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:31:07.469    1234 Critical  kernel.drivers.KalidahDriver: FPGA/3 SSD Power TEST : Enable drive 0 power (power_ctl_por : 00000000)
+2020-01-01 08:31:07.688    1234 Critical  kernel.drivers.KalidahDriver: FPGA/3 SSD Power TEST : Disable drive 1 power (power_ctl_por : 00000001)
+2020-01-01 08:31:07.699    1234 Critical  kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:31:08.819    1234 Critical  kernel.drivers.KalidahDriver: FPGA/3 SSD Power TEST : Enable drive 1 power (power_ctl_por : 00000000)
+2020-01-01 08:31:09.038    1234 Critical  kernel.drivers.KalidahDriver: FPGA/3 SSD POWER CONTROL : PASS 
+2020-01-01 08:31:09.038    1234 Critical  kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:31:10.149    1234 Critical  kernel.drivers.KalidahDriver: FPGA/3 PRE-IO TESTS : PASS
+KSB FPGA/3 PRE-IO TEST PASS
+KSB FPGA/3 MEMORY TEST, IO TEST & POST IO TEST...
+2020-01-01 08:31:10.469       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:31:11.638       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:31:12.798       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:31:13.958       0 Debug     kernel.drivers.KalidahDriver: Resetting FPGA
+2020-01-01 08:31:20.631    1234 Debug     kernel.drivers.FpgaTest: Kalidah Memory Address Test : PASS
+2020-01-01 08:31:24.493    1234 Debug     kernel.drivers.FpgaTest: Kalidah Memory Inversion Test : PASS
+2020-01-01 08:31:32.194    1234 Debug     kernel.drivers.FpgaTest: Kalidah Memory March Test : PASS
+2020-01-01 08:33:32.261    1234 Critical  kernel.drivers.KalidahDriver: FPGA/3 POST-IO Test
+2020-01-01 08:33:32.261    1234 Critical  kernel.drivers.KalidahDriver: FPGA/3 HOST PCIe Interface : PASS 
+2020-01-01 08:33:32.271    1234 Critical  kernel.drivers.KalidahDriver: FPGA/3 SSD PCIe Interface : PASS 
+2020-01-01 08:33:32.271    1234 Critical  kernel.drivers.KalidahDriver: FPGA/3 DRAM Calibration : PASS 
+2020-01-01 08:33:32.271    1234 Critical  kernel.drivers.KalidahDriver: FPGA/3 POST-IO TESTS : PASS
+2020-01-01 08:33:32.271    1234 Critical  kernel.drivers.KalidahDriver: KSB FPGA/3 MANUFACTURING TESTS : PASS
+KSB FPGA/3 MEMORY TEST PASS
+KSB FPGA/3 IO TEST PASS
+KSB FPGA/3 POST-IO TEST PASS
+KSB FPGA/3 MANUFACTURING TEST PASS (Check details in run_fpga.log)
+KSB MANUFACTURING TEST FINAL RESULT : PASS
+
+========== Step.3 fpga test after KSB mfg test ==========
+
+=======================================================
+Running fpga-test on 02:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC800CA06345
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          1
+Slice number               :          0
+Temperature Master  Sysmon :    38.485C
+Temperature Slave 0 Sysmon :    38.368C
+Temperature Slave 1 Sysmon :    38.237C
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               :      3.0.6  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+SSD0 Power Enabled         :        0x1  PASSED
+RP0 Config Req. Ready      :        0x1  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...
+SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+SSD1 Power Enabled         :        0x1  PASSED
+RP1 Config Req. Ready      :        0x1  PASSED 
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...
+SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on 41:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC800CA06345
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          1
+Slice number               :          1
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               :      3.0.6  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+SSD0 Power Enabled         :        0x1  PASSED
+RP0 Config Req. Ready      :        0x1  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...
+SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+SSD1 Power Enabled         :        0x1  PASSED
+RP1 Config Req. Ready      :        0x1  PASSED 
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...
+SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on 84:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC81051063C5
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          0
+Slice number               :          1
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               :      3.0.6  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+SSD0 Power Enabled         :        0x1  PASSED
+RP0 Config Req. Ready      :        0x1  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...
+SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+SSD1 Power Enabled         :        0x1  PASSED
+RP1 Config Req. Ready      :        0x1  PASSED 
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...
+SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on c1:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC81051063C5
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          0
+Slice number               :          0
+Temperature Master  Sysmon :    38.732C
+Temperature Slave 0 Sysmon :    38.926C
+Temperature Slave 1 Sysmon :    36.912C
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               :      3.0.6  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+SSD0 Power Enabled         :        0x1  PASSED
+RP0 Config Req. Ready      :        0x1  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...
+SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+SSD1 Power Enabled         :        0x1  PASSED
+RP1 Config Req. Ready      :        0x1  PASSED 
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...
+SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+KSB0 AIC Serial Number: 505-21050700910016
+KSB1 AIC Serial Number: 505-21050700910015
+

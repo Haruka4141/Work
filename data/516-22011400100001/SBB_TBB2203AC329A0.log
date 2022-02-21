@@ -1,0 +1,425 @@
+==============================
+=   TinmanG2 System Test#1    =
+=        UP-SBB(cmp2)        =
+==============================
+===== CMP FW version check ok! =====
+Read Value = 3.0.25-20210108195422
+
+===== All FAN(S) PWM testing =====
+===== Check FAN1 RPM for 100% PWM =====
+  fan_0_pwm_percent: 100
+  fan_0_tach_rpm: 11234
+  fan_1_pwm_percent: 100
+  fan_1_tach_rpm: 12098
+===== Check FAN2 RPM for 100% PWM =====
+  fan_0_pwm_percent: 100
+  fan_0_tach_rpm: 11299
+  fan_1_pwm_percent: 100
+  fan_1_tach_rpm: 12098
+===== Check FAN3 RPM for 100% PWM =====
+  fan_0_pwm_percent: 100
+  fan_0_tach_rpm: 11202
+  fan_1_pwm_percent: 100
+  fan_1_tach_rpm: 11988
+===== Check FAN4 RPM for 100% PWM =====
+  fan_0_pwm_percent: 100
+  fan_0_tach_rpm: 11202
+  fan_1_pwm_percent: 100
+  fan_1_tach_rpm: 12211
+===== Check FAN5 RPM for 100% PWM =====
+  fan_0_pwm_percent: 100
+  fan_0_tach_rpm: 11331
+  fan_1_pwm_percent: 100
+  fan_1_tach_rpm: 11915
+===== Check FAN6 RPM for 100% PWM =====
+  fan_0_pwm_percent: 100
+  fan_0_tach_rpm: 11202
+  fan_1_pwm_percent: 100
+  fan_1_tach_rpm: 12288
+===== Check FAN7 RPM for 100% PWM =====
+  fan_0_pwm_percent: 100
+  fan_0_tach_rpm: 11299
+  fan_1_pwm_percent: 100
+  fan_1_tach_rpm: 11915
+===== Check FAN8 RPM for 100% PWM =====
+  fan_0_pwm_percent: 100
+  fan_0_tach_rpm: 11202
+  fan_1_pwm_percent: 100
+  fan_1_tach_rpm: 12211
+
+===== Check FAN1 RPM for 10% PWM =====
+  fan_0_pwm_percent: 9.803922
+  fan_0_tach_rpm: 2560
+  fan_1_pwm_percent: 9.803922
+  fan_1_tach_rpm: 2765
+===== Check FAN2 RPM for 10% PWM =====
+  fan_0_pwm_percent: 9.803922
+  fan_0_tach_rpm: 2598
+  fan_1_pwm_percent: 9.803922
+  fan_1_tach_rpm: 2763
+===== Check FAN3 RPM for 10% PWM =====
+  fan_0_pwm_percent: 9.803922
+  fan_0_tach_rpm: 2561
+  fan_1_pwm_percent: 9.803922
+  fan_1_tach_rpm: 2723
+===== Check FAN4 RPM for 10% PWM =====
+  fan_0_pwm_percent: 9.803922
+  fan_0_tach_rpm: 2571
+  fan_1_pwm_percent: 9.803922
+  fan_1_tach_rpm: 2778
+===== Check FAN5 RPM for 10% PWM =====
+  fan_0_pwm_percent: 9.803922
+  fan_0_tach_rpm: 2609
+  fan_1_pwm_percent: 9.803922
+  fan_1_tach_rpm: 2704
+===== Check FAN6 RPM for 10% PWM =====
+  fan_0_pwm_percent: 9.803922
+  fan_0_tach_rpm: 2576
+  fan_1_pwm_percent: 9.803922
+  fan_1_tach_rpm: 2784
+===== Check FAN7 RPM for 10% PWM =====
+  fan_0_pwm_percent: 9.803922
+  fan_0_tach_rpm: 2598
+  fan_1_pwm_percent: 9.803922
+  fan_1_tach_rpm: 2708
+===== Check FAN8 RPM for 10% PWM =====
+  fan_0_pwm_percent: 9.803922
+  fan_0_tach_rpm: 2558
+  fan_1_pwm_percent: 9.803922
+  fan_1_tach_rpm: 2790
+
+===== FAN(S) Remove/Insertion testing =====
+=== Remove FAN1~4 ===
+  gpio_present_fan1: 0
+  gpio_present_fan2: 0
+  gpio_present_fan3: 0
+  gpio_present_fan4: 0
+  gpio_present_fan5: 1
+  gpio_present_fan6: 1
+  gpio_present_fan7: 1
+  gpio_present_fan8: 1
+
+=== Insert FAN1~4 ===
+  gpio_present_fan1: 1
+  gpio_present_fan2: 1
+  gpio_present_fan3: 1
+  gpio_present_fan4: 1
+  gpio_present_fan5: 1
+  gpio_present_fan6: 1
+  gpio_present_fan7: 1
+  gpio_present_fan8: 1
+
+=== Remove FAN5~8 ===
+  gpio_present_fan1: 1
+  gpio_present_fan2: 1
+  gpio_present_fan3: 1
+  gpio_present_fan4: 1
+  gpio_present_fan5: 0
+  gpio_present_fan6: 0
+  gpio_present_fan7: 0
+  gpio_present_fan8: 0
+
+=== Insert FAN5~8 ===
+  gpio_present_fan1: 1
+  gpio_present_fan2: 1
+  gpio_present_fan3: 1
+  gpio_present_fan4: 1
+  gpio_present_fan5: 1
+  gpio_present_fan6: 1
+  gpio_present_fan7: 1
+  gpio_present_fan8: 1
+
+========== FAN test ok! ==========
+===== FLB LED test =====
+Turn on BLUE LED ...
+oil version 3.0.25-20210108195422
+command: get
+component: panel1
+	group: leds
+		beacon_on: no
+		led_control: manual
+		panel_blue: on
+		panel_red: off
+		panel_yellow: off
+
+Turn on RED LED ...
+oil version 3.0.25-20210108195422
+command: get
+component: panel1
+	group: leds
+		beacon_on: no
+		led_control: manual
+		panel_blue: on
+		panel_red: on
+		panel_yellow: off
+
+Turn on YELLOW LED ...
+oil version 3.0.25-20210108195422
+command: get
+component: panel1
+	group: leds
+		beacon_on: no
+		led_control: manual
+		panel_blue: on
+		panel_red: on
+		panel_yellow: on
+
+Turn on beacon LED ...
+oil version 3.0.25-20210108195422
+command: get
+component: panel1
+	group: leds
+		beacon_on: yes
+		led_control: manual
+		panel_blue: on
+		panel_red: on
+		panel_yellow: on
+
+===== FLB LED test ok! =====
+===== SBB LED test =====
+Turn on YELLOW LED ...
+oil version 3.0.25-20210108195422
+command: get
+component: cmp2
+	group: leds
+		cmp_blue: off
+		cmp_red: off
+		cmp_yellow: off
+		led_control: manual
+
+Turn on RED LED ...
+oil version 3.0.25-20210108195422
+command: get
+component: cmp2
+	group: leds
+		cmp_blue: off
+		cmp_red: off
+		cmp_yellow: off
+		led_control: manual
+
+Turn on BLUE LED ...
+oil version 3.0.25-20210108195422
+command: get
+component: cmp2
+	group: leds
+		cmp_blue: off
+		cmp_red: on
+		cmp_yellow: on
+		led_control: manual
+
+Turn off ALL LED ...
+===== SBB LED test ok! =====
+==============================
+=   TinmanG2 System Test#2    =
+=        UP-SBB(cmp2)        =
+==============================
+PASS
+===== LAN link between SBBs/ABBs =====
+	Port 1 (ABB 1):
+		 Link status: UP/FULL_DUPLEX/100 Mbps
+	Port 2 (ABB 2):
+		 Link status: UP/FULL_DUPLEX/100 Mbps
+	Port 3 (ABB 3):
+		 Link status: UP/FULL_DUPLEX/100 Mbps
+	Port 4 (ABB 4):
+		 Link status: UP/FULL_DUPLEX/100 Mbps
+--
+	Port 1 (ABB 5):
+		 Link status: UP/FULL_DUPLEX/100 Mbps
+	Port 2 (ABB 6):
+		 Link status: UP/FULL_DUPLEX/100 Mbps
+	Port 3 (ABB 7):
+		 Link status: UP/FULL_DUPLEX/100 Mbps
+	Port 4 (ABB 8):
+		 Link status: UP/FULL_DUPLEX/100 Mbps
+--
+	Port 1 (ABB 9):
+		 Link status: UP/FULL_DUPLEX/100 Mbps
+	Port 2 (ABB 10):
+		 Link status: UP/FULL_DUPLEX/100 Mbps
+	Port 3 (Other SBB U20 Port 3):
+		 Link status: UP/FULL_DUPLEX/100 Mbps
+
+========== Test PSU1 Present signal ==========
+Check Present signal when PSU1 inserted ... PASS
+  present_pwr1: 1
+  present_pwr2: 1
+  present_pwr3: 1
+  present_pwr4: 1
+  present_pwr5: 1
+  present_pwr6: 1
+
+Check Present signal when PSU1 removed ... PASS
+  present_pwr1: 0
+  present_pwr2: 1
+  present_pwr3: 1
+  present_pwr4: 1
+  present_pwr5: 1
+  present_pwr6: 1
+========== Test PSU2 Present signal ==========
+Check Present signal when PSU2 inserted ... PASS
+  present_pwr1: 0
+  present_pwr2: 1
+  present_pwr3: 1
+  present_pwr4: 1
+  present_pwr5: 1
+  present_pwr6: 1
+
+Check Present signal when PSU2 removed ... PASS
+  present_pwr1: 1
+  present_pwr2: 0
+  present_pwr3: 1
+  present_pwr4: 1
+  present_pwr5: 1
+  present_pwr6: 1
+========== Test PSU3 Present signal ==========
+Check Present signal when PSU3 inserted ... PASS
+  present_pwr1: 1
+  present_pwr2: 1
+  present_pwr3: 1
+  present_pwr4: 1
+  present_pwr5: 1
+  present_pwr6: 1
+
+Check Present signal when PSU3 removed ... PASS
+  present_pwr1: 1
+  present_pwr2: 1
+  present_pwr3: 0
+  present_pwr4: 1
+  present_pwr5: 1
+  present_pwr6: 1
+========== Test PSU4 Present signal ==========
+Check Present signal when PSU4 inserted ... PASS
+  present_pwr1: 1
+  present_pwr2: 1
+  present_pwr3: 0
+  present_pwr4: 1
+  present_pwr5: 1
+  present_pwr6: 1
+
+Check Present signal when PSU4 removed ... PASS
+  present_pwr1: 1
+  present_pwr2: 1
+  present_pwr3: 1
+  present_pwr4: 0
+  present_pwr5: 1
+  present_pwr6: 1
+========== Test PSU5 Present signal ==========
+Check Present signal when PSU5 inserted ... PASS
+  present_pwr1: 1
+  present_pwr2: 1
+  present_pwr3: 1
+  present_pwr4: 0
+  present_pwr5: 1
+  present_pwr6: 1
+
+Check Present signal when PSU5 removed ... PASS
+  present_pwr1: 1
+  present_pwr2: 1
+  present_pwr3: 1
+  present_pwr4: 1
+  present_pwr5: 0
+  present_pwr6: 1
+========== Test PSU6 Present signal ==========
+Check Present signal when PSU6 inserted ... PASS
+  present_pwr1: 1
+  present_pwr2: 1
+  present_pwr3: 1
+  present_pwr4: 1
+  present_pwr5: 1
+  present_pwr6: 1
+
+Check Present signal when PSU6 removed ... PASS
+  present_pwr1: 1
+  present_pwr2: 1
+  present_pwr3: 1
+  present_pwr4: 1
+  present_pwr5: 1
+  present_pwr6: 0
+
+===== PSU Power-Good signal and Output voltage test =====
+Turn-off PSU 2~6 (PSU LED should FLASHING GREEN) ...
+Check Power-Good when PSU1 power on ... PASS
+===== Check PSU1 Vout and ABB 12V-IN =====
+PSU1 Vout = 12261 mv ; ABB1 12V-in = 12180 mv ... PASS
+PSU1 Vout = 12265 mv ; ABB2 12V-in = 12120 mv ... PASS
+PSU1 Vout = 12267 mv ; ABB3 12V-in = 12120 mv ... PASS
+PSU1 Vout = 12263 mv ; ABB4 12V-in = 12120 mv ... PASS
+PSU1 Vout = 12263 mv ; ABB5 12V-in = 12120 mv ... PASS
+PSU1 Vout = 12263 mv ; ABB6 12V-in = 12120 mv ... PASS
+PSU1 Vout = 12263 mv ; ABB7 12V-in = 12120 mv ... PASS
+PSU1 Vout = 12263 mv ; ABB8 12V-in = 12120 mv ... PASS
+PSU1 Vout = 12261 mv ; ABB9 12V-in = 12180 mv ... PASS
+PSU1 Vout = 12261 mv ; ABB10 12V-in = 12180 mv ... PASS
+Turn-on PSU2 (PSU LED should SOLID GREEN) ... Turn-off PSU1 (PSU LED should FLASHING GREEN) ... Check Power-Good when PSU1 power off ... PASS
+
+Check Power-Good when PSU2 power on ... PASS
+===== Check PSU2 Vout and ABB 12V-IN =====
+PSU2 Vout = 12257 mv ; ABB1 12V-in = 12180 mv ... PASS
+PSU2 Vout = 12265 mv ; ABB2 12V-in = 12120 mv ... PASS
+PSU2 Vout = 12265 mv ; ABB3 12V-in = 12120 mv ... PASS
+PSU2 Vout = 12263 mv ; ABB4 12V-in = 12120 mv ... PASS
+PSU2 Vout = 12265 mv ; ABB5 12V-in = 12120 mv ... PASS
+PSU2 Vout = 12267 mv ; ABB6 12V-in = 12120 mv ... PASS
+PSU2 Vout = 12267 mv ; ABB7 12V-in = 12120 mv ... PASS
+PSU2 Vout = 12267 mv ; ABB8 12V-in = 12120 mv ... PASS
+PSU2 Vout = 12267 mv ; ABB9 12V-in = 12120 mv ... PASS
+PSU2 Vout = 12267 mv ; ABB10 12V-in = 12120 mv ... PASS
+Turn-on PSU3 (PSU LED should SOLID GREEN) ... Turn-off PSU2 (PSU LED should FLASHING GREEN) ... Check Power-Good when PSU2 power off ... PASS
+
+Check Power-Good when PSU3 power on ... PASS
+===== Check PSU3 Vout and ABB 12V-IN =====
+PSU3 Vout = 12332 mv ; ABB1 12V-in = 12180 mv ... PASS
+PSU3 Vout = 12339 mv ; ABB2 12V-in = 12120 mv ... PASS
+PSU3 Vout = 12337 mv ; ABB3 12V-in = 12120 mv ... PASS
+PSU3 Vout = 12337 mv ; ABB4 12V-in = 12120 mv ... PASS
+PSU3 Vout = 12337 mv ; ABB5 12V-in = 12120 mv ... PASS
+PSU3 Vout = 12341 mv ; ABB6 12V-in = 12180 mv ... PASS
+PSU3 Vout = 12341 mv ; ABB7 12V-in = 12180 mv ... PASS
+PSU3 Vout = 12341 mv ; ABB8 12V-in = 12180 mv ... PASS
+PSU3 Vout = 12341 mv ; ABB9 12V-in = 12180 mv ... PASS
+PSU3 Vout = 12341 mv ; ABB10 12V-in = 12180 mv ... PASS
+Turn-on PSU4 (PSU LED should SOLID GREEN) ... Turn-off PSU3 (PSU LED should FLASHING GREEN) ... Check Power-Good when PSU3 power off ... PASS
+
+Check Power-Good when PSU4 power on ... PASS
+===== Check PSU4 Vout and ABB 12V-IN =====
+PSU4 Vout = 12283 mv ; ABB1 12V-in = 12180 mv ... PASS
+PSU4 Vout = 12287 mv ; ABB2 12V-in = 12180 mv ... PASS
+PSU4 Vout = 12287 mv ; ABB3 12V-in = 12180 mv ... PASS
+PSU4 Vout = 12287 mv ; ABB4 12V-in = 12120 mv ... PASS
+PSU4 Vout = 12291 mv ; ABB5 12V-in = 12120 mv ... PASS
+PSU4 Vout = 12289 mv ; ABB6 12V-in = 12180 mv ... PASS
+PSU4 Vout = 12291 mv ; ABB7 12V-in = 12180 mv ... PASS
+PSU4 Vout = 12291 mv ; ABB8 12V-in = 12120 mv ... PASS
+PSU4 Vout = 12291 mv ; ABB9 12V-in = 12180 mv ... PASS
+PSU4 Vout = 12291 mv ; ABB10 12V-in = 12180 mv ... PASS
+Turn-on PSU5 (PSU LED should SOLID GREEN) ... Turn-off PSU4 (PSU LED should FLASHING GREEN) ... Check Power-Good when PSU4 power off ... PASS
+
+Check Power-Good when PSU5 power on ... PASS
+===== Check PSU5 Vout and ABB 12V-IN =====
+PSU5 Vout = 12265 mv ; ABB1 12V-in = 12180 mv ... PASS
+PSU5 Vout = 12273 mv ; ABB2 12V-in = 12120 mv ... PASS
+PSU5 Vout = 12275 mv ; ABB3 12V-in = 12120 mv ... PASS
+PSU5 Vout = 12271 mv ; ABB4 12V-in = 12120 mv ... PASS
+PSU5 Vout = 12275 mv ; ABB5 12V-in = 12120 mv ... PASS
+PSU5 Vout = 12271 mv ; ABB6 12V-in = 12180 mv ... PASS
+PSU5 Vout = 12273 mv ; ABB7 12V-in = 12180 mv ... PASS
+PSU5 Vout = 12275 mv ; ABB8 12V-in = 12180 mv ... PASS
+PSU5 Vout = 12275 mv ; ABB9 12V-in = 12180 mv ... PASS
+PSU5 Vout = 12275 mv ; ABB10 12V-in = 12180 mv ... PASS
+Turn-on PSU6 (PSU LED should SOLID GREEN) ... Turn-off PSU5 (PSU LED should FLASHING GREEN) ... Check Power-Good when PSU5 power off ... PASS
+
+Check Power-Good when PSU6 power on ... PASS
+===== Check PSU6 Vout and ABB 12V-IN =====
+PSU6 Vout = 12238 mv ; ABB1 12V-in = 12180 mv ... PASS
+PSU6 Vout = 12242 mv ; ABB2 12V-in = 12120 mv ... PASS
+PSU6 Vout = 12242 mv ; ABB3 12V-in = 12120 mv ... PASS
+PSU6 Vout = 12250 mv ; ABB4 12V-in = 12120 mv ... PASS
+PSU6 Vout = 12251 mv ; ABB5 12V-in = 12120 mv ... PASS
+PSU6 Vout = 12248 mv ; ABB6 12V-in = 12120 mv ... PASS
+PSU6 Vout = 12250 mv ; ABB7 12V-in = 12120 mv ... PASS
+PSU6 Vout = 12250 mv ; ABB8 12V-in = 12120 mv ... PASS
+PSU6 Vout = 12250 mv ; ABB9 12V-in = 12120 mv ... PASS
+PSU6 Vout = 12251 mv ; ABB10 12V-in = 12180 mv ... PASS
+Turn-on PSU1 (PSU LED should SOLID GREEN) ... Turn-off PSU6 (PSU LED should FLASHING GREEN) ... Check Power-Good when PSU6 power off ... PASS
+

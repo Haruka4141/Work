@@ -1,0 +1,1225 @@
+======================================
+=     Tinman G2 Node test result     =
+======================================
+FRU Device Description : Builtin FRU Device (ID 0)
+ Chassis Type          : Main Server Chassis
+ Chassis Part Number   : M06-01213-G4_A04
+ Chassis Serial        : 516-22011400300014
+ Board Mfg Date        : Thu Dec 16 09:55:00 2021
+ Board Mfg             : AIC
+ Board Product         : ATHENA
+ Board Serial          : 84183-2149-00048
+ Board Part Number     : BMB-UPE0002A
+ Product Manufacturer  : AIC
+ Product Name          : TinmanG2
+ Product Part Number   : M06-01213-G4_A04
+ Product Version       : 01
+ Product Serial        : 516-22011400300014
+ Product Asset Tag     : 01
+
+
+========== Functional test ========== 
+BIOS Version check OK !! Read value:  Athn_1.02.0 
+BMC Firmware Version check pass !! Read value: Athena_010001 
+1 CPU detected, check OK !!
+8 Memory module detected, check OK !!
+============ Check BMC FRU ============
+Product Manufacturer check OK !!
+Product Name check OK !!
+Product Part Number check OK !!
+Product Serial Number check OK !!
+Product Version check OK !!
+Product Asset Tag check OK !!
+Chassis Serial Number check OK !!
+Chassis Part Number check OK !!
+===== BMC SDR check PASS =====
+TEMP_CPU0        | 50.000     | degrees C  | ok    | na        | na        | na        | na        | 95.000    | na        [PASS]
+TEMP_CPU_Outlet  | 35.000     | degrees C  | ok    | na        | na        | na        | na        | 85.000    | na        [PASS]
+TEMP_MB_Outlet   | 38.000     | degrees C  | ok    | na        | na        | na        | na        | 85.000    | na        [PASS]
+TEMP_VR_Zone     | 34.000     | degrees C  | ok    | na        | na        | na        | na        | 85.000    | na        [PASS]
+TEMP_MEM_Zone_1  | 32.000     | degrees C  | ok    | na        | na        | na        | na        | 85.000    | na        [PASS]
+TEMP_MEM_Zone_2  | 32.000     | degrees C  | ok    | na        | na        | na        | na        | 85.000    | na        [PASS]
+TEMP_BMC_Zone    | 31.000     | degrees C  | ok    | na        | na        | na        | na        | 85.000    | na        [PASS]
+TEMP_Air_Inlet   | 24.000     | degrees C  | ok    | na        | na        | na        | na        | 45.000    | na        [PASS]
+TEMP_ADM1278     | 32.000     | degrees C  | ok    | na        | na        | na        | na        | 85.000    | na        [PASS]
+TEMP_DIMM_A      | 26.000     | degrees C  | ok    | na        | na        | na        | na        | 87.000    | na        [PASS]
+TEMP_DIMM_B      | 25.000     | degrees C  | ok    | na        | na        | na        | na        | 87.000    | na        [PASS]
+TEMP_DIMM_C      | 26.000     | degrees C  | ok    | na        | na        | na        | na        | 87.000    | na        [PASS]
+TEMP_DIMM_D      | 27.000     | degrees C  | ok    | na        | na        | na        | na        | 87.000    | na        [PASS]
+TEMP_DIMM_E      | 28.000     | degrees C  | ok    | na        | na        | na        | na        | 87.000    | na        [PASS]
+TEMP_DIMM_F      | 33.000     | degrees C  | ok    | na        | na        | na        | na        | 87.000    | na        [PASS]
+TEMP_DIMM_G      | 36.000     | degrees C  | ok    | na        | na        | na        | na        | 87.000    | na        [PASS]
+TEMP_DIMM_H      | 36.000     | degrees C  | ok    | na        | na        | na        | na        | 87.000    | na        [PASS]
+12V              | 11.760     | Volts      | ok    | na        | 11.400    | na        | na        | 12.600    | na        [PASS]
+5V               | 5.070      | Volts      | ok    | na        | 4.620     | na        | na        | 5.370     | na        [PASS]
+3V3              | 3.300      | Volts      | ok    | na        | 3.040     | na        | na        | 3.560     | na        [PASS]
+VDDCR_CPU        | 0.720      | Volts      | ok    | na        | 0.420     | na        | na        | 1.480     | na        [PASS]
+VDDCR_SOC        | 0.820      | Volts      | ok    | na        | 0.600     | na        | na        | 1.160     | na        [PASS]
+VDDCR_SOC_S5     | 0.910      | Volts      | ok    | na        | 0.830     | na        | na        | 0.970     | na        [PASS]
+VDD_33_BAT       | 3.120      | Volts      | ok    | na        | 2.500     | na        | na        | 3.240     | na        [PASS]
+1V8_SOC          | 1.820      | Volts      | ok    | na        | 1.670     | na        | na        | 1.930     | na        [PASS]
+1V8_SOC_S5       | 1.810      | Volts      | ok    | na        | 1.670     | na        | na        | 1.930     | na        [PASS]
+3V3_S5           | 3.320      | Volts      | ok    | na        | 3.040     | na        | na        | 3.560     | na        [PASS]
+5V_S5            | 5.100      | Volts      | ok    | na        | 4.620     | na        | na        | 5.370     | na        [PASS]
+VDD_ABCD         | 1.210      | Volts      | ok    | na        | 1.100     | na        | na        | 1.310     | na        [PASS]
+VDD_EFGH         | 1.210      | Volts      | ok    | na        | 1.100     | na        | na        | 1.310     | na        [PASS]
+VPP_ABCD         | 2.560      | Volts      | ok    | na        | 2.300     | na        | na        | 2.700     | na        [PASS]
+VPP_EFGH         | 2.560      | Volts      | ok    | na        | 2.300     | na        | na        | 2.700     | na        [PASS]
+VTT_ABCD         | 0.600      | Volts      | ok    | na        | 0.510     | na        | na        | 0.700     | na        [PASS]
+VTT_EFGH         | 0.600      | Volts      | ok    | na        | 0.510     | na        | na        | 0.700     | na        [PASS]
+ADM1278_Iout     | 16.800     | Amps       | ok    | na        | na        | na        | na        | na        | na        [PASS]
+ADM1278_Pin      | 186.000    | Watts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_Presence      | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na        [PASS]
+K0_U4_Alarm      | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na        [PASS]
+K0_R0_FLAG_0     | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na        [PASS]
+K0_R0_FLAG_1     | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na        [PASS]
+K0_R1_FLAG_0     | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na        [PASS]
+K0_R1_FLAG_1     | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na        [PASS]
+K0_R2_FLAG_0     | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na        [PASS]
+K0_R2_FLAG_1     | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na        [PASS]
+TEMP_K0_DIMM0    | 35.000     | degrees C  | ok    | na        | na        | na        | na        | 87.000    | na        [PASS]
+TEMP_K0_DIMM1    | 40.000     | degrees C  | ok    | na        | na        | na        | na        | 87.000    | na        [PASS]
+TEMP_K0_S0_SSD0  | 44.000     | degrees C  | ok    | na        | na        | na        | na        | 70.000    | na        [PASS]
+TEMP_K0_S0_SSD1  | 43.000     | degrees C  | ok    | na        | na        | na        | na        | 70.000    | na        [PASS]
+TEMP_K0_S1_SSD0  | 40.000     | degrees C  | ok    | na        | na        | na        | na        | 70.000    | na        [PASS]
+TEMP_K0_S1_SSD1  | 42.000     | degrees C  | ok    | na        | na        | na        | na        | 70.000    | na        [PASS]
+TEMP_K0_R0       | 42.000     | degrees C  | ok    | na        | na        | na        | na        | 100.000   | na        [PASS]
+TEMP_K0_R1       | 42.000     | degrees C  | ok    | na        | na        | na        | na        | 100.000   | na        [PASS]
+TEMP_K0_R2       | 41.000     | degrees C  | ok    | na        | na        | na        | na        | 100.000   | na        [PASS]
+TEMP_K0_R0_Max   | 45.000     | degrees C  | ok    | na        | na        | na        | na        | na        | na        [PASS]
+TEMP_K0_R1_Max   | 44.000     | degrees C  | ok    | na        | na        | na        | na        | na        | na        [PASS]
+TEMP_K0_R2_Max   | 44.000     | degrees C  | ok    | na        | na        | na        | na        | na        | na        [PASS]
+TEMP_K0_R0_Min   | 29.000     | degrees C  | ok    | na        | na        | na        | na        | na        | na        [PASS]
+TEMP_K0_R1_Min   | 30.000     | degrees C  | ok    | na        | na        | na        | na        | na        | na        [PASS]
+TEMP_K0_R2_Min   | 29.000     | degrees C  | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_12V           | 11.760     | Volts      | ok    | na        | 11.040    | na        | na        | 12.600    | na        [PASS]
+K0_VREFP         | 1.240      | Volts      | ok    | na        | 1.230     | na        | na        | 1.260     | na        [PASS]
+K0_VREFN         | 0.000      | Volts      | ok    | na        | na        | na        | na        | 0.001     | na        [PASS]
+K0_5V            | 4.800      | Volts      | ok    | na        | 4.590     | na        | na        | 5.250     | na        [PASS]
+K0_3V3           | 3.300      | Volts      | ok    | na        | 3.120     | na        | na        | 3.480     | na        [PASS]
+K0_S0_600mV_VTT  | 0.609      | Volts      | ok    | na        | 0.582     | na        | na        | 0.618     | na        [PASS]
+K0_S1_600mV_VTT  | 0.606      | Volts      | ok    | na        | 0.582     | na        | na        | 0.618     | na        [PASS]
+K0_VCCINT_IMON   | 0.120      | Volts      | ok    | na        | na        | na        | na        | 1.120     | na        [PASS]
+K0_R0_VCCINT     | 0.848      | Volts      | ok    | na        | 0.824     | na        | na        | 0.872     | na        [PASS]
+K0_R0_VCCBRAM    | 0.844      | Volts      | ok    | na        | 0.832     | na        | na        | 0.868     | na        [PASS]
+K0_R0_VCCAUX     | 1.820      | Volts      | ok    | na        | 1.740     | na        | na        | 1.860     | na        [PASS]
+K0_R0_VUSER0     | 0.840      | Volts      | ok    | na        | 0.824     | na        | na        | 0.872     | na        [PASS]
+K0_R0_VUSER1     | 0.840      | Volts      | ok    | na        | 0.824     | na        | na        | 0.872     | na        [PASS]
+K0_R0_VUSER2     | 1.830      | Volts      | ok    | na        | 1.740     | na        | na        | 1.860     | na        [PASS]
+K0_R0_VUSER3     | 1.830      | Volts      | ok    | na        | 1.740     | na        | na        | 1.860     | na        [PASS]
+K0_R1_VCCINT     | 0.856      | Volts      | ok    | na        | 0.824     | na        | na        | 0.872     | na        [PASS]
+K0_R1_VCCBRAM    | 0.848      | Volts      | ok    | na        | 0.832     | na        | na        | 0.868     | na        [PASS]
+K0_R1_VCCAUX     | 1.820      | Volts      | ok    | na        | 1.740     | na        | na        | 1.860     | na        [PASS]
+K0_R1_VUSER0     | 1.200      | Volts      | ok    | na        | 1.150     | na        | na        | 1.250     | na        [PASS]
+K0_R1_VUSER1     | 0.840      | Volts      | ok    | na        | 0.824     | na        | na        | 0.868     | na        [PASS]
+K0_R1_VUSER2     | 1.200      | Volts      | ok    | na        | 1.150     | na        | na        | 1.250     | na        [PASS]
+K0_R1_VUSER3     | 0.840      | Volts      | ok    | na        | 0.824     | na        | na        | 0.868     | na        [PASS]
+K0_R2_VCCINT     | 0.856      | Volts      | ok    | na        | 0.824     | na        | na        | 0.872     | na        [PASS]
+K0_R2_VCCBRAM    | 0.848      | Volts      | ok    | na        | 0.832     | na        | na        | 0.868     | na        [PASS]
+K0_R2_VCCAUX     | 1.820      | Volts      | ok    | na        | 1.740     | na        | na        | 1.860     | na        [PASS]
+K0_R2_VUSER0     | 1.200      | Volts      | ok    | na        | 1.150     | na        | na        | 1.250     | na        [PASS]
+K0_R2_VUSER1     | 0.840      | Volts      | ok    | na        | 0.824     | na        | na        | 0.868     | na        [PASS]
+K0_R2_VUSER2     | 1.200      | Volts      | ok    | na        | 1.150     | na        | na        | 1.250     | na        [PASS]
+K0_R2_VUSER3     | 0.840      | Volts      | ok    | na        | 0.824     | na        | na        | 0.868     | na        [PASS]
+K0_VCCINT_Max    | 0.856      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_VCCBRAM_Max   | 0.852      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_VCCAUX_Max    | 1.830      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R0_VUSER0_Max | 0.848      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R0_VUSER1_Max | 0.848      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R0_VUSER2_Max | 1.840      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R0_VUSER3_Max | 1.840      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R1_VUSER0_Max | 1.210      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R1_VUSER1_Max | 0.840      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R1_VUSER2_Max | 1.210      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R1_VUSER3_Max | 0.840      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R2_VUSER0_Max | 1.200      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R2_VUSER1_Max | 0.840      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R2_VUSER2_Max | 1.210      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R2_VUSER3_Max | 0.840      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_VCCINT_Min    | 0.844      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_VCCBRAM_Min   | 0.840      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_VCCAUX_Min    | 1.810      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R0_VUSER0_Min | 0.832      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R0_VUSER1_Min | 0.832      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R0_VUSER2_Min | 1.810      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R0_VUSER3_Min | 1.810      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R1_VUSER0_Min | 1.200      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R1_VUSER1_Min | 0.836      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R1_VUSER2_Min | 1.200      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R1_VUSER3_Min | 0.836      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R2_VUSER0_Min | 1.200      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R2_VUSER1_Min | 0.832      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R2_VUSER2_Min | 1.200      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K0_R2_VUSER3_Min | 0.836      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_Presence      | 0x0        | discrete   | 0x0180| na        | na        | na        | na        | na        | na        [PASS]
+K1_U4_Alarm      | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na        [PASS]
+K1_R0_FLAG_0     | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na        [PASS]
+K1_R0_FLAG_1     | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na        [PASS]
+K1_R1_FLAG_0     | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na        [PASS]
+K1_R1_FLAG_1     | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na        [PASS]
+K1_R2_FLAG_0     | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na        [PASS]
+K1_R2_FLAG_1     | 0x0        | discrete   | 0x0080| na        | na        | na        | na        | na        | na        [PASS]
+TEMP_K1_DIMM0    | 27.000     | degrees C  | ok    | na        | na        | na        | na        | 87.000    | na        [PASS]
+TEMP_K1_DIMM1    | 28.000     | degrees C  | ok    | na        | na        | na        | na        | 87.000    | na        [PASS]
+TEMP_K1_S0_SSD0  | 38.000     | degrees C  | ok    | na        | na        | na        | na        | 70.000    | na        [PASS]
+TEMP_K1_S0_SSD1  | 36.000     | degrees C  | ok    | na        | na        | na        | na        | 70.000    | na        [PASS]
+TEMP_K1_S1_SSD0  | 32.000     | degrees C  | ok    | na        | na        | na        | na        | 70.000    | na        [PASS]
+TEMP_K1_S1_SSD1  | 36.000     | degrees C  | ok    | na        | na        | na        | na        | 70.000    | na        [PASS]
+TEMP_K1_R0       | 33.000     | degrees C  | ok    | na        | na        | na        | na        | 100.000   | na        [PASS]
+TEMP_K1_R1       | 33.000     | degrees C  | ok    | na        | na        | na        | na        | 100.000   | na        [PASS]
+TEMP_K1_R2       | 31.000     | degrees C  | ok    | na        | na        | na        | na        | 100.000   | na        [PASS]
+TEMP_K1_R0_Max   | 40.000     | degrees C  | ok    | na        | na        | na        | na        | na        | na        [PASS]
+TEMP_K1_R1_Max   | 41.000     | degrees C  | ok    | na        | na        | na        | na        | na        | na        [PASS]
+TEMP_K1_R2_Max   | 39.000     | degrees C  | ok    | na        | na        | na        | na        | na        | na        [PASS]
+TEMP_K1_R0_Min   | 29.000     | degrees C  | ok    | na        | na        | na        | na        | na        | na        [PASS]
+TEMP_K1_R1_Min   | 30.000     | degrees C  | ok    | na        | na        | na        | na        | na        | na        [PASS]
+TEMP_K1_R2_Min   | 29.000     | degrees C  | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_12V           | 11.760     | Volts      | ok    | na        | 11.040    | na        | na        | 12.600    | na        [PASS]
+K1_VREFP         | 1.240      | Volts      | ok    | na        | 1.230     | na        | na        | 1.260     | na        [PASS]
+K1_VREFN         | 0.000      | Volts      | ok    | na        | na        | na        | na        | 0.001     | na        [PASS]
+K1_5V            | 4.770      | Volts      | ok    | na        | 4.590     | na        | na        | 5.250     | na        [PASS]
+K1_3V3           | 3.280      | Volts      | ok    | na        | 3.120     | na        | na        | 3.480     | na        [PASS]
+K1_S0_600mV_VTT  | 0.606      | Volts      | ok    | na        | 0.582     | na        | na        | 0.618     | na        [PASS]
+K1_S1_600mV_VTT  | 0.603      | Volts      | ok    | na        | 0.582     | na        | na        | 0.618     | na        [PASS]
+K1_VCCINT_IMON   | 0.090      | Volts      | ok    | na        | na        | na        | na        | 1.120     | na        [PASS]
+K1_R0_VCCINT     | 0.848      | Volts      | ok    | na        | 0.824     | na        | na        | 0.872     | na        [PASS]
+K1_R0_VCCBRAM    | 0.848      | Volts      | ok    | na        | 0.832     | na        | na        | 0.868     | na        [PASS]
+K1_R0_VCCAUX     | 1.810      | Volts      | ok    | na        | 1.740     | na        | na        | 1.860     | na        [PASS]
+K1_R0_VUSER0     | 0.840      | Volts      | ok    | na        | 0.824     | na        | na        | 0.872     | na        [PASS]
+K1_R0_VUSER1     | 0.840      | Volts      | ok    | na        | 0.824     | na        | na        | 0.872     | na        [PASS]
+K1_R0_VUSER2     | 1.820      | Volts      | ok    | na        | 1.740     | na        | na        | 1.860     | na        [PASS]
+K1_R0_VUSER3     | 1.820      | Volts      | ok    | na        | 1.740     | na        | na        | 1.860     | na        [PASS]
+K1_R1_VCCINT     | 0.856      | Volts      | ok    | na        | 0.824     | na        | na        | 0.872     | na        [PASS]
+K1_R1_VCCBRAM    | 0.852      | Volts      | ok    | na        | 0.832     | na        | na        | 0.868     | na        [PASS]
+K1_R1_VCCAUX     | 1.820      | Volts      | ok    | na        | 1.740     | na        | na        | 1.860     | na        [PASS]
+K1_R1_VUSER0     | 1.210      | Volts      | ok    | na        | 1.150     | na        | na        | 1.250     | na        [PASS]
+K1_R1_VUSER1     | 0.840      | Volts      | ok    | na        | 0.824     | na        | na        | 0.868     | na        [PASS]
+K1_R1_VUSER2     | 1.210      | Volts      | ok    | na        | 1.150     | na        | na        | 1.250     | na        [PASS]
+K1_R1_VUSER3     | 0.840      | Volts      | ok    | na        | 0.824     | na        | na        | 0.868     | na        [PASS]
+K1_R2_VCCINT     | 0.856      | Volts      | ok    | na        | 0.824     | na        | na        | 0.872     | na        [PASS]
+K1_R2_VCCBRAM    | 0.852      | Volts      | ok    | na        | 0.832     | na        | na        | 0.868     | na        [PASS]
+K1_R2_VCCAUX     | 1.820      | Volts      | ok    | na        | 1.740     | na        | na        | 1.860     | na        [PASS]
+K1_R2_VUSER0     | 1.200      | Volts      | ok    | na        | 1.150     | na        | na        | 1.250     | na        [PASS]
+K1_R2_VUSER1     | 0.840      | Volts      | ok    | na        | 0.824     | na        | na        | 0.868     | na        [PASS]
+K1_R2_VUSER2     | 1.200      | Volts      | ok    | na        | 1.150     | na        | na        | 1.250     | na        [PASS]
+K1_R2_VUSER3     | 0.840      | Volts      | ok    | na        | 0.824     | na        | na        | 0.868     | na        [PASS]
+K1_VCCINT_Max    | 0.852      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_VCCBRAM_Max   | 0.852      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_VCCAUX_Max    | 1.820      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R0_VUSER0_Max | 0.844      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R0_VUSER1_Max | 0.844      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R0_VUSER2_Max | 1.820      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R0_VUSER3_Max | 1.830      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R1_VUSER0_Max | 1.210      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R1_VUSER1_Max | 0.840      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R1_VUSER2_Max | 1.210      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R1_VUSER3_Max | 0.840      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R2_VUSER0_Max | 1.210      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R2_VUSER1_Max | 0.840      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R2_VUSER2_Max | 1.210      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R2_VUSER3_Max | 0.840      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_VCCINT_Min    | 0.844      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_VCCBRAM_Min   | 0.844      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_VCCAUX_Min    | 1.810      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R0_VUSER0_Min | 0.840      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R0_VUSER1_Min | 0.840      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R0_VUSER2_Min | 1.820      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R0_VUSER3_Min | 1.820      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R1_VUSER0_Min | 1.200      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R1_VUSER1_Min | 0.836      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R1_VUSER2_Min | 1.200      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R1_VUSER3_Min | 0.836      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R2_VUSER0_Min | 1.200      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R2_VUSER1_Min | 0.836      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R2_VUSER2_Min | 1.200      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+K1_R2_VUSER3_Min | 0.836      | Volts      | ok    | na        | na        | na        | na        | na        | na        [PASS]
+
+PCIe Link of Mellanox CX5, check OK !!
+=== PCIe Link status ===
+Mellanox[01:00.0] Link = 44 ... 
+Mellanox[01:00.1] Link = 44 ... 
+Mellanox[42:00.0] Link = 44 ... 
+Mellanox[42:00.1] Link = 44 ... 
+Mellanox[81:00.0] Link = 44 ... 
+Mellanox[81:00.1] Link = 44 ... 
+Mellanox[c2:00.0] Link = 44 ... 
+Mellanox[c2:00.1] Link = 44 ... 
+=== CX5 information version ===
+Image type:            FS4
+FW Version:            16.28.2006
+FW Release Date:       15.9.2020
+Product Version:       16.28.2006
+Rom Info:              type=UEFI version=14.21.17 cpu=AMD64
+                       type=PXE version=3.6.102 cpu=AMD64
+Description:           UID                GuidsNumber
+Base GUID:             N/A                     8
+Base MAC:              N/A                     8
+Image VSD:             N/A
+Device VSD:            N/A
+PSID:                  YBD0000000001
+Security Attributes:   N/A
+
+IB Link of Mellanox CX5, check PASS !!
+===== MLX5_0 IB link state =====
+State                           : [32mActive
+[0mPhysical state                  : [32mLinkUp
+[0mSpeed                           : [32mIB-EDR
+[0mWidth                           : [32m4x
+===== MLX5_1 IB link state =====
+State                           : [32mActive
+[0mPhysical state                  : [32mLinkUp
+[0mSpeed                           : [32mIB-EDR
+[0mWidth                           : [32m4x
+===== MLX5_2 IB link state =====
+State                           : [32mActive
+[0mPhysical state                  : [32mLinkUp
+[0mSpeed                           : [32mIB-EDR
+[0mWidth                           : [32m4x
+===== MLX5_3 IB link state =====
+State                           : [32mActive
+[0mPhysical state                  : [32mLinkUp
+[0mSpeed                           : [32mIB-EDR
+[0mWidth                           : [32m4x
+===== MLX5_4 IB link state =====
+State                           : [32mActive
+[0mPhysical state                  : [32mLinkUp
+[0mSpeed                           : [32mIB-EDR
+[0mWidth                           : [32m4x
+===== MLX5_5 IB link state =====
+State                           : [32mActive
+[0mPhysical state                  : [32mLinkUp
+[0mSpeed                           : [32mIB-EDR
+[0mWidth                           : [32m4x
+===== MLX5_6 IB link state =====
+State                           : [32mActive
+[0mPhysical state                  : [32mLinkUp
+[0mSpeed                           : [32mIB-EDR
+[0mWidth                           : [32m4x
+===== MLX5_7 IB link state =====
+State                           : [32mActive
+[0mPhysical state                  : [32mLinkUp
+[0mSpeed                           : [32mIB-EDR
+[0mWidth                           : [32m4x
+
+=======================================================
+Running fpga-test on 02:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC800C90A4C5
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          1
+Slice number               :          0
+Temperature Master  Sysmon :      33.63  Cel
+Temperature Slave 0 Sysmon :      34.22  Cel
+Temperature Slave 1 Sysmon :      32.49  Cel
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on 41:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC800C90A4C5
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          1
+Slice number               :          1
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on 84:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC694D90A245
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          0
+Slice number               :          1
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on c1:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC694D90A245
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          0
+Slice number               :          0
+Temperature Master  Sysmon :      43.08  Cel
+Temperature Slave 0 Sysmon :      43.37  Cel
+Temperature Slave 1 Sysmon :      41.99  Cel
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+Front panel LED test OK !!
+
+========== Node Information ========== 
+ Chassis Type          : Main Server Chassis
+ Chassis Part Number   : M06-01213-G4_A04
+ Chassis Serial        : 516-22011400300014
+ Board Mfg Date        : Thu Dec 16 09:55:00 2021
+ Board Mfg             : AIC
+ Board Product         : ATHENA
+ Board Serial          : 84183-2149-00048
+ Board Part Number     : BMB-UPE0002A
+ Product Manufacturer  : AIC
+ Product Name          : TinmanG2
+ Product Part Number   : M06-01213-G4_A04
+ Product Version       : 01
+ Product Serial        : 516-22011400300014
+ Product Asset Tag     : 01
+
+========== Hardware Information ========== 
+********** CPU LIST ********** 
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              128
+On-line CPU(s) list: 0-127
+Thread(s) per core:  2
+Core(s) per socket:  64
+Socket(s):           1
+NUMA node(s):        4
+Vendor ID:           AuthenticAMD
+CPU family:          23
+Model:               49
+Model name:          AMD EPYC 7702P 64-Core Processor
+Stepping:            0
+CPU MHz:             1498.663
+CPU max MHz:         2000.0000
+CPU min MHz:         1500.0000
+BogoMIPS:            4000.42
+Virtualization:      AMD-V
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            512K
+L3 cache:            16384K
+NUMA node0 CPU(s):   0-15,64-79
+NUMA node1 CPU(s):   16-31,80-95
+NUMA node2 CPU(s):   32-47,96-111
+NUMA node3 CPU(s):   48-63,112-127
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr ibpb ibrs stibp arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+********** DMI Information ********** 
+# dmidecode 3.1
+Getting SMBIOS data from sysfs.
+SMBIOS 3.2.0 present.
+# SMBIOS implementations newer than version 3.1.1 are not
+# fully supported by this version of dmidecode.
+Table at 0x773C2000.
+
+Handle 0x0000, DMI type 0, 24 bytes
+BIOS Information
+	Vendor: INSYDE Corp.
+	Version: Athn_1.02.0
+	Release Date: 11/20/2020
+	Address: 0xE0000
+	Runtime Size: 128 kB
+	ROM Size: 16 MB
+	Characteristics:
+		PCI is supported
+		BIOS is upgradeable
+		BIOS shadowing is allowed
+		Boot from CD is supported
+		Selectable boot is supported
+		EDD is supported
+		Japanese floppy for NEC 9800 1.2 MB is supported (int 13h)
+		Japanese floppy for Toshiba 1.2 MB is supported (int 13h)
+		5.25"/360 kB floppy services are supported (int 13h)
+		5.25"/1.2 MB floppy services are supported (int 13h)
+		3.5"/720 kB floppy services are supported (int 13h)
+		3.5"/2.88 MB floppy services are supported (int 13h)
+		8042 keyboard services are supported (int 9h)
+		CGA/mono video services are supported (int 10h)
+		ACPI is supported
+		USB legacy is supported
+		BIOS boot specification is supported
+		Targeted content distribution is supported
+		UEFI is supported
+	BIOS Revision: 175.2
+
+Handle 0x0001, DMI type 1, 27 bytes
+System Information
+	Manufacturer: AIC
+	Product Name: TinmanG2
+	Version: 01
+	Serial Number: 516-22011400300014
+	UUID: 24D4DFD8-1DD2-1000-0387-38B8EBD23A9A
+	Wake-up Type: Power Switch
+	SKU Number: M06-01213-G4_A04
+	Family: Type1Family
+
+Handle 0x0002, DMI type 2, 15 bytes
+Base Board Information
+	Manufacturer: AIC
+	Product Name: ATHENA
+	Version: 01
+	Serial Number: 84183-2149-00048
+	Asset Tag: BMB-UPE0002A
+	Features:
+		Board is a hosting board
+		Board is replaceable
+	Location In Chassis: Type2 - Board Chassis Location
+	Chassis Handle: 0x0003
+	Type: Motherboard
+	Contained Object Handles: 0
+
+Handle 0x0003, DMI type 3, 22 bytes
+Chassis Information
+	Manufacturer: Chassis Manufacturer
+	Type: Main Server Chassis
+	Lock: Not Present
+	Version: Chassis Version
+	Serial Number: 516-22011400300014
+	Asset Tag: M06-01213-G4_A04
+	Boot-up State: Safe
+	Power Supply State: Safe
+	Thermal State: Safe
+	Security Status: None
+	OEM Information: 0x00000000
+	Height: Unspecified
+	Number Of Power Cords: 1
+	Contained Elements: 0
+	SKU Number: SKU Number
+
+Handle 0x0004, DMI type 4, 48 bytes
+Processor Information
+	Socket Designation: P0
+	Type: Central Processor
+	Family: Zen
+	Manufacturer: Advanced Micro Devices, Inc.
+	ID: 10 0F 83 00 FF FB 8B 17
+	Signature: Family 23, Model 49, Stepping 0
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		HTT (Multi-threading)
+	Version: AMD EPYC 7702P 64-Core Processor               
+	Voltage: 1.1 V
+	External Clock: 100 MHz
+	Max Speed: 3350 MHz
+	Current Speed: 2000 MHz
+	Status: Populated, Enabled
+	Upgrade: Socket SP3
+	L1 Cache Handle: 0x0005
+	L2 Cache Handle: 0x0006
+	L3 Cache Handle: 0x0007
+	Serial Number: Unknown
+	Asset Tag: Unknown
+	Part Number: Unknown
+	Core Count: 64
+	Core Enabled: 64
+	Thread Count: 128
+	Characteristics:
+		64-bit capable
+		Multi-Core
+		Hardware Thread
+		Execute Protection
+		Enhanced Virtualization
+		Power/Performance Control
+
+Handle 0x0005, DMI type 7, 27 bytes
+Cache Information
+	Socket Designation: L1 - Cache
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 4096 kB
+	Maximum Size: 4096 kB
+	Supported SRAM Types:
+		Pipeline Burst
+	Installed SRAM Type: Pipeline Burst
+	Speed: 1 ns
+	Error Correction Type: Multi-bit ECC
+	System Type: Unified
+	Associativity: 8-way Set-associative
+
+Handle 0x0006, DMI type 7, 27 bytes
+Cache Information
+	Socket Designation: L2 - Cache
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 32768 kB
+	Maximum Size: 32768 kB
+	Supported SRAM Types:
+		Pipeline Burst
+	Installed SRAM Type: Pipeline Burst
+	Speed: 1 ns
+	Error Correction Type: Multi-bit ECC
+	System Type: Unified
+	Associativity: 8-way Set-associative
+
+Handle 0x0007, DMI type 7, 27 bytes
+Cache Information
+	Socket Designation: L3 - Cache
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 262144 kB
+	Maximum Size: 262144 kB
+	Supported SRAM Types:
+		Pipeline Burst
+	Installed SRAM Type: Pipeline Burst
+	Speed: 1 ns
+	Error Correction Type: Multi-bit ECC
+	System Type: Unified
+	Associativity: 16-way Set-associative
+
+Handle 0x0008, DMI type 11, 5 bytes
+OEM Strings
+	String 1: OemString1
+	String 2: OemString2
+	String 3: OemString3
+
+Handle 0x0009, DMI type 15, 29 bytes
+System Event Log
+	Area Length: 0 bytes
+	Header Start Offset: 0x0000
+	Header Length: 8192 bytes
+	Data Start Offset: 0x2000
+	Access Method: General-purpose non-volatile data functions
+	Access Address: 0x0000
+	Status: Valid, Not Full
+	Change Token: 0x12345678
+	Header Format: OEM-specific
+	Supported Log Type Descriptors: 3
+	Descriptor 1: POST memory resize
+	Data Format 1: None
+	Descriptor 2: POST error
+	Data Format 2: POST results bitmap
+	Descriptor 3: Log area reset/cleared
+	Data Format 3: None
+
+Handle 0x000A, DMI type 16, 23 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: Multi-bit ECC
+	Maximum Capacity: 128 GB
+	Error Information Handle: 0x0013
+	Number Of Devices: 8
+
+Handle 0x000B, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x000A
+	Error Information Handle: 0x0014
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 64 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL A
+	Type: DDR4
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 03D0B06E
+	Asset Tag: Not Specified
+	Part Number: M393A8G40AB2-CWE    
+	Rank: 2
+	Configured Clock Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+
+Handle 0x000C, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x000A
+	Error Information Handle: 0x0015
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 64 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL B
+	Type: DDR4
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 03E3F97C
+	Asset Tag: Not Specified
+	Part Number: M393A8G40AB2-CWE    
+	Rank: 2
+	Configured Clock Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+
+Handle 0x000D, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x000A
+	Error Information Handle: 0x0016
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 64 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL C
+	Type: DDR4
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 03D0AF82
+	Asset Tag: Not Specified
+	Part Number: M393A8G40AB2-CWE    
+	Rank: 2
+	Configured Clock Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+
+Handle 0x000E, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x000A
+	Error Information Handle: 0x0017
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 64 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL D
+	Type: DDR4
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 2393BE10
+	Asset Tag: Not Specified
+	Part Number: M393A8G40AB2-CWE    
+	Rank: 2
+	Configured Clock Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+
+Handle 0x000F, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x000A
+	Error Information Handle: 0x0018
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 64 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL E
+	Type: DDR4
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 03E3F7E7
+	Asset Tag: Not Specified
+	Part Number: M393A8G40AB2-CWE    
+	Rank: 2
+	Configured Clock Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+
+Handle 0x0010, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x000A
+	Error Information Handle: 0x0019
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 64 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL F
+	Type: DDR4
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 03B6BEA5
+	Asset Tag: Not Specified
+	Part Number: M393A8G40AB2-CWE    
+	Rank: 2
+	Configured Clock Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+
+Handle 0x0011, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x000A
+	Error Information Handle: 0x001A
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 64 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL G
+	Type: DDR4
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 23926AE4
+	Asset Tag: Not Specified
+	Part Number: M393A8G40AB2-CWE    
+	Rank: 2
+	Configured Clock Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+
+Handle 0x0012, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x000A
+	Error Information Handle: 0x001B
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 64 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL H
+	Type: DDR4
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 03B6BF1C
+	Asset Tag: Not Specified
+	Part Number: M393A8G40AB2-CWE    
+	Rank: 2
+	Configured Clock Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+
+Handle 0x0013, DMI type 18, 23 bytes
+32-bit Memory Error Information
+	Type: OK
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x0014, DMI type 18, 23 bytes
+32-bit Memory Error Information
+	Type: OK
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x0015, DMI type 18, 23 bytes
+32-bit Memory Error Information
+	Type: OK
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x0016, DMI type 18, 23 bytes
+32-bit Memory Error Information
+	Type: OK
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x0017, DMI type 18, 23 bytes
+32-bit Memory Error Information
+	Type: OK
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x0018, DMI type 18, 23 bytes
+32-bit Memory Error Information
+	Type: OK
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x0019, DMI type 18, 23 bytes
+32-bit Memory Error Information
+	Type: OK
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x001A, DMI type 18, 23 bytes
+32-bit Memory Error Information
+	Type: OK
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x001B, DMI type 18, 23 bytes
+32-bit Memory Error Information
+	Type: OK
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x001C, DMI type 19, 31 bytes
+Memory Array Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x0007FFFFFFF
+	Range Size: 2 GB
+	Physical Array Handle: 0x000A
+	Partition Width: 8
+
+Handle 0x001D, DMI type 19, 31 bytes
+Memory Array Mapped Address
+	Starting Address: 0x00100000000
+	Ending Address: 0x0807FFFFFFF
+	Range Size: 510 GB
+	Physical Array Handle: 0x000A
+	Partition Width: 8
+
+Handle 0x001E, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x00FFFFFFFFF
+	Range Size: 64 GB
+	Physical Device Handle: 0x000B
+	Memory Array Mapped Address Handle: 0x001D
+	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
+
+Handle 0x001F, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x01000000000
+	Ending Address: 0x01FFFFFFFFF
+	Range Size: 64 GB
+	Physical Device Handle: 0x000C
+	Memory Array Mapped Address Handle: 0x001D
+	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
+
+Handle 0x0020, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x03000000000
+	Ending Address: 0x03FFFFFFFFF
+	Range Size: 64 GB
+	Physical Device Handle: 0x000D
+	Memory Array Mapped Address Handle: 0x001D
+	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
+
+Handle 0x0021, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x02000000000
+	Ending Address: 0x02FFFFFFFFF
+	Range Size: 64 GB
+	Physical Device Handle: 0x000E
+	Memory Array Mapped Address Handle: 0x001D
+	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
+
+Handle 0x0022, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x06000000000
+	Ending Address: 0x06FFFFFFFFF
+	Range Size: 64 GB
+	Physical Device Handle: 0x000F
+	Memory Array Mapped Address Handle: 0x001D
+	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
+
+Handle 0x0023, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x07000000000
+	Ending Address: 0x07FFFFFFFFF
+	Range Size: 64 GB
+	Physical Device Handle: 0x0010
+	Memory Array Mapped Address Handle: 0x001D
+	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
+
+Handle 0x0024, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x05000000000
+	Ending Address: 0x05FFFFFFFFF
+	Range Size: 64 GB
+	Physical Device Handle: 0x0011
+	Memory Array Mapped Address Handle: 0x001D
+	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
+
+Handle 0x0025, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x04000000000
+	Ending Address: 0x04FFFFFFFFF
+	Range Size: 64 GB
+	Physical Device Handle: 0x0012
+	Memory Array Mapped Address Handle: 0x001D
+	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
+
+Handle 0x0026, DMI type 38, 18 bytes
+IPMI Device Information
+	Interface Type: KCS (Keyboard Control Style)
+	Specification Version: 2.0
+	I2C Slave Address: 0x10
+	NV Storage Device: Not Present
+	Base Address: 0x0000000000000CA2 (I/O)
+	Register Spacing: Successive Byte Boundaries
+
+Handle 0x0027, DMI type 43, 31 bytes
+TPM Device
+	Vendor ID: 
+	Specification Version: 0.0	Description: TPM Device	Characteristics:
+	OEM-specific Information: 0x00000000
+
+Handle 0xFEFF, DMI type 127, 4 bytes
+End Of Table
+
+********** PCI LIST ********** 
+00:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1480
+00:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+00:01.3 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1483
+00:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+00:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+00:03.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1483
+00:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+00:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+00:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+00:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1484
+00:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+00:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1484
+00:14.0 SMBus: Advanced Micro Devices, Inc. [AMD] FCH SMBus Controller (rev 61)
+00:14.3 ISA bridge: Advanced Micro Devices, Inc. [AMD] FCH LPC Bridge (rev 51)
+00:18.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1490
+00:18.1 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1491
+00:18.2 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1492
+00:18.3 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1493
+00:18.4 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1494
+00:18.5 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1495
+00:18.6 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1496
+00:18.7 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1497
+01:00.0 Infiniband controller: Mellanox Technologies MT27800 Family [ConnectX-5]
+01:00.1 Infiniband controller: Mellanox Technologies MT27800 Family [ConnectX-5]
+02:00.0 Mass storage controller: Xilinx Corporation Device 9038
+03:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Device 148a
+03:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Device 1498
+04:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Device 1485
+04:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Device 1498
+04:00.3 USB controller: Advanced Micro Devices, Inc. [AMD] Device 148c
+40:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1480
+40:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+40:01.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1483
+40:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+40:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+40:03.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1483
+40:03.4 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1483
+40:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+40:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+40:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+40:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1484
+40:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+40:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1484
+40:08.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1484
+40:08.3 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1484
+41:00.0 Mass storage controller: Xilinx Corporation Device 9038
+42:00.0 Infiniband controller: Mellanox Technologies MT27800 Family [ConnectX-5]
+42:00.1 Infiniband controller: Mellanox Technologies MT27800 Family [ConnectX-5]
+43:00.0 Ethernet controller: Intel Corporation I210 Gigabit Backplane Connection (rev 03)
+44:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Device 148a
+44:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Device 1498
+45:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Device 1485
+45:00.1 Encryption controller: Advanced Micro Devices, Inc. [AMD] Device 1486
+45:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Device 1498
+45:00.3 USB controller: Advanced Micro Devices, Inc. [AMD] Device 148c
+45:00.4 Audio device: Advanced Micro Devices, Inc. [AMD] Device 1487
+46:00.0 SATA controller: Advanced Micro Devices, Inc. [AMD] FCH SATA Controller [AHCI mode] (rev 51)
+47:00.0 SATA controller: Advanced Micro Devices, Inc. [AMD] FCH SATA Controller [AHCI mode] (rev 51)
+80:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1480
+80:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+80:01.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1483
+80:01.4 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1483
+80:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+80:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+80:03.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1483
+80:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+80:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+80:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+80:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1484
+80:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+80:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1484
+80:08.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1484
+80:08.3 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1484
+81:00.0 Infiniband controller: Mellanox Technologies MT27800 Family [ConnectX-5]
+81:00.1 Infiniband controller: Mellanox Technologies MT27800 Family [ConnectX-5]
+82:00.0 PCI bridge: ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge (rev 04)
+83:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 41)
+84:00.0 Mass storage controller: Xilinx Corporation Device 9038
+85:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Device 148a
+85:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Device 1498
+86:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Device 1485
+86:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Device 1498
+87:00.0 SATA controller: Advanced Micro Devices, Inc. [AMD] FCH SATA Controller [AHCI mode] (rev 51)
+88:00.0 SATA controller: Advanced Micro Devices, Inc. [AMD] FCH SATA Controller [AHCI mode] (rev 51)
+c0:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1480
+c0:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+c0:01.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1483
+c0:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+c0:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+c0:03.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1483
+c0:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+c0:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+c0:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+c0:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1484
+c0:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 1482
+c0:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 1484
+c1:00.0 Mass storage controller: Xilinx Corporation Device 9038
+c2:00.0 Infiniband controller: Mellanox Technologies MT27800 Family [ConnectX-5]
+c2:00.1 Infiniband controller: Mellanox Technologies MT27800 Family [ConnectX-5]
+c3:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Device 148a
+c3:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Device 1498
+c4:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Device 1485
+c4:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Device 1498
+

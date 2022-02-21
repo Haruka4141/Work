@@ -1,0 +1,1782 @@
+      _____ _                              ____ ____       
+     |_   _(_)_ __  _ __ ___   __ _ _ __  / ___|___ \      
+       | | | | '_ \| '_ ` _ \ / _` | '_ \| |  _  __) |    
+       | | | | | | | | | | | | (_| | | | | |_| |/ __/      
+       |_| |_|_| |_|_| |_| |_|\__,_|_| |_|\____|_____|     
+ ____                        ___         _____         _   
+| __ ) _   _ _ __ _ __      |_ _|_ __   |_   _|__  ___| |_ 
+|  _ \| | | | '__| '_ \ _____| || '_ \    | |/ _ \/ __| __|
+| |_) | |_| | |  | | | |_____| || | | |   | |  __/\__ \ |_ 
+|____/ \__,_|_|  |_| |_|    |___|_| |_|   |_|\___||___/\__|
+
+==============================================
+=            Burn-In Test Cycle 1            =
+==============================================
+Test start time: 2022-01-27_11:09:34
+*****************************
+* ib_write_bw test          *
+*****************************
+***************************
+*      KSB test cycle1    *
+***************************
+===== KSB Memory test PASS =====
+
+=======================================================
+Running fpga-test on 02:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC800C90A4C5
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          1
+Slice number               :          0
+Temperature Master  Sysmon :      36.16  Cel
+Temperature Slave 0 Sysmon :      36.25  Cel
+Temperature Slave 1 Sysmon :      34.74  Cel
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on 41:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC800C90A4C5
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          1
+Slice number               :          1
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on 84:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC694D90A245
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          0
+Slice number               :          1
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on c1:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC694D90A245
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          0
+Slice number               :          0
+Temperature Master  Sysmon :      36.31  Cel
+Temperature Slave 0 Sysmon :      36.25  Cel
+Temperature Slave 1 Sysmon :      35.44  Cel
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+*****************************
+*  CPU/Memory Stress cycle1 *
+*****************************
+============================
+=        Stress Log        =
+============================
+2022/01/27-11:27:01(GMT) Log: Commandline - ./stressapptest -m 32 -C 32 -l /root/TinmanBI/STRESS.log -s 2400
+2022/01/27-11:27:01(GMT) Stats: SAT revision 1.0.7_autoconf, 64 bit binary
+2022/01/27-11:27:01(GMT) Log: root @ localhost.localdomain on Tue Sep 19 03:28:47 CST 2017 from open source release
+2022/01/27-11:27:01(GMT) Log: 1 nodes, 128 cpus.
+2022/01/27-11:27:01(GMT) Log: Total 515817 MB. Free 510083 MB. Hugepages 0 MB. Targeting 489834 MB (94%)
+2022/01/27-11:27:01(GMT) Log: Prefer plain malloc memory allocation.
+2022/01/27-11:27:01(GMT) Log: Using mmap() allocation at 0x7ed9ee8a4000.
+2022/01/27-11:27:01(GMT) Stats: Starting SAT, 489834M, 2400 seconds
+2022/01/27-11:27:36(GMT) Log: Region mask: 0x1
+2022/01/27-11:27:46(GMT) Log: Seconds remaining: 2390
+2022/01/27-11:27:56(GMT) Log: Seconds remaining: 2380
+2022/01/27-11:28:06(GMT) Log: Seconds remaining: 2370
+2022/01/27-11:28:16(GMT) Log: Seconds remaining: 2360
+2022/01/27-11:28:26(GMT) Log: Seconds remaining: 2350
+2022/01/27-11:28:36(GMT) Log: Seconds remaining: 2340
+2022/01/27-11:28:46(GMT) Log: Seconds remaining: 2330
+2022/01/27-11:28:56(GMT) Log: Seconds remaining: 2320
+2022/01/27-11:29:06(GMT) Log: Seconds remaining: 2310
+2022/01/27-11:29:16(GMT) Log: Seconds remaining: 2300
+2022/01/27-11:29:26(GMT) Log: Seconds remaining: 2290
+2022/01/27-11:29:36(GMT) Log: Seconds remaining: 2280
+2022/01/27-11:29:46(GMT) Log: Seconds remaining: 2270
+2022/01/27-11:29:56(GMT) Log: Seconds remaining: 2260
+2022/01/27-11:30:06(GMT) Log: Seconds remaining: 2250
+2022/01/27-11:30:16(GMT) Log: Seconds remaining: 2240
+2022/01/27-11:30:26(GMT) Log: Seconds remaining: 2230
+2022/01/27-11:30:36(GMT) Log: Seconds remaining: 2220
+2022/01/27-11:30:46(GMT) Log: Seconds remaining: 2210
+2022/01/27-11:30:56(GMT) Log: Seconds remaining: 2200
+2022/01/27-11:31:06(GMT) Log: Seconds remaining: 2190
+2022/01/27-11:31:16(GMT) Log: Seconds remaining: 2180
+2022/01/27-11:31:26(GMT) Log: Seconds remaining: 2170
+2022/01/27-11:31:36(GMT) Log: Seconds remaining: 2160
+2022/01/27-11:31:46(GMT) Log: Seconds remaining: 2150
+2022/01/27-11:31:56(GMT) Log: Seconds remaining: 2140
+2022/01/27-11:32:06(GMT) Log: Seconds remaining: 2130
+2022/01/27-11:32:16(GMT) Log: Seconds remaining: 2120
+2022/01/27-11:32:26(GMT) Log: Seconds remaining: 2110
+2022/01/27-11:32:36(GMT) Log: Seconds remaining: 2100
+2022/01/27-11:32:46(GMT) Log: Seconds remaining: 2090
+2022/01/27-11:32:56(GMT) Log: Seconds remaining: 2080
+2022/01/27-11:33:06(GMT) Log: Seconds remaining: 2070
+2022/01/27-11:33:16(GMT) Log: Seconds remaining: 2060
+2022/01/27-11:33:26(GMT) Log: Seconds remaining: 2050
+2022/01/27-11:33:36(GMT) Log: Seconds remaining: 2040
+2022/01/27-11:33:46(GMT) Log: Seconds remaining: 2030
+2022/01/27-11:33:56(GMT) Log: Seconds remaining: 2020
+2022/01/27-11:34:06(GMT) Log: Seconds remaining: 2010
+2022/01/27-11:34:16(GMT) Log: Seconds remaining: 2000
+2022/01/27-11:34:26(GMT) Log: Seconds remaining: 1990
+2022/01/27-11:34:36(GMT) Log: Seconds remaining: 1980
+2022/01/27-11:34:46(GMT) Log: Seconds remaining: 1970
+2022/01/27-11:34:56(GMT) Log: Seconds remaining: 1960
+2022/01/27-11:35:06(GMT) Log: Seconds remaining: 1950
+2022/01/27-11:35:16(GMT) Log: Seconds remaining: 1940
+2022/01/27-11:35:26(GMT) Log: Seconds remaining: 1930
+2022/01/27-11:35:36(GMT) Log: Seconds remaining: 1920
+2022/01/27-11:35:46(GMT) Log: Seconds remaining: 1910
+2022/01/27-11:35:56(GMT) Log: Seconds remaining: 1900
+2022/01/27-11:36:06(GMT) Log: Seconds remaining: 1890
+2022/01/27-11:36:16(GMT) Log: Seconds remaining: 1880
+2022/01/27-11:36:26(GMT) Log: Seconds remaining: 1870
+2022/01/27-11:36:36(GMT) Log: Seconds remaining: 1860
+2022/01/27-11:36:46(GMT) Log: Seconds remaining: 1850
+2022/01/27-11:36:56(GMT) Log: Seconds remaining: 1840
+2022/01/27-11:37:06(GMT) Log: Seconds remaining: 1830
+2022/01/27-11:37:16(GMT) Log: Seconds remaining: 1820
+2022/01/27-11:37:26(GMT) Log: Seconds remaining: 1810
+2022/01/27-11:37:36(GMT) Log: Seconds remaining: 1800
+2022/01/27-11:37:36(GMT) Log: Pausing worker threads in preparation for power spike (1800 seconds remaining)
+2022/01/27-11:37:46(GMT) Log: Seconds remaining: 1790
+2022/01/27-11:37:51(GMT) Log: Resuming worker threads to cause a power spike (1785 seconds remaining)
+2022/01/27-11:37:56(GMT) Log: Seconds remaining: 1780
+2022/01/27-11:38:06(GMT) Log: Seconds remaining: 1770
+2022/01/27-11:38:16(GMT) Log: Seconds remaining: 1760
+2022/01/27-11:38:26(GMT) Log: Seconds remaining: 1750
+2022/01/27-11:38:36(GMT) Log: Seconds remaining: 1740
+2022/01/27-11:38:46(GMT) Log: Seconds remaining: 1730
+2022/01/27-11:38:56(GMT) Log: Seconds remaining: 1720
+2022/01/27-11:39:06(GMT) Log: Seconds remaining: 1710
+2022/01/27-11:39:16(GMT) Log: Seconds remaining: 1700
+2022/01/27-11:39:26(GMT) Log: Seconds remaining: 1690
+2022/01/27-11:39:36(GMT) Log: Seconds remaining: 1680
+2022/01/27-11:39:46(GMT) Log: Seconds remaining: 1670
+2022/01/27-11:39:56(GMT) Log: Seconds remaining: 1660
+2022/01/27-11:40:06(GMT) Log: Seconds remaining: 1650
+2022/01/27-11:40:16(GMT) Log: Seconds remaining: 1640
+2022/01/27-11:40:26(GMT) Log: Seconds remaining: 1630
+2022/01/27-11:40:36(GMT) Log: Seconds remaining: 1620
+2022/01/27-11:40:46(GMT) Log: Seconds remaining: 1610
+2022/01/27-11:40:56(GMT) Log: Seconds remaining: 1600
+2022/01/27-11:41:06(GMT) Log: Seconds remaining: 1590
+2022/01/27-11:41:16(GMT) Log: Seconds remaining: 1580
+2022/01/27-11:41:26(GMT) Log: Seconds remaining: 1570
+2022/01/27-11:41:36(GMT) Log: Seconds remaining: 1560
+2022/01/27-11:41:46(GMT) Log: Seconds remaining: 1550
+2022/01/27-11:41:56(GMT) Log: Seconds remaining: 1540
+2022/01/27-11:42:06(GMT) Log: Seconds remaining: 1530
+2022/01/27-11:42:16(GMT) Log: Seconds remaining: 1520
+2022/01/27-11:42:26(GMT) Log: Seconds remaining: 1510
+2022/01/27-11:42:36(GMT) Log: Seconds remaining: 1500
+2022/01/27-11:42:46(GMT) Log: Seconds remaining: 1490
+2022/01/27-11:42:56(GMT) Log: Seconds remaining: 1480
+2022/01/27-11:43:06(GMT) Log: Seconds remaining: 1470
+2022/01/27-11:43:16(GMT) Log: Seconds remaining: 1460
+2022/01/27-11:43:26(GMT) Log: Seconds remaining: 1450
+2022/01/27-11:43:36(GMT) Log: Seconds remaining: 1440
+2022/01/27-11:43:46(GMT) Log: Seconds remaining: 1430
+2022/01/27-11:43:56(GMT) Log: Seconds remaining: 1420
+2022/01/27-11:44:06(GMT) Log: Seconds remaining: 1410
+2022/01/27-11:44:16(GMT) Log: Seconds remaining: 1400
+2022/01/27-11:44:26(GMT) Log: Seconds remaining: 1390
+2022/01/27-11:44:36(GMT) Log: Seconds remaining: 1380
+2022/01/27-11:44:46(GMT) Log: Seconds remaining: 1370
+2022/01/27-11:44:56(GMT) Log: Seconds remaining: 1360
+2022/01/27-11:45:06(GMT) Log: Seconds remaining: 1350
+2022/01/27-11:45:16(GMT) Log: Seconds remaining: 1340
+2022/01/27-11:45:26(GMT) Log: Seconds remaining: 1330
+2022/01/27-11:45:36(GMT) Log: Seconds remaining: 1320
+2022/01/27-11:45:46(GMT) Log: Seconds remaining: 1310
+2022/01/27-11:45:56(GMT) Log: Seconds remaining: 1300
+2022/01/27-11:46:06(GMT) Log: Seconds remaining: 1290
+2022/01/27-11:46:16(GMT) Log: Seconds remaining: 1280
+2022/01/27-11:46:26(GMT) Log: Seconds remaining: 1270
+2022/01/27-11:46:36(GMT) Log: Seconds remaining: 1260
+2022/01/27-11:46:46(GMT) Log: Seconds remaining: 1250
+2022/01/27-11:46:56(GMT) Log: Seconds remaining: 1240
+2022/01/27-11:47:06(GMT) Log: Seconds remaining: 1230
+2022/01/27-11:47:16(GMT) Log: Seconds remaining: 1220
+2022/01/27-11:47:26(GMT) Log: Seconds remaining: 1210
+2022/01/27-11:47:36(GMT) Log: Seconds remaining: 1200
+2022/01/27-11:47:36(GMT) Log: Pausing worker threads in preparation for power spike (1200 seconds remaining)
+2022/01/27-11:47:46(GMT) Log: Seconds remaining: 1190
+2022/01/27-11:47:51(GMT) Log: Resuming worker threads to cause a power spike (1185 seconds remaining)
+2022/01/27-11:47:56(GMT) Log: Seconds remaining: 1180
+2022/01/27-11:48:06(GMT) Log: Seconds remaining: 1170
+2022/01/27-11:48:16(GMT) Log: Seconds remaining: 1160
+2022/01/27-11:48:26(GMT) Log: Seconds remaining: 1150
+2022/01/27-11:48:36(GMT) Log: Seconds remaining: 1140
+2022/01/27-11:48:46(GMT) Log: Seconds remaining: 1130
+2022/01/27-11:48:56(GMT) Log: Seconds remaining: 1120
+2022/01/27-11:49:06(GMT) Log: Seconds remaining: 1110
+2022/01/27-11:49:16(GMT) Log: Seconds remaining: 1100
+2022/01/27-11:49:26(GMT) Log: Seconds remaining: 1090
+2022/01/27-11:49:36(GMT) Log: Seconds remaining: 1080
+2022/01/27-11:49:46(GMT) Log: Seconds remaining: 1070
+2022/01/27-11:49:56(GMT) Log: Seconds remaining: 1060
+2022/01/27-11:50:06(GMT) Log: Seconds remaining: 1050
+2022/01/27-11:50:16(GMT) Log: Seconds remaining: 1040
+2022/01/27-11:50:26(GMT) Log: Seconds remaining: 1030
+2022/01/27-11:50:36(GMT) Log: Seconds remaining: 1020
+2022/01/27-11:50:46(GMT) Log: Seconds remaining: 1010
+2022/01/27-11:50:56(GMT) Log: Seconds remaining: 1000
+2022/01/27-11:51:06(GMT) Log: Seconds remaining: 990
+2022/01/27-11:51:16(GMT) Log: Seconds remaining: 980
+2022/01/27-11:51:26(GMT) Log: Seconds remaining: 970
+2022/01/27-11:51:36(GMT) Log: Seconds remaining: 960
+2022/01/27-11:51:46(GMT) Log: Seconds remaining: 950
+2022/01/27-11:51:56(GMT) Log: Seconds remaining: 940
+2022/01/27-11:52:06(GMT) Log: Seconds remaining: 930
+2022/01/27-11:52:16(GMT) Log: Seconds remaining: 920
+2022/01/27-11:52:26(GMT) Log: Seconds remaining: 910
+2022/01/27-11:52:36(GMT) Log: Seconds remaining: 900
+2022/01/27-11:52:46(GMT) Log: Seconds remaining: 890
+2022/01/27-11:52:56(GMT) Log: Seconds remaining: 880
+2022/01/27-11:53:06(GMT) Log: Seconds remaining: 870
+2022/01/27-11:53:16(GMT) Log: Seconds remaining: 860
+2022/01/27-11:53:26(GMT) Log: Seconds remaining: 850
+2022/01/27-11:53:36(GMT) Log: Seconds remaining: 840
+2022/01/27-11:53:46(GMT) Log: Seconds remaining: 830
+2022/01/27-11:53:56(GMT) Log: Seconds remaining: 820
+2022/01/27-11:54:06(GMT) Log: Seconds remaining: 810
+2022/01/27-11:54:16(GMT) Log: Seconds remaining: 800
+2022/01/27-11:54:26(GMT) Log: Seconds remaining: 790
+2022/01/27-11:54:36(GMT) Log: Seconds remaining: 780
+2022/01/27-11:54:46(GMT) Log: Seconds remaining: 770
+2022/01/27-11:54:56(GMT) Log: Seconds remaining: 760
+2022/01/27-11:55:06(GMT) Log: Seconds remaining: 750
+2022/01/27-11:55:16(GMT) Log: Seconds remaining: 740
+2022/01/27-11:55:26(GMT) Log: Seconds remaining: 730
+2022/01/27-11:55:36(GMT) Log: Seconds remaining: 720
+2022/01/27-11:55:46(GMT) Log: Seconds remaining: 710
+2022/01/27-11:55:56(GMT) Log: Seconds remaining: 700
+2022/01/27-11:56:06(GMT) Log: Seconds remaining: 690
+2022/01/27-11:56:16(GMT) Log: Seconds remaining: 680
+2022/01/27-11:56:26(GMT) Log: Seconds remaining: 670
+2022/01/27-11:56:36(GMT) Log: Seconds remaining: 660
+2022/01/27-11:56:46(GMT) Log: Seconds remaining: 650
+2022/01/27-11:56:56(GMT) Log: Seconds remaining: 640
+2022/01/27-11:57:06(GMT) Log: Seconds remaining: 630
+2022/01/27-11:57:16(GMT) Log: Seconds remaining: 620
+2022/01/27-11:57:26(GMT) Log: Seconds remaining: 610
+2022/01/27-11:57:36(GMT) Log: Seconds remaining: 600
+2022/01/27-11:57:36(GMT) Log: Pausing worker threads in preparation for power spike (600 seconds remaining)
+2022/01/27-11:57:46(GMT) Log: Seconds remaining: 590
+2022/01/27-11:57:51(GMT) Log: Resuming worker threads to cause a power spike (585 seconds remaining)
+2022/01/27-11:57:56(GMT) Log: Seconds remaining: 580
+2022/01/27-11:58:06(GMT) Log: Seconds remaining: 570
+2022/01/27-11:58:16(GMT) Log: Seconds remaining: 560
+2022/01/27-11:58:26(GMT) Log: Seconds remaining: 550
+2022/01/27-11:58:36(GMT) Log: Seconds remaining: 540
+2022/01/27-11:58:46(GMT) Log: Seconds remaining: 530
+2022/01/27-11:58:56(GMT) Log: Seconds remaining: 520
+2022/01/27-11:59:06(GMT) Log: Seconds remaining: 510
+2022/01/27-11:59:16(GMT) Log: Seconds remaining: 500
+2022/01/27-11:59:26(GMT) Log: Seconds remaining: 490
+2022/01/27-11:59:36(GMT) Log: Seconds remaining: 480
+2022/01/27-11:59:46(GMT) Log: Seconds remaining: 470
+2022/01/27-11:59:56(GMT) Log: Seconds remaining: 460
+2022/01/27-12:00:06(GMT) Log: Seconds remaining: 450
+2022/01/27-12:00:16(GMT) Log: Seconds remaining: 440
+2022/01/27-12:00:26(GMT) Log: Seconds remaining: 430
+2022/01/27-12:00:36(GMT) Log: Seconds remaining: 420
+2022/01/27-12:00:46(GMT) Log: Seconds remaining: 410
+2022/01/27-12:00:56(GMT) Log: Seconds remaining: 400
+2022/01/27-12:01:06(GMT) Log: Seconds remaining: 390
+2022/01/27-12:01:16(GMT) Log: Seconds remaining: 380
+2022/01/27-12:01:26(GMT) Log: Seconds remaining: 370
+2022/01/27-12:01:36(GMT) Log: Seconds remaining: 360
+2022/01/27-12:01:46(GMT) Log: Seconds remaining: 350
+2022/01/27-12:01:56(GMT) Log: Seconds remaining: 340
+2022/01/27-12:02:06(GMT) Log: Seconds remaining: 330
+2022/01/27-12:02:16(GMT) Log: Seconds remaining: 320
+2022/01/27-12:02:26(GMT) Log: Seconds remaining: 310
+2022/01/27-12:02:36(GMT) Log: Seconds remaining: 300
+2022/01/27-12:02:46(GMT) Log: Seconds remaining: 290
+2022/01/27-12:02:56(GMT) Log: Seconds remaining: 280
+2022/01/27-12:03:06(GMT) Log: Seconds remaining: 270
+2022/01/27-12:03:16(GMT) Log: Seconds remaining: 260
+2022/01/27-12:03:26(GMT) Log: Seconds remaining: 250
+2022/01/27-12:03:36(GMT) Log: Seconds remaining: 240
+2022/01/27-12:03:46(GMT) Log: Seconds remaining: 230
+2022/01/27-12:03:56(GMT) Log: Seconds remaining: 220
+2022/01/27-12:04:06(GMT) Log: Seconds remaining: 210
+2022/01/27-12:04:16(GMT) Log: Seconds remaining: 200
+2022/01/27-12:04:26(GMT) Log: Seconds remaining: 190
+2022/01/27-12:04:36(GMT) Log: Seconds remaining: 180
+2022/01/27-12:04:46(GMT) Log: Seconds remaining: 170
+2022/01/27-12:04:56(GMT) Log: Seconds remaining: 160
+2022/01/27-12:05:06(GMT) Log: Seconds remaining: 150
+2022/01/27-12:05:16(GMT) Log: Seconds remaining: 140
+2022/01/27-12:05:26(GMT) Log: Seconds remaining: 130
+2022/01/27-12:05:36(GMT) Log: Seconds remaining: 120
+2022/01/27-12:05:46(GMT) Log: Seconds remaining: 110
+2022/01/27-12:05:56(GMT) Log: Seconds remaining: 100
+2022/01/27-12:06:06(GMT) Log: Seconds remaining: 90
+2022/01/27-12:06:16(GMT) Log: Seconds remaining: 80
+2022/01/27-12:06:26(GMT) Log: Seconds remaining: 70
+2022/01/27-12:06:36(GMT) Log: Seconds remaining: 60
+2022/01/27-12:06:46(GMT) Log: Seconds remaining: 50
+2022/01/27-12:06:56(GMT) Log: Seconds remaining: 40
+2022/01/27-12:07:06(GMT) Log: Seconds remaining: 30
+2022/01/27-12:07:16(GMT) Log: Seconds remaining: 20
+2022/01/27-12:07:26(GMT) Log: Seconds remaining: 10
+2022/01/27-12:07:43(GMT) Stats: Found 0 hardware incidents
+2022/01/27-12:07:43(GMT) Stats: Completed: 195637936.00M in 2400.78s 81489.34MB/s, with 0 hardware incidents, 0 errors
+2022/01/27-12:07:43(GMT) Stats: Memory Copy: 195637936.00M at 81513.34MB/s
+2022/01/27-12:07:43(GMT) Stats: File Copy: 0.00M at 0.00MB/s
+2022/01/27-12:07:43(GMT) Stats: Net Copy: 0.00M at 0.00MB/s
+2022/01/27-12:07:43(GMT) Stats: Data Check: 0.00M at 0.00MB/s
+2022/01/27-12:07:43(GMT) Stats: Invert Data: 0.00M at 0.00MB/s
+2022/01/27-12:07:43(GMT) Stats: Disk: 0.00M at 0.00MB/s
+2022/01/27-12:07:43(GMT) 
+2022/01/27-12:07:43(GMT) Status: PASS - please verify no corrected errors
+2022/01/27-12:07:43(GMT) 
+
+============================
+=          DMESG           =
+============================
+[ 1779.829150] perf: interrupt took too long (2515 > 2500), lowering kernel.perf_event_max_sample_rate to 79500
+[ 1904.923331] perf: interrupt took too long (3182 > 3143), lowering kernel.perf_event_max_sample_rate to 62750
+[ 2064.764231] perf: interrupt took too long (3984 > 3977), lowering kernel.perf_event_max_sample_rate to 50000
+[ 2472.648617] perf: interrupt took too long (5020 > 4980), lowering kernel.perf_event_max_sample_rate to 39750
+[ 3469.074396] perf: interrupt took too long (6303 > 6275), lowering kernel.perf_event_max_sample_rate to 31500
+
+============================
+=          BMC SEL         =
+============================
+=== No SEL logged ===
+
+
+==============================================
+=            Burn-In Test Cycle 2            =
+==============================================
+Test start time: 2022-01-27_12:08:10
+***************************
+*      KSB test cycle2    *
+***************************
+===== KSB Memory test PASS =====
+
+=======================================================
+Running fpga-test on 02:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC800C90A4C5
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          1
+Slice number               :          0
+Temperature Master  Sysmon :      35.37  Cel
+Temperature Slave 0 Sysmon :      35.53  Cel
+Temperature Slave 1 Sysmon :      34.18  Cel
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on 41:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC800C90A4C5
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          1
+Slice number               :          1
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on 84:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC694D90A245
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          0
+Slice number               :          1
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on c1:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC694D90A245
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          0
+Slice number               :          0
+Temperature Master  Sysmon :      36.33  Cel
+Temperature Slave 0 Sysmon :      35.91  Cel
+Temperature Slave 1 Sysmon :      34.84  Cel
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+*****************************
+*  CPU/Memory Stress cycle2 *
+*****************************
+============================
+=        Stress Log        =
+============================
+2022/01/27-12:08:46(GMT) Log: Commandline - ./stressapptest -m 32 -C 32 -l /root/TinmanBI/STRESS.log -s 2400
+2022/01/27-12:08:46(GMT) Stats: SAT revision 1.0.7_autoconf, 64 bit binary
+2022/01/27-12:08:46(GMT) Log: root @ localhost.localdomain on Tue Sep 19 03:28:47 CST 2017 from open source release
+2022/01/27-12:08:46(GMT) Log: 1 nodes, 128 cpus.
+2022/01/27-12:08:46(GMT) Log: Total 515817 MB. Free 510046 MB. Hugepages 0 MB. Targeting 489834 MB (94%)
+2022/01/27-12:08:46(GMT) Log: Prefer plain malloc memory allocation.
+2022/01/27-12:08:46(GMT) Log: Using mmap() allocation at 0x7ecb42a9e000.
+2022/01/27-12:08:46(GMT) Stats: Starting SAT, 489834M, 2400 seconds
+2022/01/27-12:09:21(GMT) Log: Region mask: 0x1
+2022/01/27-12:09:31(GMT) Log: Seconds remaining: 2390
+2022/01/27-12:09:41(GMT) Log: Seconds remaining: 2380
+2022/01/27-12:09:51(GMT) Log: Seconds remaining: 2370
+2022/01/27-12:10:01(GMT) Log: Seconds remaining: 2360
+2022/01/27-12:10:11(GMT) Log: Seconds remaining: 2350
+2022/01/27-12:10:21(GMT) Log: Seconds remaining: 2340
+2022/01/27-12:10:31(GMT) Log: Seconds remaining: 2330
+2022/01/27-12:10:41(GMT) Log: Seconds remaining: 2320
+2022/01/27-12:10:51(GMT) Log: Seconds remaining: 2310
+2022/01/27-12:11:01(GMT) Log: Seconds remaining: 2300
+2022/01/27-12:11:11(GMT) Log: Seconds remaining: 2290
+2022/01/27-12:11:21(GMT) Log: Seconds remaining: 2280
+2022/01/27-12:11:31(GMT) Log: Seconds remaining: 2270
+2022/01/27-12:11:41(GMT) Log: Seconds remaining: 2260
+2022/01/27-12:11:51(GMT) Log: Seconds remaining: 2250
+2022/01/27-12:12:01(GMT) Log: Seconds remaining: 2240
+2022/01/27-12:12:11(GMT) Log: Seconds remaining: 2230
+2022/01/27-12:12:21(GMT) Log: Seconds remaining: 2220
+2022/01/27-12:12:31(GMT) Log: Seconds remaining: 2210
+2022/01/27-12:12:41(GMT) Log: Seconds remaining: 2200
+2022/01/27-12:12:51(GMT) Log: Seconds remaining: 2190
+2022/01/27-12:13:01(GMT) Log: Seconds remaining: 2180
+2022/01/27-12:13:11(GMT) Log: Seconds remaining: 2170
+2022/01/27-12:13:21(GMT) Log: Seconds remaining: 2160
+2022/01/27-12:13:31(GMT) Log: Seconds remaining: 2150
+2022/01/27-12:13:41(GMT) Log: Seconds remaining: 2140
+2022/01/27-12:13:51(GMT) Log: Seconds remaining: 2130
+2022/01/27-12:14:01(GMT) Log: Seconds remaining: 2120
+2022/01/27-12:14:11(GMT) Log: Seconds remaining: 2110
+2022/01/27-12:14:21(GMT) Log: Seconds remaining: 2100
+2022/01/27-12:14:31(GMT) Log: Seconds remaining: 2090
+2022/01/27-12:14:41(GMT) Log: Seconds remaining: 2080
+2022/01/27-12:14:51(GMT) Log: Seconds remaining: 2070
+2022/01/27-12:15:01(GMT) Log: Seconds remaining: 2060
+2022/01/27-12:15:11(GMT) Log: Seconds remaining: 2050
+2022/01/27-12:15:21(GMT) Log: Seconds remaining: 2040
+2022/01/27-12:15:31(GMT) Log: Seconds remaining: 2030
+2022/01/27-12:15:41(GMT) Log: Seconds remaining: 2020
+2022/01/27-12:15:51(GMT) Log: Seconds remaining: 2010
+2022/01/27-12:16:01(GMT) Log: Seconds remaining: 2000
+2022/01/27-12:16:11(GMT) Log: Seconds remaining: 1990
+2022/01/27-12:16:21(GMT) Log: Seconds remaining: 1980
+2022/01/27-12:16:31(GMT) Log: Seconds remaining: 1970
+2022/01/27-12:16:41(GMT) Log: Seconds remaining: 1960
+2022/01/27-12:16:51(GMT) Log: Seconds remaining: 1950
+2022/01/27-12:17:01(GMT) Log: Seconds remaining: 1940
+2022/01/27-12:17:11(GMT) Log: Seconds remaining: 1930
+2022/01/27-12:17:21(GMT) Log: Seconds remaining: 1920
+2022/01/27-12:17:31(GMT) Log: Seconds remaining: 1910
+2022/01/27-12:17:41(GMT) Log: Seconds remaining: 1900
+2022/01/27-12:17:51(GMT) Log: Seconds remaining: 1890
+2022/01/27-12:18:01(GMT) Log: Seconds remaining: 1880
+2022/01/27-12:18:11(GMT) Log: Seconds remaining: 1870
+2022/01/27-12:18:21(GMT) Log: Seconds remaining: 1860
+2022/01/27-12:18:31(GMT) Log: Seconds remaining: 1850
+2022/01/27-12:18:41(GMT) Log: Seconds remaining: 1840
+2022/01/27-12:18:51(GMT) Log: Seconds remaining: 1830
+2022/01/27-12:19:01(GMT) Log: Seconds remaining: 1820
+2022/01/27-12:19:11(GMT) Log: Seconds remaining: 1810
+2022/01/27-12:19:21(GMT) Log: Seconds remaining: 1800
+2022/01/27-12:19:21(GMT) Log: Pausing worker threads in preparation for power spike (1800 seconds remaining)
+2022/01/27-12:19:31(GMT) Log: Seconds remaining: 1790
+2022/01/27-12:19:36(GMT) Log: Resuming worker threads to cause a power spike (1785 seconds remaining)
+2022/01/27-12:19:41(GMT) Log: Seconds remaining: 1780
+2022/01/27-12:19:51(GMT) Log: Seconds remaining: 1770
+2022/01/27-12:20:01(GMT) Log: Seconds remaining: 1760
+2022/01/27-12:20:11(GMT) Log: Seconds remaining: 1750
+2022/01/27-12:20:21(GMT) Log: Seconds remaining: 1740
+2022/01/27-12:20:31(GMT) Log: Seconds remaining: 1730
+2022/01/27-12:20:41(GMT) Log: Seconds remaining: 1720
+2022/01/27-12:20:51(GMT) Log: Seconds remaining: 1710
+2022/01/27-12:21:01(GMT) Log: Seconds remaining: 1700
+2022/01/27-12:21:11(GMT) Log: Seconds remaining: 1690
+2022/01/27-12:21:21(GMT) Log: Seconds remaining: 1680
+2022/01/27-12:21:31(GMT) Log: Seconds remaining: 1670
+2022/01/27-12:21:41(GMT) Log: Seconds remaining: 1660
+2022/01/27-12:21:51(GMT) Log: Seconds remaining: 1650
+2022/01/27-12:22:01(GMT) Log: Seconds remaining: 1640
+2022/01/27-12:22:11(GMT) Log: Seconds remaining: 1630
+2022/01/27-12:22:21(GMT) Log: Seconds remaining: 1620
+2022/01/27-12:22:31(GMT) Log: Seconds remaining: 1610
+2022/01/27-12:22:41(GMT) Log: Seconds remaining: 1600
+2022/01/27-12:22:51(GMT) Log: Seconds remaining: 1590
+2022/01/27-12:23:01(GMT) Log: Seconds remaining: 1580
+2022/01/27-12:23:11(GMT) Log: Seconds remaining: 1570
+2022/01/27-12:23:21(GMT) Log: Seconds remaining: 1560
+2022/01/27-12:23:31(GMT) Log: Seconds remaining: 1550
+2022/01/27-12:23:41(GMT) Log: Seconds remaining: 1540
+2022/01/27-12:23:51(GMT) Log: Seconds remaining: 1530
+2022/01/27-12:24:01(GMT) Log: Seconds remaining: 1520
+2022/01/27-12:24:11(GMT) Log: Seconds remaining: 1510
+2022/01/27-12:24:21(GMT) Log: Seconds remaining: 1500
+2022/01/27-12:24:31(GMT) Log: Seconds remaining: 1490
+2022/01/27-12:24:41(GMT) Log: Seconds remaining: 1480
+2022/01/27-12:24:51(GMT) Log: Seconds remaining: 1470
+2022/01/27-12:25:01(GMT) Log: Seconds remaining: 1460
+2022/01/27-12:25:11(GMT) Log: Seconds remaining: 1450
+2022/01/27-12:25:21(GMT) Log: Seconds remaining: 1440
+2022/01/27-12:25:31(GMT) Log: Seconds remaining: 1430
+2022/01/27-12:25:41(GMT) Log: Seconds remaining: 1420
+2022/01/27-12:25:51(GMT) Log: Seconds remaining: 1410
+2022/01/27-12:26:01(GMT) Log: Seconds remaining: 1400
+2022/01/27-12:26:11(GMT) Log: Seconds remaining: 1390
+2022/01/27-12:26:21(GMT) Log: Seconds remaining: 1380
+2022/01/27-12:26:31(GMT) Log: Seconds remaining: 1370
+2022/01/27-12:26:41(GMT) Log: Seconds remaining: 1360
+2022/01/27-12:26:51(GMT) Log: Seconds remaining: 1350
+2022/01/27-12:27:01(GMT) Log: Seconds remaining: 1340
+2022/01/27-12:27:11(GMT) Log: Seconds remaining: 1330
+2022/01/27-12:27:21(GMT) Log: Seconds remaining: 1320
+2022/01/27-12:27:31(GMT) Log: Seconds remaining: 1310
+2022/01/27-12:27:41(GMT) Log: Seconds remaining: 1300
+2022/01/27-12:27:51(GMT) Log: Seconds remaining: 1290
+2022/01/27-12:28:01(GMT) Log: Seconds remaining: 1280
+2022/01/27-12:28:11(GMT) Log: Seconds remaining: 1270
+2022/01/27-12:28:21(GMT) Log: Seconds remaining: 1260
+2022/01/27-12:28:31(GMT) Log: Seconds remaining: 1250
+2022/01/27-12:28:41(GMT) Log: Seconds remaining: 1240
+2022/01/27-12:28:51(GMT) Log: Seconds remaining: 1230
+2022/01/27-12:29:01(GMT) Log: Seconds remaining: 1220
+2022/01/27-12:29:11(GMT) Log: Seconds remaining: 1210
+2022/01/27-12:29:21(GMT) Log: Seconds remaining: 1200
+2022/01/27-12:29:21(GMT) Log: Pausing worker threads in preparation for power spike (1200 seconds remaining)
+2022/01/27-12:29:31(GMT) Log: Seconds remaining: 1190
+2022/01/27-12:29:36(GMT) Log: Resuming worker threads to cause a power spike (1185 seconds remaining)
+2022/01/27-12:29:41(GMT) Log: Seconds remaining: 1180
+2022/01/27-12:29:51(GMT) Log: Seconds remaining: 1170
+2022/01/27-12:30:01(GMT) Log: Seconds remaining: 1160
+2022/01/27-12:30:11(GMT) Log: Seconds remaining: 1150
+2022/01/27-12:30:21(GMT) Log: Seconds remaining: 1140
+2022/01/27-12:30:31(GMT) Log: Seconds remaining: 1130
+2022/01/27-12:30:41(GMT) Log: Seconds remaining: 1120
+2022/01/27-12:30:51(GMT) Log: Seconds remaining: 1110
+2022/01/27-12:31:01(GMT) Log: Seconds remaining: 1100
+2022/01/27-12:31:11(GMT) Log: Seconds remaining: 1090
+2022/01/27-12:31:21(GMT) Log: Seconds remaining: 1080
+2022/01/27-12:31:31(GMT) Log: Seconds remaining: 1070
+2022/01/27-12:31:41(GMT) Log: Seconds remaining: 1060
+2022/01/27-12:31:51(GMT) Log: Seconds remaining: 1050
+2022/01/27-12:32:01(GMT) Log: Seconds remaining: 1040
+2022/01/27-12:32:11(GMT) Log: Seconds remaining: 1030
+2022/01/27-12:32:21(GMT) Log: Seconds remaining: 1020
+2022/01/27-12:32:31(GMT) Log: Seconds remaining: 1010
+2022/01/27-12:32:41(GMT) Log: Seconds remaining: 1000
+2022/01/27-12:32:51(GMT) Log: Seconds remaining: 990
+2022/01/27-12:33:01(GMT) Log: Seconds remaining: 980
+2022/01/27-12:33:11(GMT) Log: Seconds remaining: 970
+2022/01/27-12:33:21(GMT) Log: Seconds remaining: 960
+2022/01/27-12:33:31(GMT) Log: Seconds remaining: 950
+2022/01/27-12:33:41(GMT) Log: Seconds remaining: 940
+2022/01/27-12:33:51(GMT) Log: Seconds remaining: 930
+2022/01/27-12:34:01(GMT) Log: Seconds remaining: 920
+2022/01/27-12:34:11(GMT) Log: Seconds remaining: 910
+2022/01/27-12:34:21(GMT) Log: Seconds remaining: 900
+2022/01/27-12:34:31(GMT) Log: Seconds remaining: 890
+2022/01/27-12:34:41(GMT) Log: Seconds remaining: 880
+2022/01/27-12:34:51(GMT) Log: Seconds remaining: 870
+2022/01/27-12:35:01(GMT) Log: Seconds remaining: 860
+2022/01/27-12:35:11(GMT) Log: Seconds remaining: 850
+2022/01/27-12:35:21(GMT) Log: Seconds remaining: 840
+2022/01/27-12:35:31(GMT) Log: Seconds remaining: 830
+2022/01/27-12:35:41(GMT) Log: Seconds remaining: 820
+2022/01/27-12:35:51(GMT) Log: Seconds remaining: 810
+2022/01/27-12:36:01(GMT) Log: Seconds remaining: 800
+2022/01/27-12:36:11(GMT) Log: Seconds remaining: 790
+2022/01/27-12:36:21(GMT) Log: Seconds remaining: 780
+2022/01/27-12:36:31(GMT) Log: Seconds remaining: 770
+2022/01/27-12:36:41(GMT) Log: Seconds remaining: 760
+2022/01/27-12:36:51(GMT) Log: Seconds remaining: 750
+2022/01/27-12:37:01(GMT) Log: Seconds remaining: 740
+2022/01/27-12:37:11(GMT) Log: Seconds remaining: 730
+2022/01/27-12:37:21(GMT) Log: Seconds remaining: 720
+2022/01/27-12:37:31(GMT) Log: Seconds remaining: 710
+2022/01/27-12:37:41(GMT) Log: Seconds remaining: 700
+2022/01/27-12:37:51(GMT) Log: Seconds remaining: 690
+2022/01/27-12:38:01(GMT) Log: Seconds remaining: 680
+2022/01/27-12:38:11(GMT) Log: Seconds remaining: 670
+2022/01/27-12:38:21(GMT) Log: Seconds remaining: 660
+2022/01/27-12:38:31(GMT) Log: Seconds remaining: 650
+2022/01/27-12:38:41(GMT) Log: Seconds remaining: 640
+2022/01/27-12:38:51(GMT) Log: Seconds remaining: 630
+2022/01/27-12:39:01(GMT) Log: Seconds remaining: 620
+2022/01/27-12:39:11(GMT) Log: Seconds remaining: 610
+2022/01/27-12:39:21(GMT) Log: Seconds remaining: 600
+2022/01/27-12:39:21(GMT) Log: Pausing worker threads in preparation for power spike (600 seconds remaining)
+2022/01/27-12:39:31(GMT) Log: Seconds remaining: 590
+2022/01/27-12:39:36(GMT) Log: Resuming worker threads to cause a power spike (585 seconds remaining)
+2022/01/27-12:39:41(GMT) Log: Seconds remaining: 580
+2022/01/27-12:39:51(GMT) Log: Seconds remaining: 570
+2022/01/27-12:40:01(GMT) Log: Seconds remaining: 560
+2022/01/27-12:40:11(GMT) Log: Seconds remaining: 550
+2022/01/27-12:40:21(GMT) Log: Seconds remaining: 540
+2022/01/27-12:40:31(GMT) Log: Seconds remaining: 530
+2022/01/27-12:40:41(GMT) Log: Seconds remaining: 520
+2022/01/27-12:40:51(GMT) Log: Seconds remaining: 510
+2022/01/27-12:41:01(GMT) Log: Seconds remaining: 500
+2022/01/27-12:41:11(GMT) Log: Seconds remaining: 490
+2022/01/27-12:41:21(GMT) Log: Seconds remaining: 480
+2022/01/27-12:41:31(GMT) Log: Seconds remaining: 470
+2022/01/27-12:41:41(GMT) Log: Seconds remaining: 460
+2022/01/27-12:41:51(GMT) Log: Seconds remaining: 450
+2022/01/27-12:42:01(GMT) Log: Seconds remaining: 440
+2022/01/27-12:42:11(GMT) Log: Seconds remaining: 430
+2022/01/27-12:42:21(GMT) Log: Seconds remaining: 420
+2022/01/27-12:42:31(GMT) Log: Seconds remaining: 410
+2022/01/27-12:42:41(GMT) Log: Seconds remaining: 400
+2022/01/27-12:42:51(GMT) Log: Seconds remaining: 390
+2022/01/27-12:43:01(GMT) Log: Seconds remaining: 380
+2022/01/27-12:43:11(GMT) Log: Seconds remaining: 370
+2022/01/27-12:43:21(GMT) Log: Seconds remaining: 360
+2022/01/27-12:43:31(GMT) Log: Seconds remaining: 350
+2022/01/27-12:43:41(GMT) Log: Seconds remaining: 340
+2022/01/27-12:43:51(GMT) Log: Seconds remaining: 330
+2022/01/27-12:44:01(GMT) Log: Seconds remaining: 320
+2022/01/27-12:44:11(GMT) Log: Seconds remaining: 310
+2022/01/27-12:44:21(GMT) Log: Seconds remaining: 300
+2022/01/27-12:44:31(GMT) Log: Seconds remaining: 290
+2022/01/27-12:44:41(GMT) Log: Seconds remaining: 280
+2022/01/27-12:44:51(GMT) Log: Seconds remaining: 270
+2022/01/27-12:45:01(GMT) Log: Seconds remaining: 260
+2022/01/27-12:45:11(GMT) Log: Seconds remaining: 250
+2022/01/27-12:45:21(GMT) Log: Seconds remaining: 240
+2022/01/27-12:45:31(GMT) Log: Seconds remaining: 230
+2022/01/27-12:45:41(GMT) Log: Seconds remaining: 220
+2022/01/27-12:45:51(GMT) Log: Seconds remaining: 210
+2022/01/27-12:46:01(GMT) Log: Seconds remaining: 200
+2022/01/27-12:46:11(GMT) Log: Seconds remaining: 190
+2022/01/27-12:46:21(GMT) Log: Seconds remaining: 180
+2022/01/27-12:46:31(GMT) Log: Seconds remaining: 170
+2022/01/27-12:46:41(GMT) Log: Seconds remaining: 160
+2022/01/27-12:46:51(GMT) Log: Seconds remaining: 150
+2022/01/27-12:47:01(GMT) Log: Seconds remaining: 140
+2022/01/27-12:47:11(GMT) Log: Seconds remaining: 130
+2022/01/27-12:47:21(GMT) Log: Seconds remaining: 120
+2022/01/27-12:47:31(GMT) Log: Seconds remaining: 110
+2022/01/27-12:47:41(GMT) Log: Seconds remaining: 100
+2022/01/27-12:47:51(GMT) Log: Seconds remaining: 90
+2022/01/27-12:48:01(GMT) Log: Seconds remaining: 80
+2022/01/27-12:48:11(GMT) Log: Seconds remaining: 70
+2022/01/27-12:48:21(GMT) Log: Seconds remaining: 60
+2022/01/27-12:48:31(GMT) Log: Seconds remaining: 50
+2022/01/27-12:48:41(GMT) Log: Seconds remaining: 40
+2022/01/27-12:48:51(GMT) Log: Seconds remaining: 30
+2022/01/27-12:49:01(GMT) Log: Seconds remaining: 20
+2022/01/27-12:49:11(GMT) Log: Seconds remaining: 10
+2022/01/27-12:49:27(GMT) Stats: Found 0 hardware incidents
+2022/01/27-12:49:27(GMT) Stats: Completed: 195634304.00M in 2400.80s 81487.13MB/s, with 0 hardware incidents, 0 errors
+2022/01/27-12:49:27(GMT) Stats: Memory Copy: 195634304.00M at 81511.73MB/s
+2022/01/27-12:49:27(GMT) Stats: File Copy: 0.00M at 0.00MB/s
+2022/01/27-12:49:27(GMT) Stats: Net Copy: 0.00M at 0.00MB/s
+2022/01/27-12:49:27(GMT) Stats: Data Check: 0.00M at 0.00MB/s
+2022/01/27-12:49:27(GMT) Stats: Invert Data: 0.00M at 0.00MB/s
+2022/01/27-12:49:27(GMT) Stats: Disk: 0.00M at 0.00MB/s
+2022/01/27-12:49:27(GMT) 
+2022/01/27-12:49:27(GMT) Status: PASS - please verify no corrected errors
+2022/01/27-12:49:27(GMT) 
+
+============================
+=          DMESG           =
+============================
+[ 1779.829150] perf: interrupt took too long (2515 > 2500), lowering kernel.perf_event_max_sample_rate to 79500
+[ 1904.923331] perf: interrupt took too long (3182 > 3143), lowering kernel.perf_event_max_sample_rate to 62750
+[ 2064.764231] perf: interrupt took too long (3984 > 3977), lowering kernel.perf_event_max_sample_rate to 50000
+[ 2472.648617] perf: interrupt took too long (5020 > 4980), lowering kernel.perf_event_max_sample_rate to 39750
+[ 3469.074396] perf: interrupt took too long (6303 > 6275), lowering kernel.perf_event_max_sample_rate to 31500
+
+============================
+=          BMC SEL         =
+============================
+=== No SEL logged ===
+
+
+==============================================
+=            Burn-In Test Cycle 3            =
+==============================================
+Test start time: 2022-01-27_12:49:54
+***************************
+*      KSB test cycle3    *
+***************************
+===== KSB Memory test PASS =====
+
+=======================================================
+Running fpga-test on 02:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC800C90A4C5
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          1
+Slice number               :          0
+Temperature Master  Sysmon :      36.41  Cel
+Temperature Slave 0 Sysmon :      37.17  Cel
+Temperature Slave 1 Sysmon :      35.65  Cel
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on 41:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC800C90A4C5
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          1
+Slice number               :          1
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on 84:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC694D90A245
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          0
+Slice number               :          1
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on c1:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC694D90A245
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          0
+Slice number               :          0
+Temperature Master  Sysmon :      37.54  Cel
+Temperature Slave 0 Sysmon :      37.49  Cel
+Temperature Slave 1 Sysmon :      36.74  Cel
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+*****************************
+*  CPU/Memory Stress cycle3 *
+*****************************
+============================
+=        Stress Log        =
+============================
+2022/01/27-12:50:30(GMT) Log: Commandline - ./stressapptest -m 32 -C 32 -l /root/TinmanBI/STRESS.log -s 2400
+2022/01/27-12:50:30(GMT) Stats: SAT revision 1.0.7_autoconf, 64 bit binary
+2022/01/27-12:50:30(GMT) Log: root @ localhost.localdomain on Tue Sep 19 03:28:47 CST 2017 from open source release
+2022/01/27-12:50:30(GMT) Log: 1 nodes, 128 cpus.
+2022/01/27-12:50:30(GMT) Log: Total 515817 MB. Free 510038 MB. Hugepages 0 MB. Targeting 489834 MB (94%)
+2022/01/27-12:50:30(GMT) Log: Prefer plain malloc memory allocation.
+2022/01/27-12:50:30(GMT) Log: Using mmap() allocation at 0x7effc899f000.
+2022/01/27-12:50:30(GMT) Stats: Starting SAT, 489834M, 2400 seconds
+2022/01/27-12:51:05(GMT) Log: Region mask: 0x1
+2022/01/27-12:51:15(GMT) Log: Seconds remaining: 2390
+2022/01/27-12:51:25(GMT) Log: Seconds remaining: 2380
+2022/01/27-12:51:35(GMT) Log: Seconds remaining: 2370
+2022/01/27-12:51:45(GMT) Log: Seconds remaining: 2360
+2022/01/27-12:51:55(GMT) Log: Seconds remaining: 2350
+2022/01/27-12:52:05(GMT) Log: Seconds remaining: 2340
+2022/01/27-12:52:15(GMT) Log: Seconds remaining: 2330
+2022/01/27-12:52:25(GMT) Log: Seconds remaining: 2320
+2022/01/27-12:52:35(GMT) Log: Seconds remaining: 2310
+2022/01/27-12:52:45(GMT) Log: Seconds remaining: 2300
+2022/01/27-12:52:55(GMT) Log: Seconds remaining: 2290
+2022/01/27-12:53:05(GMT) Log: Seconds remaining: 2280
+2022/01/27-12:53:15(GMT) Log: Seconds remaining: 2270
+2022/01/27-12:53:25(GMT) Log: Seconds remaining: 2260
+2022/01/27-12:53:35(GMT) Log: Seconds remaining: 2250
+2022/01/27-12:53:45(GMT) Log: Seconds remaining: 2240
+2022/01/27-12:53:55(GMT) Log: Seconds remaining: 2230
+2022/01/27-12:54:05(GMT) Log: Seconds remaining: 2220
+2022/01/27-12:54:15(GMT) Log: Seconds remaining: 2210
+2022/01/27-12:54:25(GMT) Log: Seconds remaining: 2200
+2022/01/27-12:54:35(GMT) Log: Seconds remaining: 2190
+2022/01/27-12:54:45(GMT) Log: Seconds remaining: 2180
+2022/01/27-12:54:55(GMT) Log: Seconds remaining: 2170
+2022/01/27-12:55:05(GMT) Log: Seconds remaining: 2160
+2022/01/27-12:55:15(GMT) Log: Seconds remaining: 2150
+2022/01/27-12:55:25(GMT) Log: Seconds remaining: 2140
+2022/01/27-12:55:35(GMT) Log: Seconds remaining: 2130
+2022/01/27-12:55:45(GMT) Log: Seconds remaining: 2120
+2022/01/27-12:55:55(GMT) Log: Seconds remaining: 2110
+2022/01/27-12:56:05(GMT) Log: Seconds remaining: 2100
+2022/01/27-12:56:15(GMT) Log: Seconds remaining: 2090
+2022/01/27-12:56:25(GMT) Log: Seconds remaining: 2080
+2022/01/27-12:56:35(GMT) Log: Seconds remaining: 2070
+2022/01/27-12:56:45(GMT) Log: Seconds remaining: 2060
+2022/01/27-12:56:55(GMT) Log: Seconds remaining: 2050
+2022/01/27-12:57:05(GMT) Log: Seconds remaining: 2040
+2022/01/27-12:57:15(GMT) Log: Seconds remaining: 2030
+2022/01/27-12:57:25(GMT) Log: Seconds remaining: 2020
+2022/01/27-12:57:35(GMT) Log: Seconds remaining: 2010
+2022/01/27-12:57:45(GMT) Log: Seconds remaining: 2000
+2022/01/27-12:57:55(GMT) Log: Seconds remaining: 1990
+2022/01/27-12:58:05(GMT) Log: Seconds remaining: 1980
+2022/01/27-12:58:15(GMT) Log: Seconds remaining: 1970
+2022/01/27-12:58:25(GMT) Log: Seconds remaining: 1960
+2022/01/27-12:58:35(GMT) Log: Seconds remaining: 1950
+2022/01/27-12:58:45(GMT) Log: Seconds remaining: 1940
+2022/01/27-12:58:55(GMT) Log: Seconds remaining: 1930
+2022/01/27-12:59:05(GMT) Log: Seconds remaining: 1920
+2022/01/27-12:59:15(GMT) Log: Seconds remaining: 1910
+2022/01/27-12:59:25(GMT) Log: Seconds remaining: 1900
+2022/01/27-12:59:35(GMT) Log: Seconds remaining: 1890
+2022/01/27-12:59:45(GMT) Log: Seconds remaining: 1880
+2022/01/27-12:59:55(GMT) Log: Seconds remaining: 1870
+2022/01/27-13:00:05(GMT) Log: Seconds remaining: 1860
+2022/01/27-13:00:15(GMT) Log: Seconds remaining: 1850
+2022/01/27-13:00:25(GMT) Log: Seconds remaining: 1840
+2022/01/27-13:00:35(GMT) Log: Seconds remaining: 1830
+2022/01/27-13:00:45(GMT) Log: Seconds remaining: 1820
+2022/01/27-13:00:55(GMT) Log: Seconds remaining: 1810
+2022/01/27-13:01:05(GMT) Log: Seconds remaining: 1800
+2022/01/27-13:01:05(GMT) Log: Pausing worker threads in preparation for power spike (1800 seconds remaining)
+2022/01/27-13:01:15(GMT) Log: Seconds remaining: 1790
+2022/01/27-13:01:20(GMT) Log: Resuming worker threads to cause a power spike (1785 seconds remaining)
+2022/01/27-13:01:25(GMT) Log: Seconds remaining: 1780
+2022/01/27-13:01:35(GMT) Log: Seconds remaining: 1770
+2022/01/27-13:01:45(GMT) Log: Seconds remaining: 1760
+2022/01/27-13:01:55(GMT) Log: Seconds remaining: 1750
+2022/01/27-13:02:05(GMT) Log: Seconds remaining: 1740
+2022/01/27-13:02:15(GMT) Log: Seconds remaining: 1730
+2022/01/27-13:02:25(GMT) Log: Seconds remaining: 1720
+2022/01/27-13:02:35(GMT) Log: Seconds remaining: 1710
+2022/01/27-13:02:45(GMT) Log: Seconds remaining: 1700
+2022/01/27-13:02:55(GMT) Log: Seconds remaining: 1690
+2022/01/27-13:03:05(GMT) Log: Seconds remaining: 1680
+2022/01/27-13:03:15(GMT) Log: Seconds remaining: 1670
+2022/01/27-13:03:25(GMT) Log: Seconds remaining: 1660
+2022/01/27-13:03:35(GMT) Log: Seconds remaining: 1650
+2022/01/27-13:03:45(GMT) Log: Seconds remaining: 1640
+2022/01/27-13:03:55(GMT) Log: Seconds remaining: 1630
+2022/01/27-13:04:05(GMT) Log: Seconds remaining: 1620
+2022/01/27-13:04:15(GMT) Log: Seconds remaining: 1610
+2022/01/27-13:04:25(GMT) Log: Seconds remaining: 1600
+2022/01/27-13:04:35(GMT) Log: Seconds remaining: 1590
+2022/01/27-13:04:45(GMT) Log: Seconds remaining: 1580
+2022/01/27-13:04:55(GMT) Log: Seconds remaining: 1570
+2022/01/27-13:05:05(GMT) Log: Seconds remaining: 1560
+2022/01/27-13:05:15(GMT) Log: Seconds remaining: 1550
+2022/01/27-13:05:25(GMT) Log: Seconds remaining: 1540
+2022/01/27-13:05:35(GMT) Log: Seconds remaining: 1530
+2022/01/27-13:05:45(GMT) Log: Seconds remaining: 1520
+2022/01/27-13:05:55(GMT) Log: Seconds remaining: 1510
+2022/01/27-13:06:05(GMT) Log: Seconds remaining: 1500
+2022/01/27-13:06:15(GMT) Log: Seconds remaining: 1490
+2022/01/27-13:06:25(GMT) Log: Seconds remaining: 1480
+2022/01/27-13:06:35(GMT) Log: Seconds remaining: 1470
+2022/01/27-13:06:45(GMT) Log: Seconds remaining: 1460
+2022/01/27-13:06:55(GMT) Log: Seconds remaining: 1450
+2022/01/27-13:07:05(GMT) Log: Seconds remaining: 1440
+2022/01/27-13:07:15(GMT) Log: Seconds remaining: 1430
+2022/01/27-13:07:25(GMT) Log: Seconds remaining: 1420
+2022/01/27-13:07:35(GMT) Log: Seconds remaining: 1410
+2022/01/27-13:07:45(GMT) Log: Seconds remaining: 1400
+2022/01/27-13:07:55(GMT) Log: Seconds remaining: 1390
+2022/01/27-13:08:05(GMT) Log: Seconds remaining: 1380
+2022/01/27-13:08:15(GMT) Log: Seconds remaining: 1370
+2022/01/27-13:08:25(GMT) Log: Seconds remaining: 1360
+2022/01/27-13:08:35(GMT) Log: Seconds remaining: 1350
+2022/01/27-13:08:45(GMT) Log: Seconds remaining: 1340
+2022/01/27-13:08:55(GMT) Log: Seconds remaining: 1330
+2022/01/27-13:09:05(GMT) Log: Seconds remaining: 1320
+2022/01/27-13:09:15(GMT) Log: Seconds remaining: 1310
+2022/01/27-13:09:25(GMT) Log: Seconds remaining: 1300
+2022/01/27-13:09:35(GMT) Log: Seconds remaining: 1290
+2022/01/27-13:09:45(GMT) Log: Seconds remaining: 1280
+2022/01/27-13:09:55(GMT) Log: Seconds remaining: 1270
+2022/01/27-13:10:05(GMT) Log: Seconds remaining: 1260
+2022/01/27-13:10:15(GMT) Log: Seconds remaining: 1250
+2022/01/27-13:10:25(GMT) Log: Seconds remaining: 1240
+2022/01/27-13:10:35(GMT) Log: Seconds remaining: 1230
+2022/01/27-13:10:45(GMT) Log: Seconds remaining: 1220
+2022/01/27-13:10:55(GMT) Log: Seconds remaining: 1210
+2022/01/27-13:11:05(GMT) Log: Seconds remaining: 1200
+2022/01/27-13:11:05(GMT) Log: Pausing worker threads in preparation for power spike (1200 seconds remaining)
+2022/01/27-13:11:15(GMT) Log: Seconds remaining: 1190
+2022/01/27-13:11:20(GMT) Log: Resuming worker threads to cause a power spike (1185 seconds remaining)
+2022/01/27-13:11:25(GMT) Log: Seconds remaining: 1180
+2022/01/27-13:11:35(GMT) Log: Seconds remaining: 1170
+2022/01/27-13:11:45(GMT) Log: Seconds remaining: 1160
+2022/01/27-13:11:55(GMT) Log: Seconds remaining: 1150
+2022/01/27-13:12:05(GMT) Log: Seconds remaining: 1140
+2022/01/27-13:12:15(GMT) Log: Seconds remaining: 1130
+2022/01/27-13:12:25(GMT) Log: Seconds remaining: 1120
+2022/01/27-13:12:35(GMT) Log: Seconds remaining: 1110
+2022/01/27-13:12:45(GMT) Log: Seconds remaining: 1100
+2022/01/27-13:12:55(GMT) Log: Seconds remaining: 1090
+2022/01/27-13:13:05(GMT) Log: Seconds remaining: 1080
+2022/01/27-13:13:15(GMT) Log: Seconds remaining: 1070
+2022/01/27-13:13:25(GMT) Log: Seconds remaining: 1060
+2022/01/27-13:13:35(GMT) Log: Seconds remaining: 1050
+2022/01/27-13:13:45(GMT) Log: Seconds remaining: 1040
+2022/01/27-13:13:55(GMT) Log: Seconds remaining: 1030
+2022/01/27-13:14:05(GMT) Log: Seconds remaining: 1020
+2022/01/27-13:14:15(GMT) Log: Seconds remaining: 1010
+2022/01/27-13:14:25(GMT) Log: Seconds remaining: 1000
+2022/01/27-13:14:35(GMT) Log: Seconds remaining: 990
+2022/01/27-13:14:45(GMT) Log: Seconds remaining: 980
+2022/01/27-13:14:55(GMT) Log: Seconds remaining: 970
+2022/01/27-13:15:05(GMT) Log: Seconds remaining: 960
+2022/01/27-13:15:15(GMT) Log: Seconds remaining: 950
+2022/01/27-13:15:25(GMT) Log: Seconds remaining: 940
+2022/01/27-13:15:35(GMT) Log: Seconds remaining: 930
+2022/01/27-13:15:45(GMT) Log: Seconds remaining: 920
+2022/01/27-13:15:55(GMT) Log: Seconds remaining: 910
+2022/01/27-13:16:05(GMT) Log: Seconds remaining: 900
+2022/01/27-13:16:15(GMT) Log: Seconds remaining: 890
+2022/01/27-13:16:25(GMT) Log: Seconds remaining: 880
+2022/01/27-13:16:35(GMT) Log: Seconds remaining: 870
+2022/01/27-13:16:45(GMT) Log: Seconds remaining: 860
+2022/01/27-13:16:55(GMT) Log: Seconds remaining: 850
+2022/01/27-13:17:05(GMT) Log: Seconds remaining: 840
+2022/01/27-13:17:15(GMT) Log: Seconds remaining: 830
+2022/01/27-13:17:25(GMT) Log: Seconds remaining: 820
+2022/01/27-13:17:35(GMT) Log: Seconds remaining: 810
+2022/01/27-13:17:45(GMT) Log: Seconds remaining: 800
+2022/01/27-13:17:55(GMT) Log: Seconds remaining: 790
+2022/01/27-13:18:05(GMT) Log: Seconds remaining: 780
+2022/01/27-13:18:15(GMT) Log: Seconds remaining: 770
+2022/01/27-13:18:25(GMT) Log: Seconds remaining: 760
+2022/01/27-13:18:35(GMT) Log: Seconds remaining: 750
+2022/01/27-13:18:45(GMT) Log: Seconds remaining: 740
+2022/01/27-13:18:55(GMT) Log: Seconds remaining: 730
+2022/01/27-13:19:05(GMT) Log: Seconds remaining: 720
+2022/01/27-13:19:15(GMT) Log: Seconds remaining: 710
+2022/01/27-13:19:25(GMT) Log: Seconds remaining: 700
+2022/01/27-13:19:35(GMT) Log: Seconds remaining: 690
+2022/01/27-13:19:45(GMT) Log: Seconds remaining: 680
+2022/01/27-13:19:55(GMT) Log: Seconds remaining: 670
+2022/01/27-13:20:05(GMT) Log: Seconds remaining: 660
+2022/01/27-13:20:15(GMT) Log: Seconds remaining: 650
+2022/01/27-13:20:25(GMT) Log: Seconds remaining: 640
+2022/01/27-13:20:35(GMT) Log: Seconds remaining: 630
+2022/01/27-13:20:45(GMT) Log: Seconds remaining: 620
+2022/01/27-13:20:55(GMT) Log: Seconds remaining: 610
+2022/01/27-13:21:05(GMT) Log: Seconds remaining: 600
+2022/01/27-13:21:05(GMT) Log: Pausing worker threads in preparation for power spike (600 seconds remaining)
+2022/01/27-13:21:15(GMT) Log: Seconds remaining: 590
+2022/01/27-13:21:20(GMT) Log: Resuming worker threads to cause a power spike (585 seconds remaining)
+2022/01/27-13:21:25(GMT) Log: Seconds remaining: 580
+2022/01/27-13:21:35(GMT) Log: Seconds remaining: 570
+2022/01/27-13:21:45(GMT) Log: Seconds remaining: 560
+2022/01/27-13:21:55(GMT) Log: Seconds remaining: 550
+2022/01/27-13:22:05(GMT) Log: Seconds remaining: 540
+2022/01/27-13:22:15(GMT) Log: Seconds remaining: 530
+2022/01/27-13:22:25(GMT) Log: Seconds remaining: 520
+2022/01/27-13:22:35(GMT) Log: Seconds remaining: 510
+2022/01/27-13:22:45(GMT) Log: Seconds remaining: 500
+2022/01/27-13:22:55(GMT) Log: Seconds remaining: 490
+2022/01/27-13:23:05(GMT) Log: Seconds remaining: 480
+2022/01/27-13:23:15(GMT) Log: Seconds remaining: 470
+2022/01/27-13:23:25(GMT) Log: Seconds remaining: 460
+2022/01/27-13:23:35(GMT) Log: Seconds remaining: 450
+2022/01/27-13:23:45(GMT) Log: Seconds remaining: 440
+2022/01/27-13:23:55(GMT) Log: Seconds remaining: 430
+2022/01/27-13:24:05(GMT) Log: Seconds remaining: 420
+2022/01/27-13:24:15(GMT) Log: Seconds remaining: 410
+2022/01/27-13:24:25(GMT) Log: Seconds remaining: 400
+2022/01/27-13:24:35(GMT) Log: Seconds remaining: 390
+2022/01/27-13:24:45(GMT) Log: Seconds remaining: 380
+2022/01/27-13:24:55(GMT) Log: Seconds remaining: 370
+2022/01/27-13:25:05(GMT) Log: Seconds remaining: 360
+2022/01/27-13:25:15(GMT) Log: Seconds remaining: 350
+2022/01/27-13:25:25(GMT) Log: Seconds remaining: 340
+2022/01/27-13:25:35(GMT) Log: Seconds remaining: 330
+2022/01/27-13:25:45(GMT) Log: Seconds remaining: 320
+2022/01/27-13:25:55(GMT) Log: Seconds remaining: 310
+2022/01/27-13:26:05(GMT) Log: Seconds remaining: 300
+2022/01/27-13:26:15(GMT) Log: Seconds remaining: 290
+2022/01/27-13:26:25(GMT) Log: Seconds remaining: 280
+2022/01/27-13:26:35(GMT) Log: Seconds remaining: 270
+2022/01/27-13:26:45(GMT) Log: Seconds remaining: 260
+2022/01/27-13:26:55(GMT) Log: Seconds remaining: 250
+2022/01/27-13:27:05(GMT) Log: Seconds remaining: 240
+2022/01/27-13:27:15(GMT) Log: Seconds remaining: 230
+2022/01/27-13:27:25(GMT) Log: Seconds remaining: 220
+2022/01/27-13:27:35(GMT) Log: Seconds remaining: 210
+2022/01/27-13:27:45(GMT) Log: Seconds remaining: 200
+2022/01/27-13:27:55(GMT) Log: Seconds remaining: 190
+2022/01/27-13:28:05(GMT) Log: Seconds remaining: 180
+2022/01/27-13:28:15(GMT) Log: Seconds remaining: 170
+2022/01/27-13:28:25(GMT) Log: Seconds remaining: 160
+2022/01/27-13:28:35(GMT) Log: Seconds remaining: 150
+2022/01/27-13:28:45(GMT) Log: Seconds remaining: 140
+2022/01/27-13:28:55(GMT) Log: Seconds remaining: 130
+2022/01/27-13:29:05(GMT) Log: Seconds remaining: 120
+2022/01/27-13:29:15(GMT) Log: Seconds remaining: 110
+2022/01/27-13:29:25(GMT) Log: Seconds remaining: 100
+2022/01/27-13:29:35(GMT) Log: Seconds remaining: 90
+2022/01/27-13:29:45(GMT) Log: Seconds remaining: 80
+2022/01/27-13:29:55(GMT) Log: Seconds remaining: 70
+2022/01/27-13:30:05(GMT) Log: Seconds remaining: 60
+2022/01/27-13:30:15(GMT) Log: Seconds remaining: 50
+2022/01/27-13:30:25(GMT) Log: Seconds remaining: 40
+2022/01/27-13:30:35(GMT) Log: Seconds remaining: 30
+2022/01/27-13:30:45(GMT) Log: Seconds remaining: 20
+2022/01/27-13:30:55(GMT) Log: Seconds remaining: 10
+2022/01/27-13:31:11(GMT) Stats: Found 0 hardware incidents
+2022/01/27-13:31:11(GMT) Stats: Completed: 194997744.00M in 2400.79s 81222.22MB/s, with 0 hardware incidents, 0 errors
+2022/01/27-13:31:11(GMT) Stats: Memory Copy: 194997744.00M at 81246.63MB/s
+2022/01/27-13:31:11(GMT) Stats: File Copy: 0.00M at 0.00MB/s
+2022/01/27-13:31:11(GMT) Stats: Net Copy: 0.00M at 0.00MB/s
+2022/01/27-13:31:11(GMT) Stats: Data Check: 0.00M at 0.00MB/s
+2022/01/27-13:31:11(GMT) Stats: Invert Data: 0.00M at 0.00MB/s
+2022/01/27-13:31:11(GMT) Stats: Disk: 0.00M at 0.00MB/s
+2022/01/27-13:31:11(GMT) 
+2022/01/27-13:31:11(GMT) Status: PASS - please verify no corrected errors
+2022/01/27-13:31:11(GMT) 
+
+============================
+=          DMESG           =
+============================
+[ 1779.829150] perf: interrupt took too long (2515 > 2500), lowering kernel.perf_event_max_sample_rate to 79500
+[ 1904.923331] perf: interrupt took too long (3182 > 3143), lowering kernel.perf_event_max_sample_rate to 62750
+[ 2064.764231] perf: interrupt took too long (3984 > 3977), lowering kernel.perf_event_max_sample_rate to 50000
+[ 2472.648617] perf: interrupt took too long (5020 > 4980), lowering kernel.perf_event_max_sample_rate to 39750
+[ 3469.074396] perf: interrupt took too long (6303 > 6275), lowering kernel.perf_event_max_sample_rate to 31500
+
+============================
+=          BMC SEL         =
+============================
+=== No SEL logged ===
+
+
+==============================================
+=            Burn-In Test Cycle 4            =
+==============================================
+Test start time: 2022-01-27_13:31:38
+***************************
+*      KSB test cycle4    *
+***************************
+===== KSB Memory test PASS =====
+
+=======================================================
+Running fpga-test on 02:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC800C90A4C5
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          1
+Slice number               :          0
+Temperature Master  Sysmon :      35.31  Cel
+Temperature Slave 0 Sysmon :      36.20  Cel
+Temperature Slave 1 Sysmon :      33.98  Cel
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on 41:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC800C90A4C5
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          1
+Slice number               :          1
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on 84:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC694D90A245
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          0
+Slice number               :          1
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+=======================================================
+Running fpga-test on c1:00.0
+=======================================================
+
+Device Type                : Kalidah
+EP Link Status             : Gen3 x8     PASSED 
+GIT Hash                   : 0x0FAA0CFE
+Device DNA                 : 0x400200000155AC694D90A245
+Core Clock Frequency       :    250 MHz
+SSD_0 present              :        Yes
+SSD_1 present              :        Yes
+KSB number                 :          0
+Slice number               :          0
+Temperature Master  Sysmon :      35.97  Cel
+Temperature Slave 0 Sysmon :      35.89  Cel
+Temperature Slave 1 Sysmon :      34.95  Cel
+DDR4 capability            : ID_2, 16GB, VLP RDIMM w/ ECC, 1R, 16Gb x8 die, 2400 MT/s 
+DDR4 calibration done      : 0x00000001  PASSED 
+Unsupported Offset BAR3    : 0xFFFFFFFF  PASSED 
+FPGA Version               : 0x00030006  PASSED 
+DMA ch0 ctl. register      : 0x00008003  PASSED 
+DMA ch1 ctl. register      : 0x00008013  PASSED 
+DMA ch2 ctl. register      : 0x00008023  PASSED 
+RP0 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD0 ...SSD0 Link Status           : 0x10430000  PASSED 
+SSD0 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+RP1 Link Status            : 0x70430000  PASSED 
+Locating PCIe capabilities of SSD1 ...SSD1 Link Status           : 0x10430000  PASSED 
+SSD1 Vendor/Dev ID         : 0xA808144D  PASSED  (Samsung)
+Global Fatal Interrupt     : 0x00000000  PASSED 
+Global Non Fatal Interrupt : 0x00000000  PASSED 
+  ____                 _
+ |  _ \ __ _ ___ ___  | |
+ | |_) / _` / __/ __| | |
+ |  __/ (_| \__ \__ \ |_|
+ |_|   \__,_|___/___/ (_)
+
+
+*****************************
+*  CPU/Memory Stress cycle4 *
+*****************************
+============================
+=        Stress Log        =
+============================
+2022/01/27-13:32:13(GMT) Log: Commandline - ./stressapptest -m 32 -C 32 -l /root/TinmanBI/STRESS.log -s 2400
+2022/01/27-13:32:13(GMT) Stats: SAT revision 1.0.7_autoconf, 64 bit binary
+2022/01/27-13:32:13(GMT) Log: root @ localhost.localdomain on Tue Sep 19 03:28:47 CST 2017 from open source release
+2022/01/27-13:32:13(GMT) Log: 1 nodes, 128 cpus.
+2022/01/27-13:32:13(GMT) Log: Total 515817 MB. Free 510033 MB. Hugepages 0 MB. Targeting 489834 MB (94%)
+2022/01/27-13:32:13(GMT) Log: Prefer plain malloc memory allocation.
+2022/01/27-13:32:13(GMT) Log: Using mmap() allocation at 0x7f2dca599000.
+2022/01/27-13:32:13(GMT) Stats: Starting SAT, 489834M, 2400 seconds
+2022/01/27-13:32:49(GMT) Log: Region mask: 0x1
+2022/01/27-13:32:59(GMT) Log: Seconds remaining: 2390
+2022/01/27-13:33:09(GMT) Log: Seconds remaining: 2380
+2022/01/27-13:33:19(GMT) Log: Seconds remaining: 2370
+2022/01/27-13:33:29(GMT) Log: Seconds remaining: 2360
+2022/01/27-13:33:39(GMT) Log: Seconds remaining: 2350
+2022/01/27-13:33:49(GMT) Log: Seconds remaining: 2340
+2022/01/27-13:33:59(GMT) Log: Seconds remaining: 2330
+2022/01/27-13:34:09(GMT) Log: Seconds remaining: 2320
+2022/01/27-13:34:19(GMT) Log: Seconds remaining: 2310
+2022/01/27-13:34:29(GMT) Log: Seconds remaining: 2300
+2022/01/27-13:34:39(GMT) Log: Seconds remaining: 2290
+2022/01/27-13:34:49(GMT) Log: Seconds remaining: 2280
+2022/01/27-13:34:59(GMT) Log: Seconds remaining: 2270
+2022/01/27-13:35:09(GMT) Log: Seconds remaining: 2260
+2022/01/27-13:35:19(GMT) Log: Seconds remaining: 2250
+2022/01/27-13:35:29(GMT) Log: Seconds remaining: 2240
+2022/01/27-13:35:39(GMT) Log: Seconds remaining: 2230
+2022/01/27-13:35:49(GMT) Log: Seconds remaining: 2220
+2022/01/27-13:35:59(GMT) Log: Seconds remaining: 2210
+2022/01/27-13:36:09(GMT) Log: Seconds remaining: 2200
+2022/01/27-13:36:19(GMT) Log: Seconds remaining: 2190
+2022/01/27-13:36:29(GMT) Log: Seconds remaining: 2180
+2022/01/27-13:36:39(GMT) Log: Seconds remaining: 2170
+2022/01/27-13:36:49(GMT) Log: Seconds remaining: 2160
+2022/01/27-13:36:59(GMT) Log: Seconds remaining: 2150
+2022/01/27-13:37:09(GMT) Log: Seconds remaining: 2140
+2022/01/27-13:37:19(GMT) Log: Seconds remaining: 2130
+2022/01/27-13:37:29(GMT) Log: Seconds remaining: 2120
+2022/01/27-13:37:39(GMT) Log: Seconds remaining: 2110
+2022/01/27-13:37:49(GMT) Log: Seconds remaining: 2100
+2022/01/27-13:37:59(GMT) Log: Seconds remaining: 2090
+2022/01/27-13:38:09(GMT) Log: Seconds remaining: 2080
+2022/01/27-13:38:19(GMT) Log: Seconds remaining: 2070
+2022/01/27-13:38:29(GMT) Log: Seconds remaining: 2060
+2022/01/27-13:38:39(GMT) Log: Seconds remaining: 2050
+2022/01/27-13:38:49(GMT) Log: Seconds remaining: 2040
+2022/01/27-13:38:59(GMT) Log: Seconds remaining: 2030
+2022/01/27-13:39:09(GMT) Log: Seconds remaining: 2020
+2022/01/27-13:39:19(GMT) Log: Seconds remaining: 2010
+2022/01/27-13:39:29(GMT) Log: Seconds remaining: 2000
+2022/01/27-13:39:39(GMT) Log: Seconds remaining: 1990
+2022/01/27-13:39:49(GMT) Log: Seconds remaining: 1980
+2022/01/27-13:39:59(GMT) Log: Seconds remaining: 1970
+2022/01/27-13:40:09(GMT) Log: Seconds remaining: 1960
+2022/01/27-13:40:19(GMT) Log: Seconds remaining: 1950
+2022/01/27-13:40:29(GMT) Log: Seconds remaining: 1940
+2022/01/27-13:40:39(GMT) Log: Seconds remaining: 1930
+2022/01/27-13:40:49(GMT) Log: Seconds remaining: 1920
+2022/01/27-13:40:59(GMT) Log: Seconds remaining: 1910
+2022/01/27-13:41:09(GMT) Log: Seconds remaining: 1900
+2022/01/27-13:41:19(GMT) Log: Seconds remaining: 1890
+2022/01/27-13:41:29(GMT) Log: Seconds remaining: 1880
+2022/01/27-13:41:39(GMT) Log: Seconds remaining: 1870
+2022/01/27-13:41:49(GMT) Log: Seconds remaining: 1860
+2022/01/27-13:41:59(GMT) Log: Seconds remaining: 1850
+2022/01/27-13:42:09(GMT) Log: Seconds remaining: 1840
+2022/01/27-13:42:19(GMT) Log: Seconds remaining: 1830
+2022/01/27-13:42:29(GMT) Log: Seconds remaining: 1820
+2022/01/27-13:42:39(GMT) Log: Seconds remaining: 1810
+2022/01/27-13:42:49(GMT) Log: Seconds remaining: 1800
+2022/01/27-13:42:49(GMT) Log: Pausing worker threads in preparation for power spike (1800 seconds remaining)
+2022/01/27-13:42:59(GMT) Log: Seconds remaining: 1790
+2022/01/27-13:43:04(GMT) Log: Resuming worker threads to cause a power spike (1785 seconds remaining)
+2022/01/27-13:43:09(GMT) Log: Seconds remaining: 1780
+2022/01/27-13:43:19(GMT) Log: Seconds remaining: 1770
+2022/01/27-13:43:29(GMT) Log: Seconds remaining: 1760
+2022/01/27-13:43:39(GMT) Log: Seconds remaining: 1750
+2022/01/27-13:43:49(GMT) Log: Seconds remaining: 1740
+2022/01/27-13:43:59(GMT) Log: Seconds remaining: 1730
+2022/01/27-13:44:09(GMT) Log: Seconds remaining: 1720
+2022/01/27-13:44:19(GMT) Log: Seconds remaining: 1710
+2022/01/27-13:44:29(GMT) Log: Seconds remaining: 1700
+2022/01/27-13:44:39(GMT) Log: Seconds remaining: 1690
+2022/01/27-13:44:49(GMT) Log: Seconds remaining: 1680
+2022/01/27-13:44:59(GMT) Log: Seconds remaining: 1670
+2022/01/27-13:45:09(GMT) Log: Seconds remaining: 1660
+2022/01/27-13:45:19(GMT) Log: Seconds remaining: 1650
+2022/01/27-13:45:29(GMT) Log: Seconds remaining: 1640
+2022/01/27-13:45:39(GMT) Log: Seconds remaining: 1630
+2022/01/27-13:45:49(GMT) Log: Seconds remaining: 1620
+2022/01/27-13:45:59(GMT) Log: Seconds remaining: 1610
+2022/01/27-13:46:09(GMT) Log: Seconds remaining: 1600
+2022/01/27-13:46:19(GMT) Log: Seconds remaining: 1590
+2022/01/27-13:46:29(GMT) Log: Seconds remaining: 1580
+2022/01/27-13:46:39(GMT) Log: Seconds remaining: 1570
+2022/01/27-13:46:49(GMT) Log: Seconds remaining: 1560
+2022/01/27-13:46:59(GMT) Log: Seconds remaining: 1550
+2022/01/27-13:47:09(GMT) Log: Seconds remaining: 1540
+2022/01/27-13:47:19(GMT) Log: Seconds remaining: 1530
+2022/01/27-13:47:29(GMT) Log: Seconds remaining: 1520
+2022/01/27-13:47:39(GMT) Log: Seconds remaining: 1510
+2022/01/27-13:47:49(GMT) Log: Seconds remaining: 1500
+2022/01/27-13:47:59(GMT) Log: Seconds remaining: 1490
+2022/01/27-13:48:09(GMT) Log: Seconds remaining: 1480
+2022/01/27-13:48:19(GMT) Log: Seconds remaining: 1470
+2022/01/27-13:48:29(GMT) Log: Seconds remaining: 1460
+2022/01/27-13:48:39(GMT) Log: Seconds remaining: 1450
+2022/01/27-13:48:49(GMT) Log: Seconds remaining: 1440
+2022/01/27-13:48:59(GMT) Log: Seconds remaining: 1430
+2022/01/27-13:49:09(GMT) Log: Seconds remaining: 1420
+2022/01/27-13:49:19(GMT) Log: Seconds remaining: 1410
+2022/01/27-13:49:29(GMT) Log: Seconds remaining: 1400
+2022/01/27-13:49:39(GMT) Log: Seconds remaining: 1390
+2022/01/27-13:49:49(GMT) Log: Seconds remaining: 1380
+2022/01/27-13:49:59(GMT) Log: Seconds remaining: 1370
+2022/01/27-13:50:09(GMT) Log: Seconds remaining: 1360
+2022/01/27-13:50:19(GMT) Log: Seconds remaining: 1350
+2022/01/27-13:50:29(GMT) Log: Seconds remaining: 1340
+2022/01/27-13:50:39(GMT) Log: Seconds remaining: 1330
+2022/01/27-13:50:49(GMT) Log: Seconds remaining: 1320
+2022/01/27-13:50:59(GMT) Log: Seconds remaining: 1310
+2022/01/27-13:51:09(GMT) Log: Seconds remaining: 1300
+2022/01/27-13:51:19(GMT) Log: Seconds remaining: 1290
+2022/01/27-13:51:29(GMT) Log: Seconds remaining: 1280
+2022/01/27-13:51:39(GMT) Log: Seconds remaining: 1270
+2022/01/27-13:51:49(GMT) Log: Seconds remaining: 1260
+2022/01/27-13:51:59(GMT) Log: Seconds remaining: 1250
+2022/01/27-13:52:09(GMT) Log: Seconds remaining: 1240
+2022/01/27-13:52:19(GMT) Log: Seconds remaining: 1230
+2022/01/27-13:52:29(GMT) Log: Seconds remaining: 1220
+2022/01/27-13:52:39(GMT) Log: Seconds remaining: 1210
+2022/01/27-13:52:49(GMT) Log: Seconds remaining: 1200
+2022/01/27-13:52:49(GMT) Log: Pausing worker threads in preparation for power spike (1200 seconds remaining)
+2022/01/27-13:52:59(GMT) Log: Seconds remaining: 1190
+2022/01/27-13:53:04(GMT) Log: Resuming worker threads to cause a power spike (1185 seconds remaining)
+2022/01/27-13:53:09(GMT) Log: Seconds remaining: 1180
+2022/01/27-13:53:19(GMT) Log: Seconds remaining: 1170
+2022/01/27-13:53:29(GMT) Log: Seconds remaining: 1160
+2022/01/27-13:53:39(GMT) Log: Seconds remaining: 1150
+2022/01/27-13:53:49(GMT) Log: Seconds remaining: 1140
+2022/01/27-13:53:59(GMT) Log: Seconds remaining: 1130
+2022/01/27-13:54:09(GMT) Log: Seconds remaining: 1120
+2022/01/27-13:54:19(GMT) Log: Seconds remaining: 1110
+2022/01/27-13:54:29(GMT) Log: Seconds remaining: 1100
+2022/01/27-13:54:39(GMT) Log: Seconds remaining: 1090
+2022/01/27-13:54:49(GMT) Log: Seconds remaining: 1080
+2022/01/27-13:54:59(GMT) Log: Seconds remaining: 1070
+2022/01/27-13:55:09(GMT) Log: Seconds remaining: 1060
+2022/01/27-13:55:19(GMT) Log: Seconds remaining: 1050
+2022/01/27-13:55:29(GMT) Log: Seconds remaining: 1040
+2022/01/27-13:55:39(GMT) Log: Seconds remaining: 1030
+2022/01/27-13:55:49(GMT) Log: Seconds remaining: 1020
+2022/01/27-13:55:59(GMT) Log: Seconds remaining: 1010
+2022/01/27-13:56:09(GMT) Log: Seconds remaining: 1000
+2022/01/27-13:56:19(GMT) Log: Seconds remaining: 990
+2022/01/27-13:56:29(GMT) Log: Seconds remaining: 980
+2022/01/27-13:56:39(GMT) Log: Seconds remaining: 970
+2022/01/27-13:56:49(GMT) Log: Seconds remaining: 960
+2022/01/27-13:56:59(GMT) Log: Seconds remaining: 950
+2022/01/27-13:57:09(GMT) Log: Seconds remaining: 940
+2022/01/27-13:57:19(GMT) Log: Seconds remaining: 930
+2022/01/27-13:57:29(GMT) Log: Seconds remaining: 920
+2022/01/27-13:57:39(GMT) Log: Seconds remaining: 910
+2022/01/27-13:57:49(GMT) Log: Seconds remaining: 900
+2022/01/27-13:57:59(GMT) Log: Seconds remaining: 890
+2022/01/27-13:58:09(GMT) Log: Seconds remaining: 880
+2022/01/27-13:58:19(GMT) Log: Seconds remaining: 870
+2022/01/27-13:58:29(GMT) Log: Seconds remaining: 860
+2022/01/27-13:58:39(GMT) Log: Seconds remaining: 850
+2022/01/27-13:58:49(GMT) Log: Seconds remaining: 840
+2022/01/27-13:58:59(GMT) Log: Seconds remaining: 830
+2022/01/27-13:59:09(GMT) Log: Seconds remaining: 820
+2022/01/27-13:59:19(GMT) Log: Seconds remaining: 810
+2022/01/27-13:59:29(GMT) Log: Seconds remaining: 800
+2022/01/27-13:59:39(GMT) Log: Seconds remaining: 790
+2022/01/27-13:59:49(GMT) Log: Seconds remaining: 780
+2022/01/27-13:59:59(GMT) Log: Seconds remaining: 770
+2022/01/27-14:00:09(GMT) Log: Seconds remaining: 760
+2022/01/27-14:00:19(GMT) Log: Seconds remaining: 750
+2022/01/27-14:00:29(GMT) Log: Seconds remaining: 740
+2022/01/27-14:00:39(GMT) Log: Seconds remaining: 730
+2022/01/27-14:00:49(GMT) Log: Seconds remaining: 720
+2022/01/27-14:00:59(GMT) Log: Seconds remaining: 710
+2022/01/27-14:01:09(GMT) Log: Seconds remaining: 700
+2022/01/27-14:01:19(GMT) Log: Seconds remaining: 690
+2022/01/27-14:01:29(GMT) Log: Seconds remaining: 680
+2022/01/27-14:01:39(GMT) Log: Seconds remaining: 670
+2022/01/27-14:01:49(GMT) Log: Seconds remaining: 660
+2022/01/27-14:01:59(GMT) Log: Seconds remaining: 650
+2022/01/27-14:02:09(GMT) Log: Seconds remaining: 640
+2022/01/27-14:02:19(GMT) Log: Seconds remaining: 630
+2022/01/27-14:02:29(GMT) Log: Seconds remaining: 620
+2022/01/27-14:02:39(GMT) Log: Seconds remaining: 610
+2022/01/27-14:02:49(GMT) Log: Seconds remaining: 600
+2022/01/27-14:02:49(GMT) Log: Pausing worker threads in preparation for power spike (600 seconds remaining)
+2022/01/27-14:02:59(GMT) Log: Seconds remaining: 590
+2022/01/27-14:03:04(GMT) Log: Resuming worker threads to cause a power spike (585 seconds remaining)
+2022/01/27-14:03:09(GMT) Log: Seconds remaining: 580
+2022/01/27-14:03:19(GMT) Log: Seconds remaining: 570
+2022/01/27-14:03:29(GMT) Log: Seconds remaining: 560
+2022/01/27-14:03:39(GMT) Log: Seconds remaining: 550
+2022/01/27-14:03:49(GMT) Log: Seconds remaining: 540
+2022/01/27-14:03:59(GMT) Log: Seconds remaining: 530
+2022/01/27-14:04:09(GMT) Log: Seconds remaining: 520
+2022/01/27-14:04:19(GMT) Log: Seconds remaining: 510
+2022/01/27-14:04:29(GMT) Log: Seconds remaining: 500
+2022/01/27-14:04:39(GMT) Log: Seconds remaining: 490
+2022/01/27-14:04:49(GMT) Log: Seconds remaining: 480
+2022/01/27-14:04:59(GMT) Log: Seconds remaining: 470
+2022/01/27-14:05:09(GMT) Log: Seconds remaining: 460
+2022/01/27-14:05:19(GMT) Log: Seconds remaining: 450
+2022/01/27-14:05:29(GMT) Log: Seconds remaining: 440
+2022/01/27-14:05:39(GMT) Log: Seconds remaining: 430
+2022/01/27-14:05:49(GMT) Log: Seconds remaining: 420
+2022/01/27-14:05:59(GMT) Log: Seconds remaining: 410
+2022/01/27-14:06:09(GMT) Log: Seconds remaining: 400
+2022/01/27-14:06:19(GMT) Log: Seconds remaining: 390
+2022/01/27-14:06:29(GMT) Log: Seconds remaining: 380
+2022/01/27-14:06:39(GMT) Log: Seconds remaining: 370
+2022/01/27-14:06:49(GMT) Log: Seconds remaining: 360
+2022/01/27-14:06:59(GMT) Log: Seconds remaining: 350
+2022/01/27-14:07:09(GMT) Log: Seconds remaining: 340
+2022/01/27-14:07:19(GMT) Log: Seconds remaining: 330
+2022/01/27-14:07:29(GMT) Log: Seconds remaining: 320
+2022/01/27-14:07:39(GMT) Log: Seconds remaining: 310
+2022/01/27-14:07:49(GMT) Log: Seconds remaining: 300
+2022/01/27-14:07:59(GMT) Log: Seconds remaining: 290
+2022/01/27-14:08:09(GMT) Log: Seconds remaining: 280
+2022/01/27-14:08:19(GMT) Log: Seconds remaining: 270
+2022/01/27-14:08:29(GMT) Log: Seconds remaining: 260
+2022/01/27-14:08:39(GMT) Log: Seconds remaining: 250
+2022/01/27-14:08:49(GMT) Log: Seconds remaining: 240
+2022/01/27-14:08:59(GMT) Log: Seconds remaining: 230
+2022/01/27-14:09:09(GMT) Log: Seconds remaining: 220
+2022/01/27-14:09:19(GMT) Log: Seconds remaining: 210
+2022/01/27-14:09:29(GMT) Log: Seconds remaining: 200
+2022/01/27-14:09:39(GMT) Log: Seconds remaining: 190
+2022/01/27-14:09:49(GMT) Log: Seconds remaining: 180
+2022/01/27-14:09:59(GMT) Log: Seconds remaining: 170
+2022/01/27-14:10:09(GMT) Log: Seconds remaining: 160
+2022/01/27-14:10:19(GMT) Log: Seconds remaining: 150
+2022/01/27-14:10:29(GMT) Log: Seconds remaining: 140
+2022/01/27-14:10:39(GMT) Log: Seconds remaining: 130
+2022/01/27-14:10:49(GMT) Log: Seconds remaining: 120
+2022/01/27-14:10:59(GMT) Log: Seconds remaining: 110
+2022/01/27-14:11:09(GMT) Log: Seconds remaining: 100
+2022/01/27-14:11:19(GMT) Log: Seconds remaining: 90
+2022/01/27-14:11:29(GMT) Log: Seconds remaining: 80
+2022/01/27-14:11:39(GMT) Log: Seconds remaining: 70
+2022/01/27-14:11:49(GMT) Log: Seconds remaining: 60
+2022/01/27-14:11:59(GMT) Log: Seconds remaining: 50
+2022/01/27-14:12:09(GMT) Log: Seconds remaining: 40
+2022/01/27-14:12:19(GMT) Log: Seconds remaining: 30
+2022/01/27-14:12:29(GMT) Log: Seconds remaining: 20
+2022/01/27-14:12:39(GMT) Log: Seconds remaining: 10
+2022/01/27-14:12:54(GMT) Stats: Found 0 hardware incidents
+2022/01/27-14:12:54(GMT) Stats: Completed: 195561520.00M in 2400.80s 81456.86MB/s, with 0 hardware incidents, 0 errors
+2022/01/27-14:12:54(GMT) Stats: Memory Copy: 195561520.00M at 81481.48MB/s
+2022/01/27-14:12:54(GMT) Stats: File Copy: 0.00M at 0.00MB/s
+2022/01/27-14:12:54(GMT) Stats: Net Copy: 0.00M at 0.00MB/s
+2022/01/27-14:12:54(GMT) Stats: Data Check: 0.00M at 0.00MB/s
+2022/01/27-14:12:54(GMT) Stats: Invert Data: 0.00M at 0.00MB/s
+2022/01/27-14:12:54(GMT) Stats: Disk: 0.00M at 0.00MB/s
+2022/01/27-14:12:54(GMT) 
+2022/01/27-14:12:54(GMT) Status: PASS - please verify no corrected errors
+2022/01/27-14:12:54(GMT) 
+
+============================
+=          DMESG           =
+============================
+[ 1779.829150] perf: interrupt took too long (2515 > 2500), lowering kernel.perf_event_max_sample_rate to 79500
+[ 1904.923331] perf: interrupt took too long (3182 > 3143), lowering kernel.perf_event_max_sample_rate to 62750
+[ 2064.764231] perf: interrupt took too long (3984 > 3977), lowering kernel.perf_event_max_sample_rate to 50000
+[ 2472.648617] perf: interrupt took too long (5020 > 4980), lowering kernel.perf_event_max_sample_rate to 39750
+[ 3469.074396] perf: interrupt took too long (6303 > 6275), lowering kernel.perf_event_max_sample_rate to 31500
+
+============================
+=          BMC SEL         =
+============================
+=== No SEL logged ===
+
+
